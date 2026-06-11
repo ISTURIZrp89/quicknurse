@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+plugins/
+
+# Build outputs
+dist/
+src-tauri/target/
+
+# Local env/secrets
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Tauri
+src-tauri/Wrapper-MacOS/
+src-tauri/target/
+src-tauri/debug/
+src-tauri/release/
