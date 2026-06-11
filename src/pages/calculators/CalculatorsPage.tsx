@@ -41,11 +41,11 @@ export const CalculatorsPage = () => {
   }, {} as Record<string, typeof formulas>)
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">Calculadoras Clínicas</h1>
-          <button className="p-2 rounded-lg bg-dark-card hover:bg-dark-cardHover transition-colors" onClick={resetCalculator}>
+          <button className="p-2 rounded-lg bg-surface-card hover:bg-surface-cardHover transition-colors" onClick={resetCalculator}>
             <svg className="w-6 h-6 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.348 0l1.086 3.663a3.002 3.002 0 002.804-.035l3.491-.059a.75.75 0 011.11.33l1.335 2.948a.75.75 0 01-.136 1.086l-3.1 2.265a.75.75 0 01-.672 0l-3.104 2.264a.75.75 0 01-1.121-.176l-1.33-2.95a.75.75 0 00-.21-.83l1.092-3.663a3.02 3.02 0 00-.177-1.569l-1.42.51z" />
             </svg>
@@ -61,7 +61,7 @@ export const CalculatorsPage = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Buscar calculadora..."
-              className="w-full px-4 py-3 pr-10 bg-dark-input border border-border-default rounded-lg text-text-primary placeholder:text-text-disabled focus:outline-none focus:ring-2 focus:ring-clinicalBlue"
+              className="w-full px-4 py-3 pr-10 bg-surface-input border border-border-default rounded-lg text-text-primary placeholder:text-text-disabled focus:outline-none focus:ring-2 focus:ring-clinicalBlue"
             />
             <svg className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-text-disabled" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -92,7 +92,7 @@ export const CalculatorsPage = () => {
                         to={`/calculators/${formula.id}`}
                         className="group block"
                       >
-                        <div className="bg-dark-card border border-border-default rounded-xl p-4 hover:border-clinicalBlue/50 hover:border-opacity-50 transition-colors duration-200">
+                        <div className="bg-surface-card border border-border-default rounded-xl p-4 hover:border-clinicalBlue/50 hover:border-opacity-50 transition-colors duration-200">
                           <div className="flex items-start gap-3 mb-2">
                             <div className="w-10 h-10 rounded-lg bg-clinicalBlue/10 flex items-center justify-center flex-shrink-0">
                               <svg className="w-5 h-5 text-clinicalBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

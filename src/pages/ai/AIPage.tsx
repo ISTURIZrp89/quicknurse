@@ -35,12 +35,12 @@ export const AIPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack flex flex-col">
-      <header className="sticky top-0 z-20 bg-dark-bg/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg flex flex-col">
+      <header className="sticky top-0 z-20 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">Asistente Clínico</h1>
           <div className="flex items-center gap-2">
-            <select className="px-2 py-1 bg-dark-input border border-border-default rounded-lg text-sm text-text-primary focus:outline-none focus:ring-1 focus:ring-clinicalBlue">
+            <select className="px-2 py-1 bg-surface-input border border-border-default rounded-lg text-sm text-text-primary focus:outline-none focus:ring-1 focus:ring-clinicalBlue">
               <option value="biomistral-7b-q4">BioMistral 7B Q4</option>
               <option value="meditron-7b-q4">Meditron 7B Q4</option>
               <option value="clinicalcamel-7b-q4">ClinicalCamel 7B Q4</option>
@@ -51,19 +51,19 @@ export const AIPage = () => {
 
       <div className="px-screenPadding py-2 border-b border-border-default">
         <div className="overflow-x-auto flex gap-2 pb-2 -mx-screenPadding px-screenPadding">
-          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-dark-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-dark-cardHover transition-colors whitespace-nowrap">
+          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-surface-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-surface-cardHover transition-colors whitespace-nowrap">
             <svg className="w-4 h-4 text-clinicalBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414c.39.39.39 1.023 0 1.414l-4 4a2 2 0 01-2.828 0L5 13.172V7a2 2 0 012-2h1.586" />
             </svg>
             <span className="hidden sm:inline">Analizar Medicamento</span>
           </button>
-          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-dark-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-dark-cardHover transition-colors whitespace-nowrap">
+          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-surface-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-surface-cardHover transition-colors whitespace-nowrap">
             <svg className="w-4 h-4 text-clinicalBlue" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414c.39.39.39 1.023 0 1.414l-4 4a2 2 0 01-2.828 0L5 13.172V7a2 2 0 012-2h1.586" />
             </svg>
             <span className="hidden sm:inline">Resumen Clínico</span>
           </button>
-          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-dark-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-dark-cardHover transition-colors whitespace-nowrap">
+          <button type="button" className="flex items-center gap-2 px-4 py-2 bg-surface-card border border-border-default rounded-lg text-sm text-text-primary hover:bg-surface-cardHover transition-colors whitespace-nowrap">
             <svg className="w-4 h-4 text-monitorGreen" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 21v-6M12 3v6m0 0v6M3 12h18M12 3v6m0 0v6m0-6h6" />
             </svg>
@@ -89,7 +89,7 @@ export const AIPage = () => {
           ) : (
             conversationHistory.map((msg, index) => (
               <div key={index} className={`flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'}`}>
-                <div className={`max-w-[80%] ${index % 2 === 0 ? 'bg-clinicalBlue text-white' : 'bg-dark-card border border-border-default'}`}>
+                <div className={`max-w-[80%] ${index % 2 === 0 ? 'bg-clinicalBlue text-white' : 'bg-surface-card border border-border-default'}`}>
                   <p className="px-4 py-2 text-sm">{msg.content}</p>
                 </div>
               </div>
@@ -99,10 +99,10 @@ export const AIPage = () => {
         <div ref={messagesEndRef} />
       </div>
 
-      <form onSubmit={handleSendMessage} className="sticky bottom-0 bg-dark-bg/95 backdrop-blur-sm border-t border-border-default">
+      <form onSubmit={handleSendMessage} className="sticky bottom-0 bg-surface-bg/95 backdrop-blur-sm border-t border-border-default">
         <div className="px-screenPadding py-3">
           <div className="flex items-center gap-2">
-            <button type="button" className="p-2 rounded-lg bg-dark-card border border-border-default text-text-secondary hover:bg-dark-cardHover hover:text-text-primary transition-colors" onClick={() => { /* open medication dialog */ }}>
+            <button type="button" className="p-2 rounded-lg bg-surface-card border border-border-default text-text-secondary hover:bg-surface-cardHover hover:text-text-primary transition-colors" onClick={() => { /* open medication dialog */ }}>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1a2 2 0 00-2 2H3a2 2 0 00-2 2v1a2 2 0 002 2h18a2 2 0 002-2v-1a2 2 0 00-2-2h-2.5" />
               </svg>
@@ -114,7 +114,7 @@ export const AIPage = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 onKeyDown={handleKeyDown}
                 placeholder="Escribe tu consulta clínica..."
-                className="flex-1 px-4 py-3 bg-dark-input border border-border-default rounded-lg text-text-primary placeholder:text-text-disabled focus:outline-none focus:ring-2 focus:ring-clinicalBlue"
+                className="flex-1 px-4 py-3 bg-surface-input border border-border-default rounded-lg text-text-primary placeholder:text-text-disabled focus:outline-none focus:ring-2 focus:ring-clinicalBlue"
               />
               <button
                 type="submit"

@@ -44,8 +44,8 @@ export const PatientsPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">Pacientes</h1>
           <button
@@ -80,7 +80,7 @@ export const PatientsPage = () => {
               <Link
                 key={patient.id}
                 to={`/patients/${patient.id}`}
-                className="block bg-dark-card border border-border-default rounded-xl p-4 hover:border-clinicalBlue/50 transition-colors"
+                className="block bg-surface-card border border-border-default rounded-xl p-4 hover:border-clinicalBlue/50 transition-colors"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
@@ -106,7 +106,7 @@ export const PatientsPage = () => {
 
         {showAddModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-            <div className="bg-dark-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto">
+            <div className="bg-surface-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto">
               <h3 className="text-lg font-bold text-text-primary mb-4">Nuevo paciente</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>

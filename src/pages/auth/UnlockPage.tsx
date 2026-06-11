@@ -19,8 +19,8 @@ export const UnlockPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack flex flex-col">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg flex flex-col">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3">
           <h1 className="text-lg font-bold text-text-primary">Desbloquear</h1>
         </div>
@@ -42,7 +42,7 @@ export const UnlockPage = () => {
             {[1, 2, 3, 4].map((i) => (
               <div
                 key={i}
-                className={`w-12 h-12 rounded-lg border-2 ${i <= pin.length ? 'bg-clinicalBlue border-clinicalBlue' : 'border-border-default bg-dark-input'}`}
+                className={`w-12 h-12 rounded-lg border-2 ${i <= pin.length ? 'bg-clinicalBlue border-clinicalBlue' : 'border-border-default bg-surface-input'}`}
               />
             ))}
           </div>
@@ -68,7 +68,7 @@ export const UnlockPage = () => {
                     setPin(pin + key)
                   }
                 }}
-                className="h-14 bg-dark-card border border-border-default rounded-lg text-2xl font-medium text-text-primary hover:bg-dark-cardHover active:scale-95 transition-all"
+                className="h-14 bg-surface-card border border-border-default rounded-lg text-2xl font-medium text-text-primary hover:bg-surface-cardHover active:scale-95 transition-all"
               >
                 {key === 'backspace' ? (
                   <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

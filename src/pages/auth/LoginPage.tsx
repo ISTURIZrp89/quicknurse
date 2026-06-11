@@ -24,7 +24,7 @@ export const LoginPage = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-deepBlack">
+    <div className="min-h-screen flex flex-col bg-surface-bg">
       <div className="flex-1 flex flex-col items-center justify-center px-screenPadding">
         <div className="w-22 h-22 rounded-full bg-gradient-to-br from-clinicalBlue to-monitorGreen flex items-center justify-center mb-6 shadow-clinical">
           <svg className="w-11 h-11 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

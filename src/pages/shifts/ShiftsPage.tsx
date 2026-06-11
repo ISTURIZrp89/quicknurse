@@ -26,8 +26,8 @@ export const ShiftsPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">Turnos</h1>
           <button onClick={() => setShowAddModal(true)} className="p-2 rounded-lg bg-clinicalBlue text-white hover:bg-clinicalBlue/90">
@@ -51,7 +51,7 @@ export const ShiftsPage = () => {
         ) : (
           <div className="space-y-3">
             {shifts.map((shift) => (
-              <div key={shift.id} className="bg-dark-card border border-border-default rounded-xl p-4">
+              <div key={shift.id} className="bg-surface-card border border-border-default rounded-xl p-4">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-lg bg-clinicalBlue/10 flex items-center justify-center">
@@ -90,7 +90,7 @@ export const ShiftsPage = () => {
 
         {showAddModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-            <div className="bg-dark-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto">
+            <div className="bg-surface-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto">
               <h3 className="text-lg font-bold text-text-primary mb-4">Nuevo turno</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -111,7 +111,7 @@ export const ShiftsPage = () => {
                   <label className="label-clinical">Pacientes</label>
                   <div className="space-y-2 max-h-40 overflow-y-auto">
                     {patients.map((patient) => (
-                      <label key={patient.id} className="flex items-center gap-3 p-2 rounded-lg hover:bg-dark-cardHover cursor-pointer">
+                      <label key={patient.id} className="flex items-center gap-3 p-2 rounded-lg hover:bg-surface-cardHover cursor-pointer">
                         <input
                           type="checkbox"
                           checked={formData.patients.includes(patient.id)}

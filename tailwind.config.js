@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        clinical: {
+        clinicalBlue: {
           50: '#f0f9ff',
           100: '#e0f2fe',
           200: '#bae6fd',
@@ -21,19 +21,13 @@ export default {
           900: '#0c4a6e',
           950: '#082f49',
         },
-        medical: {
-          green: '#10B981',
-          red: '#EF4444',
-          amber: '#F59E0B',
-          blue: '#3B82F6',
-        },
+        'clinical-blue': '#3BA4FF',
         dark: {
           bg: '#0A0F14',
           bgSecondary: '#141A21',
           card: '#1A212B',
           cardHover: '#222B37',
           input: '#1E2631',
-          border: '#252E3A',
         },
         text: {
           primary: '#E8EDF5',
@@ -45,6 +39,16 @@ export default {
           focused: '#3BA4FF',
           error: '#FF4D4D',
         },
+        medical: {
+          green: '#10B981',
+          red: '#EF4444',
+          amber: '#F59E0B',
+          blue: '#3B82F6',
+        },
+        alert: {
+          red: '#EF4444',
+        },
+        deepBlack: '#0A0F14',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

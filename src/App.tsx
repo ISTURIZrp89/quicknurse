@@ -48,7 +48,7 @@ const AppRoutes = () => {
 
 export const App = () => {
   return (
-    <div className="min-h-screen bg-deepBlack">
+    <div className="min-h-screen bg-surface-bg">
       <AppRoutes />
       <BottomNav />
     </div>

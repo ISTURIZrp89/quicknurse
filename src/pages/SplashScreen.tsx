@@ -11,7 +11,7 @@ export const SplashScreen = () => {
   }, [checkStatus, navigate])
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-deepBlack">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-surface-bg">
       <div className="w-24 h-24 rounded-full bg-clinicalBlue/15 flex items-center justify-center mb-6 animate-pulse">
         <svg 
           className="w-12 h-12 text-clinicalBlue" 

@@ -27,8 +27,8 @@ export const PinSetupPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack flex flex-col">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg flex flex-col">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3">
           <h1 className="text-lg font-bold text-text-primary">Configurar PIN</h1>
         </div>

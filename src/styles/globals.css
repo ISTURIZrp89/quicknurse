@@ -18,7 +18,7 @@
   }
 
   body {
-    @apply bg-dark-bg text-text-primary font-sans antialiased;
+    @apply bg-surface-bg text-text-primary font-sans antialiased;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
@@ -51,37 +51,36 @@
 
   /* Focus visible para accesibilidad */
   *:focus-visible {
-    @apply outline-none ring-2 ring-clinical-blue ring-offset-2 ring-offset-dark-bg;
+    @apply outline-none ring-2 ring-clinicalBlue ring-offset-2 ring-offset-surface-bg;
   }
 
   /* Seleccion de texto */
   ::selection {
-    @apply bg-clinical-blue/30 text-text-primary;
+    @apply bg-clinicalBlue/30 text-text-primary;
   }
 }
 
 @layer components {
-  /* Botones clínicos */
   .btn-clinical {
     @apply inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-medium text-sm transition-all duration-200
-    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clinical-blue focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg
+    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clinicalBlue focus-visible:ring-offset-2 focus-visible:ring-offset-surface-bg
     disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98];
   }
 
   .btn-primary {
-    @apply btn-clinical bg-clinical-blue text-white
-    hover:bg-clinical-blue/90 active:bg-clinical-blue
+    @apply btn-clinical bg-clinicalBlue text-white
+    hover:bg-clinicalBlue/90 active:bg-clinicalBlue
     shadow-clinical;
   }
 
   .btn-secondary {
-    @apply btn-clinical bg-dark-cardHover text-text-primary border border-border-default
-    hover:bg-dark-cardHover/80 active:bg-dark-cardHover;
+    @apply btn-clinical bg-surface-cardHover text-text-primary border border-border-default
+    hover:bg-surface-cardHover/80 active:bg-surface-cardHover;
   }
 
   .btn-ghost {
     @apply btn-clinical bg-transparent text-text-primary
-    hover:bg-dark-cardHover active:bg-dark-cardHover/50;
+    hover:bg-surface-cardHover active:bg-surface-cardHover/50;
   }
 
   .btn-danger {
@@ -92,20 +91,20 @@
 
   /* Cards clínicas */
   .card-clinical {
-    @apply bg-dark-card border border-border-default rounded-xl p-4 shadow-card
+    @apply bg-surface-card border border-border-default rounded-xl p-4 shadow-card
     transition-all duration-200 hover:border-border-focused hover:shadow-clinical;
   }
 
   .card-clinical-hover {
-    @apply card-clinical hover:bg-dark-cardHover hover:border-border-focused;
+    @apply card-clinical hover:bg-surface-cardHover hover:border-border-focused;
   }
 
   /* Inputs clínicos */
   .input-clinical {
-    @apply w-full px-4 py-3 rounded-lg bg-dark-input border border-border-default
+    @apply w-full px-4 py-3 rounded-lg bg-surface-input border border-border-default
     text-text-primary placeholder:text-text-disabled
-    focus:outline-none focus:ring-2 focus:ring-clinical-blue focus:border-transparent
-    disabled:bg-dark-bg disabled:opacity-50 disabled:cursor-not-allowed
+    focus:outline-none focus:ring-2 focus:ring-clinicalBlue focus:border-transparent
+    disabled:bg-surface-bg disabled:opacity-50 disabled:cursor-not-allowed
     transition-all duration-200;
   }
 
@@ -136,7 +135,7 @@
   }
 
   .badge-info {
-    @apply badge bg-clinical-blue/15 text-clinical-blue;
+    @apply badge bg-clinicalBlue/15 text-clinicalBlue;
   }
 
   /* Separadores */
@@ -150,7 +149,7 @@
 
   /* Toast personalizado */
   .toast-clinical {
-    @apply bg-dark-card border border-border-default rounded-xl p-4 shadow-clinical-lg
+    @apply bg-surface-card border border-border-default rounded-xl p-4 shadow-clinical-lg
     animate-slide-up;
   }
 

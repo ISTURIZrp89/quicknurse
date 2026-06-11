@@ -14,8 +14,8 @@ export const SettingsPage = () => {
   const { setBiometricEnabled, setAutoLockMinutes, setScreenCaptureBlocked, setAiEnabled, setAiModel, setAiContextSize, setAiTemperature } = useSettingsActions()
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-dark-bg/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-4 flex items-center justify-between">
           <h1 className="text-xl font-bold text-text-primary">Configuración</h1>
           <button className="text-text-secondary hover:text-text-primary">
@@ -29,7 +29,7 @@ export const SettingsPage = () => {
       <div className="max-w-2xl mx-auto p-screenPadding pb-20">
         <section className="mb-8">
           <h2 className="text-xs font-bold text-clinicalBlue uppercase tracking-wider mb-4">SEGURIDAD</h2>
-          <div className="bg-dark-card rounded-xl border border-border-default overflow-hidden">
+          <div className="bg-surface-card rounded-xl border border-border-default overflow-hidden">
             <label className="flex items-center justify-between p-4 border-b border-border-default cursor-pointer">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-clinicalBlue/15 flex items-center justify-center">
@@ -62,7 +62,7 @@ export const SettingsPage = () => {
                 </div>
               </div>
               <select
-                className="px-3 py-1.5 bg-dark-input border border-border-default rounded-lg text-text-primary text-sm"
+                className="px-3 py-1.5 bg-surface-input border border-border-default rounded-lg text-text-primary text-sm"
                 value={autoLockMinutes.toString()}
                 onChange={(e) => setAutoLockMinutes(parseInt(e.target.value))}
               >
@@ -96,7 +96,7 @@ export const SettingsPage = () => {
 
         <section className="mb-8">
           <h2 className="text-xs font-bold text-clinicalBlue uppercase tracking-wider mb-4">INTELIGENCIA ARTIFICIAL</h2>
-          <div className="bg-dark-card rounded-xl border border-border-default overflow-hidden">
+          <div className="bg-surface-card rounded-xl border border-border-default overflow-hidden">
             <label className="flex items-center justify-between p-4 border-b border-border-default cursor-pointer">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-clinicalBlue/15 flex items-center justify-center">
@@ -130,7 +130,7 @@ export const SettingsPage = () => {
                   </div>
                 </div>
                 <select
-                  className="px-3 py-2 bg-dark-input border border-border-default rounded-lg text-text-primary text-sm w-48"
+                  className="px-3 py-2 bg-surface-input border border-border-default rounded-lg text-text-primary text-sm w-48"
                   value={aiModel}
                   onChange={(e) => setAiModel(e.target.value)}
                 >
@@ -150,7 +150,7 @@ export const SettingsPage = () => {
                 step="256"
                 value={aiContextSize}
                 onChange={(e) => setAiContextSize(parseInt(e.target.value))}
-                className="w-full h-2 bg-dark-input appearance-none rounded-lg accent-clinicalBlue"
+                className="w-full h-2 bg-surface-input appearance-none rounded-lg accent-clinicalBlue"
               />
               <div className="flex items-center justify-between">
                 <label className="text-xs font-medium text-text-secondary uppercase tracking-wider">Temperatura</label>
@@ -163,7 +163,7 @@ export const SettingsPage = () => {
                 step="0.1"
                 value={aiTemperature}
                 onChange={(e) => setAiTemperature(parseFloat(e.target.value))}
-                className="w-full h-2 bg-dark-input appearance-none rounded-lg accent-clinicalBlue"
+                className="w-full h-2 bg-surface-input appearance-none rounded-lg accent-clinicalBlue"
               />
             </div>
           </div>
@@ -171,7 +171,7 @@ export const SettingsPage = () => {
 
         <section className="mb-8">
           <h2 className="text-xs font-bold text-clinicalBlue uppercase tracking-wider mb-4">ACERCA DE</h2>
-          <div className="bg-dark-card rounded-xl border border-border-default overflow-hidden">
+          <div className="bg-surface-card rounded-xl border border-border-default overflow-hidden">
             <div className="p-4 border-b border-border-default flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg bg-clinicalBlue/15 flex items-center justify-center">

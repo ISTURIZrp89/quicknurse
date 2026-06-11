@@ -70,11 +70,11 @@ export const CalculatorDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">Calculadora</h1>
-          <button className="p-2 rounded-lg bg-dark-card hover:bg-dark-cardHover transition-colors" onClick={resetCalculator}>
+          <button className="p-2 rounded-lg bg-surface-card hover:bg-surface-cardHover transition-colors" onClick={resetCalculator}>
             <svg className="w-5 h-5 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
@@ -83,7 +83,7 @@ export const CalculatorDetailPage = () => {
       </header>
 
       <div className="max-w-2xl mx-auto p-screenPadding pb-20">
-        <div className="bg-dark-card border border-border-default rounded-xl p-4 mb-6">
+        <div className="bg-surface-card border border-border-default rounded-xl p-4 mb-6">
           <h2 className="text-lg font-semibold text-text-primary mb-2">{type === 'mgKgDose' ? 'Dosis mg/kg' : type === 'dropsPerMin' ? 'Gotas por Minuto' : 'Calculadora'}</h2>
           <p className="text-sm text-text-secondary">{type === 'mgKgDose' ? 'Calcula dosis basada en peso corporal' : type === 'dropsPerMin' ? 'Calcula velocidad de goteo en gotas/minuto' : 'Calculadora clínica'}</p>
         </div>

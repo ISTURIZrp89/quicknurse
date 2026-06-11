@@ -11,7 +11,7 @@ const BottomNav: React.FC = () => {
     { to: '/settings', label: 'Ajustes', icon: Settings },
   ]
   return (
-    <nav className="fixed bottom-0 inset-x-0 z-20 bg-dark-bg/90 backdrop-blur-md border-t border-border-default safe-bottom">
+    <nav className="fixed bottom-0 inset-x-0 z-20 bg-surface-bg/90 backdrop-blur-md border-t border-border-default safe-bottom">
       <div className="max-w-2xl mx-auto grid grid-cols-5">
         {items.map((it) => (
           <NavLink

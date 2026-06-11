@@ -13,7 +13,7 @@ export const PatientDetailPage = () => {
 
   if (!patient) {
     return (
-      <div className="min-h-screen bg-deepBlack flex items-center justify-center">
+      <div className="min-h-screen bg-surface-bg flex items-center justify-center">
         <div className="text-center">
           <p className="text-text-secondary">Paciente no encontrado</p>
           <button onClick={() => navigate('/patients')} className="btn-primary mt-4">Volver</button>
@@ -31,12 +31,12 @@ export const PatientDetailPage = () => {
   }).filter(([_, v]) => v !== null)
 
   return (
-    <div className="min-h-screen bg-deepBlack">
-      <header className="sticky top-0 z-10 bg-deepBlack/95 backdrop-blur-sm border-b border-border-default">
+    <div className="min-h-screen bg-surface-bg">
+      <header className="sticky top-0 z-10 bg-surface-bg/95 backdrop-blur-sm border-b border-border-default">
         <div className="max-w-2xl mx-auto px-screenPadding py-3 flex items-center justify-between">
           <h1 className="text-lg font-bold text-text-primary">{patient.name}</h1>
           <div className="flex items-center gap-2">
-            <button className="p-2 rounded-lg bg-dark-card hover:bg-dark-cardHover transition-colors">
+            <button className="p-2 rounded-lg bg-surface-card hover:bg-surface-cardHover transition-colors">
               <svg className="w-5 h-5 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
               </svg>
@@ -55,7 +55,7 @@ export const PatientDetailPage = () => {
 
       <div className="max-w-2xl mx-auto p-screenPadding pb-20">
         <div className="space-y-4">
-          <div className="bg-dark-card border border-border-default rounded-xl p-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-4">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-16 h-16 rounded-full bg-clinicalBlue/10 flex items-center justify-center">
                 <svg className="w-8 h-8 text-clinicalBlue" fill="currentColor" viewBox="0 0 24 24">
@@ -69,7 +69,7 @@ export const PatientDetailPage = () => {
             </div>
           </div>
 
-          <div className="bg-dark-card border border-border-default rounded-xl p-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-4">
             <h3 className="text-sm font-bold text-clinicalBlue uppercase tracking-wider mb-3">Diagnósticos</h3>
             <div className="flex flex-wrap gap-2">
               {patient.diagnosis.map((d, i) => (
@@ -79,7 +79,7 @@ export const PatientDetailPage = () => {
             </div>
           </div>
 
-          <div className="bg-dark-card border border-border-default rounded-xl p-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-4">
             <h3 className="text-sm font-bold text-clinicalBlue uppercase tracking-wider mb-3">Medicamentos</h3>
             <div className="flex flex-wrap gap-2">
               {patient.medications.map((m, i) => (
@@ -89,7 +89,7 @@ export const PatientDetailPage = () => {
             </div>
           </div>
 
-          <div className="bg-dark-card border border-border-default rounded-xl p-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-4">
             <h3 className="text-sm font-bold text-clinicalBlue uppercase tracking-wider mb-3">Alergias</h3>
             <div className="flex flex-wrap gap-2">
               {patient.allergies.map((a, i) => (
@@ -99,11 +99,11 @@ export const PatientDetailPage = () => {
             </div>
           </div>
 
-          <div className="bg-dark-card border border-border-default rounded-xl p-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-4">
             <h3 className="text-sm font-bold text-clinicalBlue uppercase tracking-wider mb-3">Signos Vitales</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {vitalSignsEntries.map(([label, value]) => (
-                <div key={label} className="text-center p-3 bg-dark-input rounded-lg">
+                <div key={label} className="text-center p-3 bg-surface-input rounded-lg">
                   <p className="text-xs text-text-secondary uppercase tracking-wider">{label}</p>
                   <p className="text-xl font-bold text-text-primary">{value}</p>
                 </div>
@@ -117,7 +117,7 @@ export const PatientDetailPage = () => {
           </div>
 
           {patient.notes && (
-            <div className="bg-dark-card border border-border-default rounded-xl p-4">
+            <div className="bg-surface-card border border-border-default rounded-xl p-4">
               <h3 className="text-sm font-bold text-clinicalBlue uppercase tracking-wider mb-3">Notas</h3>
               <p className="text-text-secondary">{patient.notes}</p>
             </div>
@@ -127,7 +127,7 @@ export const PatientDetailPage = () => {
 
       {showDeleteConfirm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-          <div className="bg-dark-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4">
+          <div className="bg-surface-card border border-border-default rounded-xl p-6 w-full max-w-md mx-4">
             <h3 className="text-lg font-bold text-text-primary mb-2">Eliminar paciente</h3>
             <p className="text-text-secondary mb-6">¿Estás seguro de que quieres eliminar a {patient.name}? Esta acción no se puede deshacer.</p>
             <div className="flex gap-3">
