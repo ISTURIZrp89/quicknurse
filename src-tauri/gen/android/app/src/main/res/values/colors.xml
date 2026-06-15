@@ -1,0 +1,41 @@
+<resources>
+    <!-- Clinical Blue -->
+    <color name="clinical_blue">#0EA5E9</color>
+    <color name="clinical_blue_dark">#0284C7</color>
+    <color name="clinical_blue_light">#38BDF8</color>
+    <color name="clinical_blue_container">#0A0F14</color>
+
+    <!-- Monitor Green -->
+    <color name="monitor_green">#10B981</color>
+    <color name="monitor_green_dark">#059669</color>
+    <color name="monitor_green_light">#34D399</color>
+
+    <!-- Alert Red -->
+    <color name="alert_red">#EF4444</color>
+    <color name="alert_red_dark">#DC2626</color>
+    <color name="alert_red_light">#F87171</color>
+
+    <!-- Warning Amber -->
+    <color name="warning_amber">#F59E0B</color>
+    <color name="warning_amber_dark">#D97706</color>
+    <color name="warning_amber_light">#FBBF24</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="surface_dark">#0A0F14</color>
+    <color name="surface_card">#1A212B</color>
+    <color name="surface_card_hover">#222B37</color>
+    <color name="surface_input">#1E2631</color>
+    <color name="border_default">#252E3A</color>
+    <color name="border_focused">#3BA4FF</color>
+    <color name="border_error">#FF4D4D</color>
+
+    <color name="on_surface_dark">#E8EDF5</color>
+    <color name="text_secondary">#8E9BB0</color>
+    <color name="text_disabled">#4A5363</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Overlay -->
+    <color name="overlay_dark">#80000000</color>
+</resources>

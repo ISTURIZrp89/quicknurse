@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        clinicalBlue: {
+        clinical: {
           50: '#f0f9ff',
           100: '#e0f2fe',
           200: '#bae6fd',
@@ -21,7 +21,12 @@ export default {
           900: '#0c4a6e',
           950: '#082f49',
         },
-        'clinical-blue': '#3BA4FF',
+        medical: {
+          green: '#10B981',
+          red: '#EF4444',
+          amber: '#F59E0B',
+          blue: '#3B82F6',
+        },
         dark: {
           bg: '#0A0F14',
           bgSecondary: '#141A21',
@@ -39,20 +44,11 @@ export default {
           focused: '#3BA4FF',
           error: '#FF4D4D',
         },
-        medical: {
-          green: '#10B981',
-          red: '#EF4444',
-          amber: '#F59E0B',
-          blue: '#3B82F6',
-        },
-        alert: {
-          red: '#EF4444',
-        },
-        deepBlack: '#0A0F14',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         clinical: ['SF Pro Display', 'Inter', 'sans-serif'],
+        sfpro: ['SF Pro Display', 'Inter', 'sans-serif'],
         mono: ['IBM Plex Sans', 'monospace'],
       },
       fontSize: {

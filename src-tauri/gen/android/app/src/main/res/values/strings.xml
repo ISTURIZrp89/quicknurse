@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuickNurse</string>
+    <string name="app_name_short">QuickNurse</string>
+    <string name="app_description">Asistente Clínico Inteligente para Enfermería</string>
+</resources>

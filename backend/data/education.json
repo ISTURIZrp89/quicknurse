@@ -1,0 +1,2290 @@
+[
+  {
+    "id": "cardiologia",
+    "nombre": "Cardiología",
+    "descripcion": "Enfermedades cardiovasculares, ECG, arritmias",
+    "icono": "🫀",
+    "flashcards": [
+      {
+        "pregunta": "¿FC normal adulto?",
+        "respuesta": "60-100 lpm"
+      },
+      {
+        "pregunta": "¿PA normal?",
+        "respuesta": "PAS <120, PAD <80 mmHg"
+      },
+      {
+        "pregunta": "¿Intervalo PR normal?",
+        "respuesta": "0.12-0.20 seg"
+      },
+      {
+        "pregunta": "¿Complejo QRS normal?",
+        "respuesta": "<0.12 seg"
+      },
+      {
+        "pregunta": "¿QT corregido normal?",
+        "respuesta": "<440 ms H, <460 ms M"
+      },
+      {
+        "pregunta": "¿Adrenalina en paro?",
+        "respuesta": "1 mg IV c/3-5 min"
+      },
+      {
+        "pregunta": "¿Amiodarona en TV?",
+        "respuesta": "150 mg IV en 10 min"
+      },
+      {
+        "pregunta": "¿Onda P representa?",
+        "respuesta": "Despolarización auricular"
+      },
+      {
+        "pregunta": "¿Onda T representa?",
+        "respuesta": "Repolarización ventricular"
+      },
+      {
+        "pregunta": "¿Fórmula PAM?",
+        "respuesta": "PAM = PAS + (2 × PAD) / 3"
+      },
+      {
+        "pregunta": "¿Tríada de Beck?",
+        "respuesta": "Hipotensión, ingurgitación yugular, ruidos apagados"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿FC fetal normal?",
+        "opciones": [
+          "80-100 lpm",
+          "110-160 lpm",
+          "140-180 lpm",
+          "90-120 lpm"
+        ],
+        "correcta": 1,
+        "explicacion": "FC fetal normal 110-160 lpm. <110 bradicardia, >160 taquicardia."
+      },
+      {
+        "pregunta": "¿TFG normal?",
+        "opciones": [
+          "60 mL/min",
+          "90 mL/min",
+          "125 mL/min",
+          "150 mL/min"
+        ],
+        "correcta": 2,
+        "explicacion": "TFG normal ~125 mL/min (~180 L/día)."
+      },
+      {
+        "pregunta": "¿PA media normal?",
+        "opciones": [
+          "60-70 mmHg",
+          "70-105 mmHg",
+          "110-130 mmHg",
+          "130-150 mmHg"
+        ],
+        "correcta": 1,
+        "explicacion": "PAM normal 70-105 mmHg. <60 es hipoperfusión."
+      },
+      {
+        "pregunta": "¿Gasto cardíaco reposo?",
+        "opciones": [
+          "2.5 L/min",
+          "5 L/min",
+          "8 L/min",
+          "12 L/min"
+        ],
+        "correcta": 1,
+        "explicacion": "GC reposo ~5 L/min, hasta 25 L/min en ejercicio."
+      },
+      {
+        "pregunta": "¿FEVI normal?",
+        "opciones": [
+          ">30%",
+          ">40%",
+          ">50-55%",
+          ">65%"
+        ],
+        "correcta": 2,
+        "explicacion": "FEVI normal >50-55%."
+      },
+      {
+        "pregunta": "¿Primera dosis adrenalina en PCR?",
+        "opciones": [
+          "0.5 mg",
+          "1 mg",
+          "2 mg",
+          "3 mg"
+        ],
+        "correcta": 1,
+        "explicacion": "Adrenalina 1 mg IV cada 3-5 min en paro."
+      },
+      {
+        "pregunta": "¿Intervalo PR normal?",
+        "opciones": [
+          "0.04-0.08 s",
+          "0.12-0.20 s",
+          "0.20-0.40 s",
+          "0.40-0.60 s"
+        ],
+        "correcta": 1,
+        "explicacion": "PR normal 120-200 ms."
+      },
+      {
+        "pregunta": "¿QTc normal?",
+        "opciones": [
+          "<360 ms",
+          "<440 ms H / <460 ms M",
+          "<500 ms",
+          "<320 ms"
+        ],
+        "correcta": 1,
+        "explicacion": "QTc normal <440 ms hombres, <460 ms mujeres."
+      },
+      {
+        "pregunta": "¿Fármaco primera línea en TV estable?",
+        "opciones": [
+          "Lidocaína",
+          "Amiodarona",
+          "Adenosina",
+          "Verapamilo"
+        ],
+        "correcta": 1,
+        "explicacion": "Amiodarona es primera línea en TV estable."
+      },
+      {
+        "pregunta": "¿Cuántas derivaciones ECG estándar?",
+        "opciones": [
+          "6",
+          "10",
+          "12",
+          "15"
+        ],
+        "correcta": 2,
+        "explicacion": "ECG tiene 12 derivaciones: 6 extremidades + 6 precordiales."
+      }
+    ],
+    "imagen": "/static/images/education/cardiologia.jpg",
+    "imagen_licencia": "Public Domain",
+    "imagen_atribucion": "Tvanbr, Wikimedia Commons"
+  },
+  {
+    "id": "neonatologia",
+    "nombre": "Neonatología",
+    "descripcion": "Cuidados del recién nacido, test de Apgar, reanimación neonatal",
+    "icono": "👶",
+    "flashcards": [
+      {
+        "pregunta": "¿Apgar evalúa?",
+        "respuesta": "Color, FC, Reflejos, Tono, Respiración"
+      },
+      {
+        "pregunta": "¿Apgar normal?",
+        "respuesta": "7-10 al minuto 5"
+      },
+      {
+        "pregunta": "¿FC normal RN?",
+        "respuesta": "120-160 lpm"
+      },
+      {
+        "pregunta": "¿FR normal RN?",
+        "respuesta": "30-60 rpm"
+      },
+      {
+        "pregunta": "¿Peso promedio RN término?",
+        "respuesta": "2500-4000 g"
+      },
+      {
+        "pregunta": "¿Reflejo Moro hasta?",
+        "respuesta": "4-5 meses"
+      },
+      {
+        "pregunta": "¿Cianosis neonatal causas?",
+        "respuesta": "Cardiopatía congénita, enf. pulmonar, metahemoglobinemia"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Apgar normal?",
+        "opciones": [
+          "0-3",
+          "4-6",
+          "7-10",
+          "10-12"
+        ],
+        "correcta": 2,
+        "explicacion": "Apgar 7-10 normal. 4-6 reanimación leve, <4 reanimación inmediata."
+      },
+      {
+        "pregunta": "¿Parámetros Apgar?",
+        "opciones": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "correcta": 1,
+        "explicacion": "Apgar: Color, FC, Reflejos, Tono, Respiración."
+      },
+      {
+        "pregunta": "¿FR normal RN?",
+        "opciones": [
+          "20-30 rpm",
+          "30-40 rpm",
+          "40-60 rpm",
+          "60-80 rpm"
+        ],
+        "correcta": 2,
+        "explicacion": "FR RN normal 40-60 rpm."
+      },
+      {
+        "pregunta": "¿Peso RN término?",
+        "opciones": [
+          "1.5-2.5 kg",
+          "2.5-4 kg",
+          "3-5 kg",
+          "4-5 kg"
+        ],
+        "correcta": 1,
+        "explicacion": "Peso normal RN término 2.5-4 kg."
+      },
+      {
+        "pregunta": "¿Reflejo Moro hasta?",
+        "opciones": [
+          "2-3 m",
+          "4-5 m",
+          "6-8 m",
+          "10-12 m"
+        ],
+        "correcta": 1,
+        "explicacion": "Reflejo Moro presente hasta 4-5 meses."
+      },
+      {
+        "pregunta": "¿Qué evalúa Silverman-Anderson?",
+        "opciones": [
+          "Peso neonatal",
+          "Distrés respiratorio",
+          "Reflejos",
+          "Ictericia"
+        ],
+        "correcta": 1,
+        "explicacion": "Silverman-Anderson evalúa severidad de distrés respiratorio neonatal."
+      }
+    ],
+    "imagen": "/static/images/education/neonatologia.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Evan-Amos, Wikimedia Commons"
+  },
+  {
+    "id": "farmacologia",
+    "nombre": "Farmacología",
+    "descripcion": "Farmacocinética, farmacodinamia, dosificación",
+    "icono": "💊",
+    "flashcards": [
+      {
+        "pregunta": "¿Antídoto heparina?",
+        "respuesta": "Protamina"
+      },
+      {
+        "pregunta": "¿Antídoto BZD?",
+        "respuesta": "Flumazenilo"
+      },
+      {
+        "pregunta": "¿Antídoto opioides?",
+        "respuesta": "Naloxona"
+      },
+      {
+        "pregunta": "¿Antídoto paracetamol?",
+        "respuesta": "N-acetilcisteína"
+      },
+      {
+        "pregunta": "¿Antídoto Mg?",
+        "respuesta": "Gluconato de calcio"
+      },
+      {
+        "pregunta": "¿Vida media?",
+        "respuesta": "Tiempo en reducir concentración al 50%"
+      },
+      {
+        "pregunta": "¿Biodisponibilidad IV?",
+        "respuesta": "100%"
+      },
+      {
+        "pregunta": "¿Vía SC ejemplos?",
+        "respuesta": "Insulina, heparina de bajo peso molecular"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Antídoto heparina?",
+        "opciones": [
+          "Vit K",
+          "Protamina",
+          "Flumazenil",
+          "Naloxona"
+        ],
+        "correcta": 1,
+        "explicacion": "Protamina neutraliza heparina formando complejos inactivos."
+      },
+      {
+        "pregunta": "¿Antídoto BZD?",
+        "opciones": [
+          "Naloxona",
+          "Protamina",
+          "Flumazenil",
+          "Vit K"
+        ],
+        "correcta": 2,
+        "explicacion": "Flumazenil es antagonista competitivo de BZD."
+      },
+      {
+        "pregunta": "¿Antídoto opioides?",
+        "opciones": [
+          "Flumazenil",
+          "Naloxona",
+          "Protamina",
+          "Naltrexona"
+        ],
+        "correcta": 1,
+        "explicacion": "Naloxona revierte depresión respiratoria opioide."
+      },
+      {
+        "pregunta": "¿Amiodarona clase?",
+        "opciones": [
+          "Clase I",
+          "Clase II",
+          "Clase III",
+          "Clase IV"
+        ],
+        "correcta": 2,
+        "explicacion": "Amiodarona es Clase III (alarga potencial de acción)."
+      },
+      {
+        "pregunta": "¿Diurético asa principal?",
+        "opciones": [
+          "HCTZ",
+          "Espironolactona",
+          "Furosemida",
+          "Manitol"
+        ],
+        "correcta": 2,
+        "explicacion": "Furosemida inhibe NKCC2 en asa de Henle."
+      },
+      {
+        "pregunta": "¿Vía noradrenalina?",
+        "opciones": [
+          "IM",
+          "SC",
+          "CVC",
+          "Oral"
+        ],
+        "correcta": 2,
+        "explicacion": "Noradrenalina debe administrarse por CVC por riesgo de extravasación."
+      },
+      {
+        "pregunta": "¿Vida media?",
+        "opciones": [
+          "Tiempo a Cmax",
+          "Tiempo a 50% eliminación",
+          "Duración total",
+          "Tiempo absorción"
+        ],
+        "correcta": 1,
+        "explicacion": "Vida media: tiempo para que concentración plasmática se reduzca 50%."
+      },
+      {
+        "pregunta": "¿Índice terapéutico estrecho ejemplos?",
+        "opciones": [
+          "Paracetamol, ibuprofeno",
+          "Digoxina, warfarina, litio",
+          "Amoxicilina, azitromicina",
+          "Omeprazol, ranitidina"
+        ],
+        "correcta": 1,
+        "explicacion": "Fármacos con IT estrecho: digoxina, warfarina, fenitoína, litio, teofilina."
+      }
+    ],
+    "imagen": "/static/images/education/farmacologia.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Mx. Granger, Wikimedia Commons"
+  },
+  {
+    "id": "anatomia",
+    "nombre": "Anatomía",
+    "descripcion": "Anatomía humana básica para enfermería",
+    "icono": "🦴",
+    "flashcards": [
+      {
+        "pregunta": "¿Hueso más largo?",
+        "respuesta": "Fémur"
+      },
+      {
+        "pregunta": "¿Válvula AD→VD?",
+        "respuesta": "Tricúspide"
+      },
+      {
+        "pregunta": "¿Válvula AI→VI?",
+        "respuesta": "Mitral"
+      },
+      {
+        "pregunta": "¿Lóbulos pulmón derecho?",
+        "respuesta": "3 (sup, medio, inf)"
+      },
+      {
+        "pregunta": "¿Lóbulos pulmón izquierdo?",
+        "respuesta": "2 (sup, inf)"
+      },
+      {
+        "pregunta": "¿Volumen LCR adulto?",
+        "respuesta": "130-150 mL"
+      },
+      {
+        "pregunta": "¿Consumo O₂ cerebro?",
+        "respuesta": "20% del total"
+      },
+      {
+        "pregunta": "¿Peso corazón adulto?",
+        "respuesta": "250-350 g"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Volumen LCR adulto?",
+        "opciones": [
+          "50-80 mL",
+          "130-150 mL",
+          "200-250 mL",
+          "300-400 mL"
+        ],
+        "correcta": 1,
+        "explicacion": "LCR 130-150 mL, se renueva ~4 veces/día."
+      },
+      {
+        "pregunta": "¿Huesos cráneo?",
+        "opciones": [
+          "6",
+          "8",
+          "12",
+          "14"
+        ],
+        "correcta": 1,
+        "explicacion": "8 huesos: frontal, parietal (2), temporal (2), occipital, esfenoides, etmoides."
+      },
+      {
+        "pregunta": "¿Válvula AD→VD?",
+        "opciones": [
+          "Mitral",
+          "Tricúspide",
+          "Aórtica",
+          "Pulmonar"
+        ],
+        "correcta": 1,
+        "explicacion": "Válvula tricúspide separa AD de VD."
+      },
+      {
+        "pregunta": "¿Consumo O₂ cerebro?",
+        "opciones": [
+          "5%",
+          "10%",
+          "20%",
+          "30%"
+        ],
+        "correcta": 2,
+        "explicacion": "Cerebro 2% peso corporal, consume 20% O₂ total."
+      },
+      {
+        "pregunta": "¿Peso corazón?",
+        "opciones": [
+          "150-200 g",
+          "250-350 g",
+          "400-500 g",
+          "500-600 g"
+        ],
+        "correcta": 1,
+        "explicacion": "Corazón adulto 250-350 g."
+      },
+      {
+        "pregunta": "¿Cavidades cardíacas?",
+        "opciones": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "correcta": 2,
+        "explicacion": "4 cavidades: 2 aurículas + 2 ventrículos."
+      }
+    ],
+    "imagen": "/static/images/education/anatomia.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Mikael Häggström, Wikimedia Commons"
+  },
+  {
+    "id": "fundamentos",
+    "nombre": "Fundamentos de Enfermería",
+    "descripcion": "Conceptos básicos, procedimientos, cuidados",
+    "icono": "📋",
+    "flashcards": [
+      {
+        "pregunta": "¿Signos vitales básicos?",
+        "respuesta": "FC, FR, Temperatura, PA"
+      },
+      {
+        "pregunta": "¿Fases del PAE?",
+        "respuesta": "Valoración, Diagnóstico, Planificación, Ejecución, Evaluación"
+      },
+      {
+        "pregunta": "¿5 correctos?",
+        "respuesta": "Paciente, fármaco, dosis, vía, hora"
+      },
+      {
+        "pregunta": "¿Escala UPP?",
+        "respuesta": "Braden / Norton"
+      },
+      {
+        "pregunta": "¿Posición Fowler?",
+        "respuesta": "45-90° para disnea"
+      },
+      {
+        "pregunta": "¿Temp axilar normal?",
+        "respuesta": "36-37.5°C"
+      },
+      {
+        "pregunta": "¿Formato NANDA?",
+        "respuesta": "PES (Problema, Etiología, Signos/Síntomas)"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Fases del PAE?",
+        "opciones": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correcta": 2,
+        "explicacion": "PAE: Valoración, Diagnóstico, Planificación, Ejecución, Evaluación."
+      },
+      {
+        "pregunta": "¿Escala Braden?",
+        "opciones": [
+          "Dolor",
+          "Riesgo UPP",
+          "Conciencia",
+          "Caídas"
+        ],
+        "correcta": 1,
+        "explicacion": "Braden evalúa riesgo de úlceras por presión (6 subescalas)."
+      },
+      {
+        "pregunta": "¿Escala EVA?",
+        "opciones": [
+          "Ansiedad",
+          "Dolor 0-10",
+          "Náusea",
+          "Sedación"
+        ],
+        "correcta": 1,
+        "explicacion": "EVA mide intensidad del dolor del 0 al 10."
+      },
+      {
+        "pregunta": "¿Formato NANDA?",
+        "opciones": [
+          "SOAP",
+          "PES",
+          "DAR",
+          "PIE"
+        ],
+        "correcta": 1,
+        "explicacion": "NANDA usa formato PES: Problema, Etiología, Signos/Síntomas."
+      },
+      {
+        "pregunta": "¿5 correctos?",
+        "opciones": [
+          "Paciente, fármaco, dosis, vía, hora",
+          "Nombre, fecha, dosis, vía, hora",
+          "Paciente, médico, fármaco, dosis, registro",
+          "Paciente, dosis, efecto, reacción, hora"
+        ],
+        "correcta": 0,
+        "explicacion": "Paciente, fármaco, dosis, vía y hora correctos."
+      },
+      {
+        "pregunta": "¿Posición para disnea?",
+        "opciones": [
+          "Supino",
+          "Fowler 45-90°",
+          "Prono",
+          "Trendelenburg"
+        ],
+        "correcta": 1,
+        "explicacion": "Fowler facilita expansión pulmonar y mejora oxigenación."
+      },
+      {
+        "pregunta": "¿Temp axilar normal?",
+        "opciones": [
+          "35-36°C",
+          "36-37.5°C",
+          "37.5-38.5°C",
+          "35.5-36.5°C"
+        ],
+        "correcta": 1,
+        "explicacion": "Temperatura axilar normal 36-37.5°C."
+      }
+    ],
+    "imagen": "/static/images/education/fundamentos.jpg",
+    "imagen_licencia": "Public Domain (NIH)",
+    "imagen_atribucion": "Linda Bartlett / National Cancer Institute"
+  },
+  {
+    "id": "cuidados_intensivos",
+    "nombre": "Cuidados Intensivos",
+    "descripcion": "Manejo del paciente crítico, ventilación mecánica, sepsis, hemodinamia, sedación y escalas UCI",
+    "icono": "🆘",
+    "flashcards": [
+      {
+        "pregunta": "¿PAM objetivo en shock séptico?",
+        "respuesta": "≥65 mmHg"
+      },
+      {
+        "pregunta": "¿RASS puntuaciones?",
+        "respuesta": "-5 (no responde) a +4 (combativo)"
+      },
+      {
+        "pregunta": "¿RASS objetivo sedación?",
+        "respuesta": "0 a -2 (tranquilo a sedación ligera)"
+      },
+      {
+        "pregunta": "¿CAM-ICU positivo indica?",
+        "respuesta": "Delirio presente"
+      },
+      {
+        "pregunta": "¿3 características CAM-ICU?",
+        "respuesta": "Inicio agudo, atención fluctuante, pensamiento desorganizado"
+      },
+      {
+        "pregunta": "¿Volumen tidal ideal VM protectora?",
+        "respuesta": "6 mL/kg peso ideal"
+      },
+      {
+        "pregunta": "¿PEEP en ARDS?",
+        "respuesta": "5-15 cmH₂O según FiO₂"
+      },
+      {
+        "pregunta": "¿Presión plateau objetivo?",
+        "respuesta": "<30 cmH₂O"
+      },
+      {
+        "pregunta": "¿Hora 1 sepsis bundle?",
+        "respuesta": "Cultivos, lactato, antibióticos, cristaloides 30 mL/kg"
+      },
+      {
+        "pregunta": "¿Lactato en sepsis?",
+        "respuesta": ">2 mmol/L indica hipoperfusión tisular"
+      },
+      {
+        "pregunta": "¿Cristaloide primera línea reanimación?",
+        "respuesta": "Ringer Lactato o Plasmalyte"
+      },
+      {
+        "pregunta": "¿Hidrocortisona en shock?",
+        "respuesta": "200 mg/día IV si refractario a vasopresores"
+      },
+      {
+        "pregunta": "¿ARDS definición Berlín?",
+        "respuesta": "PaO₂/FiO₂ <300 con PEEP ≥5"
+      },
+      {
+        "pregunta": "¿Prono en ARDS?",
+        "respuesta": "Indicado si PaO₂/FiO₂ <150"
+      },
+      {
+        "pregunta": "¿CRRT indicaciones?",
+        "respuesta": "LRA, acidosis, hiperpotasemia, sobrecarga volumen"
+      },
+      {
+        "pregunta": "¿Noradrenalina dosis inicio?",
+        "respuesta": "0.05-0.1 mcg/kg/min"
+      },
+      {
+        "pregunta": "¿Dobutamina indica?",
+        "respuesta": "Bajo gasto cardíaco con disfunción miocárdica"
+      },
+      {
+        "pregunta": "¿Nutrición enteral inicio UCI?",
+        "respuesta": "24-48 horas si hemodinámicamente estable"
+      },
+      {
+        "pregunta": "¿Calorías meta enteral?",
+        "respuesta": "25-30 kcal/kg/día"
+      },
+      {
+        "pregunta": "¿Proteínas meta UCI?",
+        "respuesta": "1.2-2.0 g/kg/día"
+      },
+      {
+        "pregunta": "¿Weaning éxito prueba?",
+        "respuesta": "Tubo T 30 min: FR <35, Sat >90%, sin distress"
+      },
+      {
+        "pregunta": "¿Escala SOFA variables?",
+        "respuesta": "Respiratorio, coagulación, hepático, cardiovascular, neurológico, renal"
+      },
+      {
+        "pregunta": "¿Hipotermia terapéutica objetivo?",
+        "respuesta": "32-36°C post-Parada cardíaca"
+      },
+      {
+        "pregunta": "¿Glucemia meta UCI?",
+        "respuesta": "140-180 mg/dL"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿PAM objetivo en séptico?",
+        "opciones": [
+          ">50 mmHg",
+          ">65 mmHg",
+          ">80 mmHg",
+          ">90 mmHg"
+        ],
+        "correcta": 1,
+        "explicacion": "Guías SSC 2024 recomiendan PAM ≥65 mmHg en shock séptico."
+      },
+      {
+        "pregunta": "¿RASS -3 significa?",
+        "opciones": [
+          "Ansioso",
+          "Sedación moderada/responde a voz",
+          "No responde",
+          "Combativo"
+        ],
+        "correcta": 1,
+        "explicacion": "RASS -3: sedación moderada, responde solo a estímulo verbal."
+      },
+      {
+        "pregunta": "¿Volumen tidal en ARDS?",
+        "opciones": [
+          "4 mL/kg",
+          "6 mL/kg",
+          "8 mL/kg",
+          "10 mL/kg"
+        ],
+        "correcta": 1,
+        "explicacion": "Ventilación protectora: 6 mL/kg peso ideal, plateau <30."
+      },
+      {
+        "pregunta": "¿Primer paso sepsis 1 hora?",
+        "opciones": [
+          "Vasopresores",
+          "Cultivos + lactato",
+          "Ingreso UCI",
+          "Radiografía tórax"
+        ],
+        "correcta": 1,
+        "explicacion": "Hora 1: medir lactato, obtener hemocultivos, iniciar antibióticos, cristaloides."
+      },
+      {
+        "pregunta": "¿PaO₂/FiO₂ normal?",
+        "opciones": [
+          ">200",
+          ">300",
+          ">400",
+          ">500"
+        ],
+        "correcta": 2,
+        "explicacion": "Relación PaO₂/FiO₂ normal >400. ARDS leve 200-300."
+      },
+      {
+        "pregunta": "¿PEEP en ARDS severo?",
+        "opciones": [
+          "Baja PEEP",
+          "Alta PEEP",
+          "Sin PEEP",
+          "5 cmH₂O fijo"
+        ],
+        "correcta": 1,
+        "explicacion": "ARDS severo (P/F <100) requiere PEEP alta (10-15 cmH₂O)."
+      },
+      {
+        "pregunta": "¿Antibiótico en sepsis sin foco?",
+        "opciones": [
+          "Monoterapia",
+          "Amplio espectro combinado",
+          "Solo cultivos",
+          "Oral"
+        ],
+        "correcta": 1,
+        "explicacion": "Antibiótico empírico de amplio espectro en primera hora."
+      },
+      {
+        "pregunta": "¿Posición prono beneficio?",
+        "opciones": [
+          "Aumenta PAM",
+          "Mejora relación V/Q",
+          "Disminuye CO₂",
+          "Aumenta FC"
+        ],
+        "correcta": 1,
+        "explicacion": "Prono mejora ventilación-perfusión y reduce sobredistensión."
+      },
+      {
+        "pregunta": "¿Fluido primera línea reanimación?",
+        "opciones": [
+          "SSN 0.9%",
+          "Ringer Lactato",
+          "Albúmina",
+          "Dextrosa"
+        ],
+        "correcta": 1,
+        "explicacion": "Cristaloides balanceados (RL, Plasmalyte) preferidos sobre SSN por riesgo hiperclorémica."
+      },
+      {
+        "pregunta": "¿CRRT vs IRRT cuándo?",
+        "opciones": [
+          "Siempre IRRT",
+          "CRRT si inestable",
+          "CRRT crónico",
+          "IRRT agudo"
+        ],
+        "correcta": 1,
+        "explicacion": "CRRT preferido en paciente hemodinámicamente inestable."
+      },
+      {
+        "pregunta": "¿Weaning exitoso criterio?",
+        "opciones": [
+          "PEEP >10",
+          "Prueba tubo T 30-120 min exitosa",
+          "FiO₂ 80%",
+          "Vt 8 mL/kg"
+        ],
+        "correcta": 1,
+        "explicacion": "Prueba de ventilación espontánea con tubo T por 30-120 minutos."
+      },
+      {
+        "pregunta": "¿RASS objetivo ideal?",
+        "opciones": [
+          "+2 a +4",
+          "0 a -2",
+          "-4 a -5",
+          "+1 a +3"
+        ],
+        "correcta": 1,
+        "explicacion": "Sedación ligera (RASS 0 a -2) salvo contraindicación."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Escala SOFA paso a paso",
+        "contenido": "La escala SOFA (Sequential Organ Failure Assessment) evalúa la disfunción orgánica en pacientes críticos mediante seis sistemas: respiratorio (PaO₂/FiO₂), coagulación (plaquetas), hepático (bilirrubina), cardiovascular (PAM/vasopresores), neurológico (Glasgow) y renal (creatinina/diuresis). Cada sistema se puntúa de 0 (normal) a 4 (fallo severo), con un rango total de 0 a 24. Fisiopatológicamente, refleja la disfunción multiorgánica secundaria a hipoperfusión, inflamación sistémica y daño endotelial. En sepsis, un SOFA ≥2 sugiere disfunción orgánica. El delta-SOFA (cambio en 48 h) predice mortalidad: cada punto de incremento aumenta el riesgo relativo de muerte en ~17%. Clínicamente, se usa al ingreso UCI y cada 24-48 horas. La puntuación máxima en primeros 96 horas correlaciona con mortalidad (SOFA >12: >90% mortalidad). La aplicabilidad clínica incluye: evaluar respuesta a tratamiento, objetivar disfunción orgánica, y comunicar pronóstico. Ventajas: fácil, reproducible, no invasivo. Limitaciones: no considera estado previo del paciente ni comorbilidades. La Surviving Sepsis Campaign 2024 recomienda SOFA como herramienta de tamizaje en pacientes con sospecha infecciosa. El qSOFA (alteración mental, FR ≥22, PAS ≤100) es una versión simplificada para uso fuera de UCI. En combinación con lactato sérico, la precisión predictiva mejora significativamente. En la práctica clínica, el SOFA se calcula al ingreso y cada 24-48 horas para monitorizar la evolución del paciente crítico. Una disminución de 2 puntos o más en las primeras 48 horas se asocia a mejor pronóstico, mientras que un incremento sostenido indica fracaso terapéutico. El SOFA respiratorio puntúa: 0 si PaO₂/FiO₂ >400, 1 si <400, 2 si <300, 3 si <200 con soporte ventilatorio, y 4 si <100 con soporte. El SOFA cardiovascular: 0 si PAM ≥70, 1 si PAM <70, 2 si dopamina ≤5 o dobutamina, 3 si dopamina >5 o noradrenalina ≤0.1, 4 si dopamina >15 o noradrenalina >0.1. Esta escala permite estandarizar la evaluación de disfunción orgánica, comunicar objetivamente el estado del paciente, y guiar decisiones terapéuticas como inicio de terapias de reemplazo renal o ingreso a UCI.",
+        "fuente": "Surviving Sepsis Campaign 2024, Vincent et al. Intensive Care Med 1996"
+      },
+      {
+        "titulo": "Ventilación protectora en ARDS",
+        "contenido": "El síndrome de distrés respiratorio agudo (ARDS) se define según criterios de Berlín 2012: inicio agudo (<7 días), opacidades bilaterales, edema no cardiogénico (PCWP ≤18 o sin evidencia de hipertensión auricular izquierda), y PaO₂/FiO₂ ≤300 con PEEP ≥5. La ventilación protectora es el pilar del manejo. El estudio ARMA (ARDS Network 2000) demostró reducción del 22% en mortalidad con Vt 6 mL/kg (vs 12 mL/kg) y plateau <30 cmH₂O. Fisiopatológicamente, la sobredistensión alveolar genera volutrauma, barotrauma y liberación de citoquinas (biotrauma). La PEEP óptima mantiene reclutamiento alveolar sin sobredistensión. La tabla PEEP/FiO₂ de ARDSnet ofrece una guía escalonada. La presión de conducción (driving pressure = plateau - PEEP) es un marcador pronóstico: <15 cmH₂O se asocia a menor mortalidad. La ventilación en prono, indicada con P/F <150, mejora la supervivencia (estudio PROSEVA). La parálisis neuromuscular (cisatracurio) en ARDS severo inicial (P/F <120) facilita la sincronía ventilador-paciente. La ventilación por liberación de presión en la vía aérea (APRV) y la oxigenación por membrana extracorpórea (ECMO) son estrategias de rescate. La estrategia de reclutamiento alveolar debe individualizarse. La monitorización incluye: capnografía, mecánica pulmonar (compliance, driving pressure), gasometría arterial seriada. La weaning exitoso requiere prueba de ventilación espontánea exitosa, estabilidad hemodinámica y adecuado manejo de secreciones. La monitorización de la mecánica pulmonar es esencial en ARDS. La compliance del sistema respiratorio (Crs = Vt / (Plateau - PEEP)) refleja la distensibilidad pulmonar; valores <30 mL/cmH₂O indican pulmón rígido. La presión de conducción (driving pressure = Vt / Crs) ha emergido como el marcador pronóstico más robusto, independiente del Vt ajustado por peso. El estudio LUNG SAFE (JAMA 2016) mostró que solo el 67% de ARDS es reconocido clínicamente y la ventilación protectora se aplica en un tercio de los casos, destacando la brecha entre evidencia y práctica. La estrategia de fluidos conservadora (ARDS Network FACTT) reduce días de ventilación sin aumentar shock. La ecografía pulmonar (Lung Ultrasound Score) permite evaluar reclutamiento alveolar, detectar derrames pleurales y neumotórax, y guiar PEEP. En ARDS severo con P/F <80, considerar ECMO veno-venosa (ECMO VV) según criterios EOLIA trial. La oxigenación por membrana extracorpórea ha mostrado beneficio en supervivencia en centros de alto volumen con protocolos estandarizados.",
+        "fuente": "ARDS Network NEJM 2000; Berlín Definition JAMA 2012; PROSEVA Trial NEJM 2013"
+      },
+      {
+        "titulo": "Manejo del delirium en UCI",
+        "contenido": "El delirium en UCI es una disfunción cerebral aguda caracterizada por alteración de la atención, conciencia y cognición, con curso fluctuante. El CAM-ICU es el instrumento validado: evalúa 4 características: (1) inicio agudo o curso fluctuante, (2) inatención (errores en ASE), (3) nivel de conciencia alterado (RASS ≠ 0), (4) pensamiento desorganizado (preguntas simples). Para CAM-ICU positivo, requiere (1) + (2) + (3) o (4). La fisiopatología involucra desequilibrio de neurotransmisores (dopamina aumentada, acetilcolina disminuida), inflamación sistémica, activación microglial, y disrupción de la barrera hematoencefálica. Factores predisponentes: edad >65, demencia, comorbilidades. Factores precipitantes: sedación (BZD, anticolinérgicos), sepsis, hipoxia, alteraciones electrolíticas, privación de sueño, inmovilización. El manejo no farmacológico es fundamental: movilización temprana, reorientación, ciclo sueño-vigilia, corrección de déficits sensoriales (lentes, audífonos), control de ruido, presencia familiar. El bundle ABCDEF incluye: evaluación y manejo del dolor, extubación espontánea, elección de sedación, evaluación y manejo del delirium, movilización temprana, y participación familiar. Farmacológicamente, la dexmedetomidina es el sedante de elección en delirium hiperactivo por su perfil simpaticolítico. Haloperidol solo en agitación severa (evidencia limitada). Evitar BZD salvo alcoholismo basal. Las guías PADIS 2024 recomiendan estrategias multicomponente no farmacológicas como primera línea. El delirium se asocia a mayor mortalidad, estancia prolongada, deterioro cognitivo a largo plazo y mayor incidencia de PTSD. La incidencia de delirium en UCI es del 30-80%, siendo el tipo hipoactivo el más prevalente y el más infradiagnosticado. La evaluación diaria con CAM-ICU toma menos de 2 minutos y debe realizarse en todo paciente en UCI. La prueba de atención incluye el ASE (Attention Screening Exam): se pide al paciente apretar la mano cuando escuche la letra A en una secuencia de 10 letras; 2 o más errores indican inatención. La escala RASS (Richmond Agitation-Sedation Scale) evalúa sedación de -5 (no responde) a +4 (combativo); el RASS -3 responde solo a estímulo verbal. Las medidas ambientales incluyen: ventanas para luz natural, ciclos día-noche, reducir ruido nocturno (<40 dB), agrupar cuidados para evitar interrupciones del sueño, y movilización temprana. El dolor se evalúa con CPOT o BPS en pacientes no comunicativos. Analgesia multimodal reduce requerimientos de sedantes. La dexmedetomidina se asocia a menos delirium, menor estancia en UCI y menos tiempo de ventilación que BZD. El síndrome post-UCI incluye deterioro cognitivo persistente, debilidad neuromuscular (ICU-AW), y trastorno de estrés postraumático, que pueden prevenirse con el bundle ABCDEF.",
+        "fuente": "PADIS Guidelines 2024; Ely et al. JAMA 2001; Brummel & Girard CCM 2022"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Algoritmo manejo sepsis 1 hora",
+        "descripcion": "Diagrama de flujo con pasos hora 1 SSC: lactato, cultivos, antibióticos, cristaloides 30 mL/kg",
+        "url": "/api/v1/education/image/sepsis_bundle",
+        "fuente": "Surviving Sepsis Campaign 2024"
+      },
+      {
+        "titulo": "Escala RASS",
+        "descripcion": "Tabla de puntuación Richmond Agitation-Sedation Scale de -5 a +4",
+        "url": "/api/v1/education/image/rass_scale",
+        "fuente": "Sessler et al. AJRCCM 2002"
+      },
+      {
+        "titulo": "Ventilación protectora ARDS",
+        "descripcion": "Infografía parámetros ventilación protectora: Vt 6 mL/kg, plateau <30, driving pressure <15",
+        "url": "/api/v1/education/image/ventilacion_protectora",
+        "fuente": "ARDS Network 2000"
+      }
+    ],
+    "imagen": "/static/images/education/cuidados_intensivos.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Blogotron, Wikimedia Commons"
+  },
+  {
+    "id": "enfermeria_quirurgica",
+    "nombre": "Enfermería Quirúrgica",
+    "descripcion": "Preparación preoperatoria, heridas quirúrgicas, drenajes, ostomías, suturas y complicaciones postoperatorias",
+    "icono": "🏥",
+    "flashcards": [
+      {
+        "pregunta": "¿Clasificación heridas quirúrgicas?",
+        "respuesta": "Limpia, limpia-contaminada, contaminada, sucia"
+      },
+      {
+        "pregunta": "¿Profilaxis antibiótica indicada?",
+        "respuesta": "Cirugía limpia-contaminada o con factores de riesgo"
+      },
+      {
+        "pregunta": "¿Ventana profilaxis antibiótica?",
+        "respuesta": "60 min antes incisión (120 min vancomicina)"
+      },
+      {
+        "pregunta": "¿Redosis antibiótico intraoperatoria?",
+        "respuesta": "Cada 2 vidas media del fármaco o si pérdida >1500 mL"
+      },
+      {
+        "pregunta": "¿Drenaje Jackson-Pratt qué es?",
+        "respuesta": "Drenaje cerrado por succión"
+      },
+      {
+        "pregunta": "¿Drenaje Penrose qué es?",
+        "respuesta": "Drenaje abierto por gravedad"
+      },
+      {
+        "pregunta": "¿Drenaje Blake qué es?",
+        "respuesta": "Drenaje cerrado multiperforado con succión"
+      },
+      {
+        "pregunta": "¿Cuidados drenaje JP?",
+        "respuesta": "Registrar débito, mantener compresión, observar aspecto"
+      },
+      {
+        "pregunta": "¿Débito normal drenaje?",
+        "respuesta": "Decreciente: 100-300 mL/día inicial, <30 mL/día retiro"
+      },
+      {
+        "pregunta": "¿Sutura absorbible ejemplos?",
+        "respuesta": "Vicryl (poliglactina), Monocryl, PDS"
+      },
+      {
+        "pregunta": "¿Sutura no absorbible ejemplos?",
+        "respuesta": "Nylon, seda, prolene"
+      },
+      {
+        "pregunta": "¿Ostomía colostomía?",
+        "respuesta": "Comunicación colon-pared abdominal. Heces formadas/semiformadas"
+      },
+      {
+        "pregunta": "¿Ostomía ileostomía?",
+        "respuesta": "Comunicación íleon-pared abdominal. Heces líquidas"
+      },
+      {
+        "pregunta": "¿Ostomía urostomía?",
+        "respuesta": "Derivación urinaria a pared abdominal"
+      },
+      {
+        "pregunta": "¿Cuidados ostomía inmediatos?",
+        "respuesta": "Valorar color rosado, humedad, tamaño, colocar bolsa"
+      },
+      {
+        "pregunta": "¿Dehiscencia herida?",
+        "respuesta": "Separación de planos quirúrgicos"
+      },
+      {
+        "pregunta": "¿Evisceración?",
+        "respuesta": "Salida de vísceras por dehiscencia. Emergencia quirúrgica"
+      },
+      {
+        "pregunta": "¿Seno pilonidal?",
+        "respuesta": "Infección crónica región sacra con tractos fistulosos"
+      },
+      {
+        "pregunta": "¿Seroma postquirúrgico?",
+        "respuesta": "Acumulación de líquido seroso en lecho quirúrgico"
+      },
+      {
+        "pregunta": "¿Hematoma quirúrgico?",
+        "respuesta": "Colección sanguínea secundaria a sangrado"
+      },
+      {
+        "pregunta": "¿Curación herida limpia?",
+        "respuesta": "Apósito estéril 24-48 h, luego vigilancia diaria"
+      },
+      {
+        "pregunta": "¿Retiro de suturas días?",
+        "respuesta": "Cara 5-7, tronco 7-10, extremidades 10-14 días"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Profilaxis antibiótico cuándo?",
+        "opciones": [
+          "24 h antes",
+          "60 min antes incisión",
+          "Al emerger",
+          "24 h después"
+        ],
+        "correcta": 1,
+        "explicacion": "Administrar 60 min antes de la incisión para niveles tisulares adecuados."
+      },
+      {
+        "pregunta": "¿Redosis antibiótico?",
+        "opciones": [
+          "Cada 1 h",
+          "Cada 2 vidas media",
+          "No necesita",
+          "Al final cirugía"
+        ],
+        "correcta": 1,
+        "explicacion": "Redosis cada 2 vidas media del AB o si pérdida sanguínea >1500 mL."
+      },
+      {
+        "pregunta": "¿Herida contaminada ejemplo?",
+        "opciones": [
+          "Hernia inguinal",
+          "Colectomía con enterotomía",
+          "Cirugía colorectal sin preparación",
+          "Peritonitis"
+        ],
+        "correcta": 2,
+        "explicacion": "Contaminada: cirugía con contaminación grosera sin pus."
+      },
+      {
+        "pregunta": "¿Herida sucia ejemplo?",
+        "opciones": [
+          "Mastectomía",
+          "Colecistectomía electiva",
+          "Peritonitis bacteriana",
+          "Cataratas"
+        ],
+        "correcta": 2,
+        "explicacion": "Herida sucia: infección activa presente (peritonitis, absceso)."
+      },
+      {
+        "pregunta": "¿Drenaje Jackson-Pratt qué tipo?",
+        "opciones": [
+          "Abierto gravedad",
+          "Cerrado succión",
+          "Capilar",
+          "Ventosa"
+        ],
+        "correcta": 1,
+        "explicacion": "JP es drenaje cerrado por succión con reservorio comprimible."
+      },
+      {
+        "pregunta": "¿Débito normal drenaje abdominal?",
+        "opciones": [
+          "5-10 mL/día",
+          "Decreciente, inicial 100-300 mL/día",
+          "500-700 mL/día constante",
+          "1000 mL/día"
+        ],
+        "correcta": 1,
+        "explicacion": "Débito debe ser decreciente. Retiro cuando <30 mL/día."
+      },
+      {
+        "pregunta": "¿Dehiscencia complicación?",
+        "opciones": [
+          "Menor",
+          "Mayor que requiere reintervención",
+          "Autolimitada",
+          "No requiere manejo"
+        ],
+        "correcta": 1,
+        "explicacion": "Dehiscencia con evisceración es urgencia quirúrgica."
+      },
+      {
+        "pregunta": "¿Signo alarma ostomía?",
+        "opciones": [
+          "Color rosado",
+          "Estoma violáceo/oscuro",
+          "Ligera inflamación",
+          "Heces semiformadas"
+        ],
+        "correcta": 1,
+        "explicacion": "Estoma violáceo/oscuro indica isquemia, requiere evaluación urgente."
+      },
+      {
+        "pregunta": "¿Preparación preoperatoria incluye?",
+        "opciones": [
+          "Solo ducharse",
+          "Evaluación riesgo anestésico, ayuno, profilaxis AB, Marcaje",
+          "Solo AB",
+          "Solo ayuno"
+        ],
+        "correcta": 1,
+        "explicacion": "Evaluación integral: riesgo anestésico, ayuno, profilaxis, marcaje, tromboprofilaxis."
+      },
+      {
+        "pregunta": "¿Sutura absorbible?",
+        "opciones": [
+          "Nylon",
+          "Prolene",
+          "Vicryl",
+          "Seda"
+        ],
+        "correcta": 2,
+        "explicacion": "Vicryl (poliglactina) es absorbible sintética."
+      },
+      {
+        "pregunta": "¿Tiempo retiro suturas cara?",
+        "opciones": [
+          "3-4 días",
+          "5-7 días",
+          "10-14 días",
+          "21 días"
+        ],
+        "correcta": 1,
+        "explicacion": "Cara: 5-7 días por buena vascularización."
+      },
+      {
+        "pregunta": "¿Evisceración requiere?",
+        "opciones": [
+          "Observación",
+          "Reintervención quirúrgica urgente",
+          "Antibióticos sola",
+          "Curación oclusiva"
+        ],
+        "correcta": 1,
+        "explicacion": "Evisceración es emergencia: cubrir vísceras con gasas húmedas estériles y reintervención."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Profilaxis antibiótica quirúrgica: timing y selección",
+        "contenido": "La profilaxis antibiótica quirúrgica reduce la incidencia de infección del sitio quirúrgico (ISQ), una de las complicaciones más frecuentes. El objetivo es alcanzar concentraciones séricas y tisulares adecuadas en el momento de la incisión y mantenerlas durante toda la cirugía. Según las guías WHO 2024 y CDC 2024, el antibiótico debe administrarse dentro de los 60 minutos previos a la incisión (120 minutos para vancomicina y fluoroquinolonas por su largo tiempo de infusión). La selección del antibiótico depende del tipo de cirugía: cefazolina sola para cirugía limpia; cefazolina + metronidazol para cirugía colorectal; cefoxitina o ampicilina-sulbactam para cirugía apendicular. Clasificación de heridas: clase I (limpia): sin entrada a tracto respiratorio, digestivo o genitourinario, tasa de ISQ 1-5%; clase II (limpia-contaminada): entrada controlada a tracto, tasa 3-11%; clase III (contaminada): contaminación grosera sin pus, tasa 10-17%; clase IV (sucia): infección activa presente, tasa >25%. Factores de riesgo para ISQ incluyen: diabetes mellitus, obesidad, tabaquismo, desnutrición, hipotermia intraoperatoria, hiperglucemia, transfusiones, cirugía prolongada. La redosis intraoperatoria está indicada cada 2 vidas medias del antibiótico (ej: cefazolina cada 4 horas) o si pérdida sanguínea >1500 mL. No se recomienda prolongar profilaxis más allá de 24 horas. El mantenimiento de normotermia, normoglucemia y oxigenación adecuada son medidas coadyuvantes esenciales. La preparación intestinal mecánica con antibióticos orales reduce ISQ en cirugía colorectal, pero no está indicada universalmente. La resistencia antimicrobiana es una preocupación creciente que subraya la importancia de no prolongar profilaxis innecesariamente. La descolonización de S. aureus nasal con mupirocina pre-cirugía cardíaca y ortopédica reduce ISQ por este patógeno. La preparación de la piel con clorhexidina-alcohol es superior a povidona-yodo sola para reducir ISQ. En pacientes con alergia a betalactámicos, la alternativa es clindamicina o vancomicina más gentamicina o aztreonam para cubrimiento gram-negativo. La normotermia intraoperatoria (temperatura >36°C) reduce ISQ al mantener vasodilatación y función inmune. La oxigenoterapia perioperatoria (FiO₂ 0.8) durante 2-6 horas post-cirugía reduce ISQ en cirugía colorectal. La glucemia perioperatoria debe mantenerse <180 mg/dL, evitando hipoglucemia. El control de calidad incluye: checklist quirúrgico OMS, cumplimiento de profilaxis antibiótica, y vigilancia de ISQ con tasas ajustadas por riesgo (NHSN). La implementación de bundles de prevención de ISQ reduce tasas en un 30-50%.",
+        "fuente": "WHO Global Guidelines for Prevention of Surgical Site Infection 2024; CDC Guideline 2024"
+      },
+      {
+        "titulo": "Manejo de ostomías: cuidados de enfermería",
+        "contenido": "Una ostomía es una apertura quirúrgica de un órgano hueco a la pared abdominal. Los tipos principales son: colostomía (colon, heces formadas), ileostomía (íleon, heces líquidas), y urostomía (derivación urinaria). La valoración postoperatoria inmediata incluye: color rosado/rojo (isquemia si violáceo/oscuro), altura (0.5-2 cm sobre piel), humedad (mucosa debe estar húmeda y brillante), tamaño (disminuye en 6-8 semanas), y el área periestomal (debe estar íntegra). La clasificación según función incluye: ostomías terminales (un solo orificio, eliminación fecal completa), en asa (dos orificios, proximal funcional y distal mucoso), y doble boca (dos estomas separados). El cuidado de enfermería incluye: limpieza con agua y gasa (evitar jabón porque interfiere con adhesión), secar cuidadosamente, medir el estoma con plantilla, recortar la placa al tamaño exacto (1-2 mm más grande), aplicar pasta protectora si hay irregularidades, y colocar la bolsa con sistema adhesivo. La bolsa se cambia cada 3-7 días o si hay fuga. El débito de ileostomía es de 500-1500 mL/día, lo que requiere monitorización hidroelectrolítica. Las complicaciones incluyen: dermatitis periestomal (la más frecuente), hernia parastomal, prolapso, estenosis, obstrucción, isquemia, fístula. La dieta recomendada post-ostomía incluye masticar bien, evitar gases, y reintroducir alimentos gradualmente. La educación al paciente es fundamental: incluye cuidados de la ostomía, signos de alarma, alimentación, actividad física, y apoyo psicológico. Los grupos de apoyo y enfermeras estomaterapeutas mejoran significativamente la calidad de vida y adaptación. La adaptación psicológica del paciente ostomizado es un proceso que requiere apoyo multidisciplinario continuo. La sexualidad se ve afectada en el 40-60% de pacientes; el counseling específico mejora la calidad de vida. Las complicaciones tempranas incluyen: edema (autolimitado), isquemia (emergencia), separación mucocutánea (curación local o reintervención), y obstrucción precoz por edema. Las complicaciones tardías incluyen: hernia parastomal (incidencia 30-50%), prolapso, estenosis (dilatación o revisión quirúrgica), fístula periestomal, y dermatitis alérgica por adhesivos. La irrigación de colostomía (enema diario a la misma hora) permite control de la eliminación y puede eliminar la necesidad de bolsa en pacientes seleccionados. La dieta post-ostomía debe reintroducirse gradualmente: primero líquidos claros, luego semilíquidos, finalmente sólidos. Alimentos que producen gases: legumbres, cebolla, brócoli, cerveza. Alimentos que espesan: plátano, manzana, arroz, pan tostado. Alimentos que producen olor: espárragos, ajo, pescado, huevo. La actividad física está permitida salvo deportes de contacto. Natación con bolsa impermeable. Los grupos de apoyo y la consulta de enfermería estomaterapeuta son recursos fundamentales para la adaptación.",
+        "fuente": "WOCN Society Guidelines 2024; ASCRS Ostomy Care Guidelines 2023"
+      },
+      {
+        "titulo": "Complicaciones postoperatorias: dehiscencia, evisceración e infección",
+        "contenido": "Las complicaciones postoperatorias representan una causa importante de morbilidad y mortalidad quirúrgica. La dehiscencia de la herida quirúrgica es la separación parcial o total de los planos aponeuróticos después de una cirugía. Incidencia 0.5-3% en laparotomías, mayor en cirugía de urgencia y con factores de riesgo (obesidad, diabetes, desnutrición, uso de corticosteroides, tabaquismo, infección). Clínicamente se presenta como salida de líquido serosanguinolento por la herida entre el día 5-8 postoperatorio. La evisceración es la protrusión de vísceras abdominales a través de la dehiscencia aponeurótica, constituyendo una emergencia quirúrgica. El manejo inmediato incluye: cubrir las vísceras con gasas estériles humedecidas con solución salina tibia, no intentar reintroducir las vísceras, administrar antibióticos de amplio espectro, y preparar para reintervención quirúrgica urgente. La infección del sitio quirúrgico (ISQ) es la complicación más frecuente (15-25% de todas las infecciones nosocomiales). Se clasifica en: superficial (piel y tejido subcutáneo, 0-30 días), profunda (fascia y músculo, 0-30 días o hasta 1 año si implante), y de órgano/espacio (cualquier estructura más allá de la fascia, 0-30 días). Los microorganismos más frecuentes son S. aureus, E. coli, Enterococcus spp, y P. aeruginosa. El diagnóstico se basa en signos clínicos (eritema, calor, dolor, tumefacción, secreción purulenta), y se confirma con cultivo. El tratamiento incluye: apertura y drenaje de la herida, desbridamiento de tejido necrótico, cultivo dirigido, antibióticos según antibiograma, y curaciones con terapia de presión negativa (VAC) en casos seleccionados. La prevención incluye: optimización preoperatoria de comorbilidades, profilaxis antibiótica adecuada, normotermia, normoglucemia, técnica aséptica rigurosa, y oxigenoterapia perioperatoria. Los factores de riesgo modificables deben optimizarse preoperatoriamente. La desnutrición (albúmina <3 g/dL) aumenta 2-5 veces el riesgo de dehiscencia. La técnica de cierre abdominal: sutura continua con monofilamento de absorción lenta (PDS) con relación longitud sutura/herida 4:1 reduce dehiscencia frente a puntos sueltos. La terapia de presión negativa (VAC) en heridas complejas acelera granulación, reduce edema y carga bacteriana. La clasificación de ISQ por profundidad determina manejo: superficial (apertura, drenaje, cultivo), profunda (desbridamiento, antibióticos sistémicos, VAC), y órgano-espacio (drenaje percutáneo o quirúrgico, antibióticos dirigidos). La dehiscencia de anastomosis intestinal es una complicación grave con mortalidad del 10-30%. Se manifiesta con dolor abdominal, fiebre, peritonitis y drenaje fecaloide. Requiere reintervención urgente con exteriorización del asa. La evisceración tiene mortalidad del 15-25%, mayor si reintervención tardía. La incisión y drenaje de abscesos de pared debe realizarse con antibióticos cubriendo S. aureus y gram-negativos. La prevención de ISQ incluye: ducharse con clorhexidina la noche previa, rasurado con maquinilla eléctrica (no cuchilla de afeitar), y mantener apósito oclusivo 48 horas.",
+        "fuente": "Surgical Infections Society Guidelines 2024; NEJM Surgical Complications Review 2023"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Clasificación heridas quirúrgicas",
+        "descripcion": "Tabla de clasificación Altemeier: limpia, limpia-contaminada, contaminada, sucia con ejemplos y tasas de ISQ",
+        "url": "/api/v1/education/image/clasificacion_heridas",
+        "fuente": "CDC NNIS System 2024"
+      },
+      {
+        "titulo": "Tipos de drenajes quirúrgicos",
+        "descripcion": "Diagrama de Jackson-Pratt, Penrose, Blake con indicaciones y cuidados",
+        "url": "/api/v1/education/image/tipos_drenajes",
+        "fuente": "WOCN Society 2024"
+      },
+      {
+        "titulo": "Algoritmo dehiscencia-evisceración",
+        "descripcion": "Flujograma manejo urgente de dehiscencia y evisceración postoperatoria",
+        "url": "/api/v1/education/image/dehiscencia_evisceracion",
+        "fuente": "ACS Surgery Guidelines 2024"
+      }
+    ],
+    "imagen": "/static/images/education/enfermeria_quirurgica.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "آرمین, Wikimedia Commons"
+  },
+  {
+    "id": "salud_mental",
+    "nombre": "Salud Mental",
+    "descripcion": "Trastornos mentales, escalas psiquiátricas, riesgo suicida, psicofarmacología y comunicación terapéutica",
+    "icono": "🧠",
+    "flashcards": [
+      {
+        "pregunta": "¿PHQ-9 evalúa?",
+        "respuesta": "Depresión. 9 ítems. Puntaje 0-27"
+      },
+      {
+        "pregunta": "¿PHQ-9 corte depresión mayor?",
+        "respuesta": "≥10 puntos"
+      },
+      {
+        "pregunta": "¿GAD-7 evalúa?",
+        "respuesta": "Trastorno de ansiedad generalizada"
+      },
+      {
+        "pregunta": "¿Crisis de pánico criterios?",
+        "respuesta": "Miedo intenso + ≥4 síntomas: palpitaciones, sudor, temblor, disnea"
+      },
+      {
+        "pregunta": "¿Trastorno bipolar tipo I?",
+        "respuesta": "Episodios maníacos completos + depresivos"
+      },
+      {
+        "pregunta": "¿Trastorno bipolar tipo II?",
+        "respuesta": "Episodios hipomaníacos + depresivos mayores"
+      },
+      {
+        "pregunta": "¿Litio niveles terapéuticos?",
+        "respuesta": "0.6-1.2 mEq/L"
+      },
+      {
+        "pregunta": "¿Litio toxicidad >1.5?",
+        "respuesta": "Náuseas, temblor, ataxia, confusión. >2.5 emergencia"
+      },
+      {
+        "pregunta": "¿Esquizofrenia síntomas positivos?",
+        "respuesta": "Alucinaciones, delirios, pensamiento desorganizado"
+      },
+      {
+        "pregunta": "¿Esquizofrenia síntomas negativos?",
+        "respuesta": "Aplanamiento afectivo, abulia, anhedonia, alogia"
+      },
+      {
+        "pregunta": "¿Antipsicótico primera línea?",
+        "respuesta": "Antipsicóticos atípicos (risperidona, olanzapina, aripiprazol)"
+      },
+      {
+        "pregunta": "¿Suicide risk assessment SAD PERSONS?",
+        "respuesta": "Sexo, Edad, Depresión, Previo intento, Etanol, Racional pérdida, Social apoyo, Plan, Enfermedad, Sin pareja"
+      },
+      {
+        "pregunta": "¿Escala Columbia suicidio?",
+        "respuesta": "C-SSRS: tamizaje y severidad de ideación suicida"
+      },
+      {
+        "pregunta": "¿Contención mecánica indicaciones?",
+        "respuesta": "Riesgo inminente auto/heteroagresión sin respuesta a verbal/farmacológico"
+      },
+      {
+        "pregunta": "¿Comunicación terapéutica técnica?",
+        "respuesta": "Escucha activa, validación emocional, preguntas abiertas, reflejo"
+      },
+      {
+        "pregunta": "¿ISRS ejemplos?",
+        "respuesta": "Fluoxetina, sertralina, escitalopram, paroxetina"
+      },
+      {
+        "pregunta": "¿Síndrome serotoninérgico?",
+        "respuesta": "Triada: alteración mental, autonómica (fiebre, taquicardia), neuromuscular (clono, rigidez)"
+      },
+      {
+        "pregunta": "¿Síndrome neuroléptico maligno?",
+        "respuesta": "Fiebre, rigidez, alteración conciencia, CPK elevada, disautonomía"
+      },
+      {
+        "pregunta": "¿SNM tratamiento?",
+        "respuesta": "Suspender antipsicótico, soporte, dantroleno/bromocriptina"
+      },
+      {
+        "pregunta": "¿TCC en depresión?",
+        "respuesta": "Terapia cognitivo-conductual: identificar y modificar pensamientos disfuncionales"
+      },
+      {
+        "pregunta": "¿Primeros auxilios psicológicos?",
+        "respuesta": "Escuchar, proteger, conectar: evaluación necesidades, apoyo práctico, derivación"
+      },
+      {
+        "pregunta": "¿Trastorno límite personalidad criterios?",
+        "respuesta": "Inestabilidad emocional, interpersonal, identidad, impulsividad, autolesiones"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿PHQ-9 qué mide?",
+        "opciones": [
+          "Ansiedad",
+          "Depresión",
+          "Bipolaridad",
+          "Estrés"
+        ],
+        "correcta": 1,
+        "explicacion": "PHQ-9: Patient Health Questionnaire-9 para depresión."
+      },
+      {
+        "pregunta": "¿GAD-7 puntaje ≥10 indica?",
+        "opciones": [
+          "Depresión",
+          "Ansiedad moderada",
+          "Esquizofrenia",
+          "Riesgo suicida"
+        ],
+        "correcta": 1,
+        "explicacion": "GAD-7 ≥ 10 indica ansiedad generalizada moderada-severa."
+      },
+      {
+        "pregunta": "¿Litio niveles normales?",
+        "opciones": [
+          "0.3-0.5 mEq/L",
+          "0.6-1.2 mEq/L",
+          "1.5-2.0 mEq/L",
+          "2.5-3.0 mEq/L"
+        ],
+        "correcta": 1,
+        "explicacion": "Litio rango terapéutico 0.6-1.2 mEq/L."
+      },
+      {
+        "pregunta": "¿Síntomas negativos esquizofrenia?",
+        "opciones": [
+          "Alucinaciones",
+          "Aplanamiento afectivo",
+          "Delirios",
+          "Desorganización"
+        ],
+        "correcta": 1,
+        "explicacion": "Síntomas negativos: abulia, anhedonia, alogia, aplanamiento afectivo."
+      },
+      {
+        "pregunta": "¿Síndrome serotoninérgico triada?",
+        "opciones": [
+          "Fiebre, taquicardia, clono",
+          "Hipotensión, bradicardia, rigidez",
+          "Fiebre, rigidez, CPK elevada",
+          "Alucinación, delirio, coma"
+        ],
+        "correcta": 0,
+        "explicacion": "Triada: alteración mental, autonómica (fiebre, taquicardia), neuromuscular (clono, rigidez)."
+      },
+      {
+        "pregunta": "¿SNM tratamiento?",
+        "opciones": [
+          "Aumentar dosis",
+          "Suspender antipsicótico + dantroleno",
+          "Benzodiacepinas",
+          "Litio"
+        ],
+        "correcta": 1,
+        "explicacion": "SNM: suspender antipsicótico, soporte, dantroleno/bromocriptina."
+      },
+      {
+        "pregunta": "¿SAD PERSONS evalúa?",
+        "opciones": [
+          "Depresión",
+          "Riesgo suicida",
+          "Ansiedad",
+          "Estrés postraumático"
+        ],
+        "correcta": 1,
+        "explicacion": "SAD PERSONS es escala de riesgo suicida."
+      },
+      {
+        "pregunta": "¿ISRS primera línea en?",
+        "opciones": [
+          "Esquizofrenia",
+          "Depresión/ansiedad",
+          "Trastorno bipolar",
+          "Demencia"
+        ],
+        "correcta": 1,
+        "explicacion": "ISRS primera línea en depresión y trastornos de ansiedad."
+      },
+      {
+        "pregunta": "¿Contención mecánica cuándo?",
+        "opciones": [
+          "Si paciente lo solicita",
+          "Riesgo inminente auto/heteroagresión",
+          "Por agitación leve",
+          "Siempre en psicosis"
+        ],
+        "correcta": 1,
+        "explicacion": "Contención solo si riesgo inminente y han fallado medidas verbales y farmacológicas."
+      },
+      {
+        "pregunta": "¿Trastorno bipolar I?",
+        "opciones": [
+          "Solo depresión",
+          "Manía + depresión",
+          "Hipomanía + depresión",
+          "Solo hipomanía"
+        ],
+        "correcta": 1,
+        "explicacion": "Bipolar I: episodios maníacos completos + depresivos."
+      },
+      {
+        "pregunta": "¿Crisis pánico cuántos síntomas?",
+        "opciones": [
+          "≥2",
+          "≥4",
+          "≥6",
+          "Todos los 13"
+        ],
+        "correcta": 1,
+        "explicacion": "Crisis de pánico requiere ≥4 de 13 síntomas."
+      },
+      {
+        "pregunta": "¿TCC significa?",
+        "opciones": [
+          "Terapia Cognitivo-Conductual",
+          "Terapia de Contención Conductual",
+          "Teoría Cognitiva Central",
+          "Terapia de Crisis Compleja"
+        ],
+        "correcta": 0,
+        "explicacion": "TCC modifica pensamientos y conductas disfuncionales."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Evaluación del riesgo suicida: escalas y abordaje clínico",
+        "contenido": "La evaluación del riesgo suicida es una competencia esencial en salud mental. La OMS estima más de 700,000 suicidios anuales. La evaluación debe ser sistemática y compasiva. La escala SAD PERSONS es una herramienta de tamizaje que puntúa 10 factores: Sexo (masculino), Edad (<19 o >45), Depresión, Previo intento, Abuso de Etanol, Pérdida racional (pérdida de pensamiento lógico), Falta de apoyo Social, Plan suicida organizado, Enfermedad debilitante, Sin pareja. Cada factor suma 1 punto: 0-2 riesgo bajo, 3-4 riesgo moderado (considerar hospitalización), 5-6 riesgo alto (hospitalización), 7-10 riesgo muy alto (hospitalización inmediata). La Columbia-Suicide Severity Rating Scale (C-SSRS) es el gold standard: evalúa ideación (deseo de muerte, pensamientos suicidas generales, métodos, intención, plan), intensidad (frecuencia, duración, controlabilidad, disuasión), y conducta suicida (intento preparatorio, abortado, interrumpido, acto real). Fisiopatológicamente, el suicidio se asocia a desregulación serotoninérgica prefrontal, hiperactividad del eje HHA, y alteración de la neuroplasticidad. Factores de riesgo: trastornos mentales (depresión, bipolaridad, esquizofrenia, TLP), enfermedades físicas, eventos vitales estresantes, acceso a métodos letales, historia familiar de suicidio. Los factores protectores incluyen: apoyo social, tratamiento psiquiátrico activo, habilidades de afrontamiento, creencias que desalientan el suicidio. El abordaje clínico incluye: preguntar directamente sobre ideación y plan (no aumenta el riesgo), evaluar letalidad del plan y medios disponibles, identificar factores precipitantes, establecer contrato de seguridad (limitado valor), asegurar ambiente seguro (retirar objetos peligrosos), involucrar a la familia, y derivar a urgencias psiquiátricas si riesgo inminente. Las guías APA 2024 recomiendan hospitalización si: plan letal, medios disponibles, intención clara, falta de apoyo, o intoxicación aguda. La entrevista clínica estructurada es el método más fiable para evaluar riesgo suicida, por encima de escalas aisladas. La escala C-SSRS ha sido validada en múltiples poblaciones y contextos, incluyendo atención primaria, urgencias y hospitalización psiquiátrica. La valoración debe incluir: ideación pasiva (deseo de morir), ideación activa (pensamientos de suicidarse), método (especificidad y letalidad), plan (detalle y viabilidad), intención (de 1 a 10, qué tan cerca está de actuar), y conducta previa (intentos, ensayos, gestos). Los factores de protección deben evaluarse activamente: motivos para vivir, apoyo social, tratamiento en curso, capacidad para demorar el impulso. La hospitalización está indicada si: riesgo inminente (plan + medios + intención), intento reciente de alta letalidad, agitación severa, psicosis aguda, intoxicación por alcohol/drogas, o falla del apoyo social. El contrato de no suicidio no reemplaza la valoración clínica ni previene el suicidio. Las intervenciones breves como SAFE-T (Suicide Assessment Five-step Evaluation and Triage) y el Safety Planning Intervention reducen intentos suicidas. El seguimiento post-alta es crítico: llamada telefónica a las 24-48 horas y primera consulta en <7 días reduce reingresos. La restricción de medios letales (armas, medicamentos) es una intervención poblacional efectiva para reducir muertes por suicidio.",
+        "fuente": "APA Practice Guideline for Suicide Risk Assessment 2024; OMS Suicide Report 2024"
+      },
+      {
+        "titulo": "Farmacología de antipsicóticos: mecanismos y efectos adversos",
+        "contenido": "Los antipsicóticos son la base del tratamiento de la esquizofrenia y trastornos psicóticos. Se clasifican en típicos (primera generación) y atípicos (segunda generación). Los antipsicóticos típicos (haloperidol, clorpromazina) antagonizan receptores D2 dopaminérgicos en vía mesolímbica (efecto antipsicótico) pero también en vía nigroestriada (efectos extrapiramidales), tuberoinfundibular (hiperprolactinemia) y mesocortical (síntomas negativos). Los atípicos (risperidona, olanzapina, quetiapina, aripiprazol, paliperidona) antagonizan D2 y 5-HT2A serotoninérgicos, lo que reduce efectos extrapiramidales y mejora síntomas negativos. Aripiprazol es un agonista parcial D2 (estabilizador dopaminérgico). Clozapina es el antipsicótico más eficaz pero requiere monitorización de neutrófilos por riesgo de agranulocitosis (1-2%). Indicaciones aprobadas: esquizofrenia, trastorno esquizoafectivo, trastorno bipolar (manía), psicosis asociada a demencia (uso limitado), trastorno obsesivo-compulsivo refractario, y agresión en TLP. Efectos adversos metabólicos: aumento de peso (olanzapina > clozapina > quetiapina > risperidona > aripiprazol), dislipidemia, diabetes mellitus tipo 2. Efectos adversos neurológicos: distonía aguda (horas-días), acatisia (días-semanas), parkinsonismo (semanas-meses), discinesia tardía (meses-años, potencialmente irreversible). Síndrome neuroléptico maligno: emergencia médica con fiebre, rigidez, alteración de conciencia, CPK elevada, disautonomía; tratamiento incluye suspensión del antipsicótico, soporte, dantroleno o bromocriptina. Hiperprolactinemia: más frecuente con risperidona y haloperidol; causa galactorrea, ginecomastia, disfunción sexual. La selección del antipsicótico debe individualizarse según perfil de efectos adversos, comorbilidades y preferencias del paciente. La vía mesolímbica hiperactiva en psicosis explica los síntomas positivos; los antipsicóticos bloquean D2 en esta vía. La vía mesocortical hipoactiva contribuye a síntomas negativos y cognitivos; los atípicos modulan 5-HT2A/D2 mejorando el flujo dopaminérgico cortical. La vía nigroestriada es responsable de efectos extrapiramidales (EPS); los atípicos tienen menor ocupación D2 estriatal. La vía tuberoinfundibular regula prolactina; el bloqueo D2 causa hiperprolactinemia. La escalada posológica debe ser gradual: risperidona iniciar 1-2 mg/día, aumentar 1 mg cada 2-3 días hasta 4-6 mg. Olanzapina iniciar 5-10 mg/día, mantener 10-20 mg. La monitorización pre-tratamiento incluye: peso, IMC, perímetro abdominal, glucemia en ayunas, perfil lipídico, prolactina sérica, ECG (QTc). La monitorización periódica: peso mensual 3 meses luego trimestral, glucemia/lípidos a los 3 meses luego anual, prolactina al año. La discinesia tardía tiene incidencia del 5-8% anual con atípicos; el screening con AIMS (Abnormal Involuntary Movement Scale) cada 6-12 meses. La clozapina está indicada en esquizofrenia resistente (falta de respuesta a ≥2 antipsicóticos). Requiere registro y monitorización de neutrófilos semanal 18 semanas, luego quincenal hasta 1 año, luego mensual. La agranulocitosis por clozapina ocurre en 1-2%; suspender si neutrófilos <1500/µL. Las interacciones medicamentosas relevantes: fluvoxamina aumenta niveles de clozapina; carbamazepina reduce todos los antipsicóticos.",
+        "fuente": "APA Schizophrenia Practice Guideline 2024; Stahl's Essential Psychopharmacology 2024"
+      },
+      {
+        "titulo": "Comunicación terapéutica en salud mental: técnicas y aplicación",
+        "contenido": "La comunicación terapéutica es una herramienta fundamental de enfermería en salud mental que facilita la expresión emocional, establece rapport y promueve la adherencia terapéutica. Se basa en los principios de Carl Rogers: empatía (comprender el marco de referencia del paciente), aceptación incondicional positiva (no juzgar), y congruencia (autenticidad del terapeuta). Técnicas básicas: escucha activa (contacto visual, postura abierta, asentir, evitar interrupciones), reflejo (devolver el contenido emocional: 'Parece que te sientes frustrado'), paráfrasis (resumir con propias palabras para verificar comprensión), clarificación (pedir aclaración cuando hay ambigüedad), preguntas abiertas (evitar respuestas sí/no), validación emocional (normalizar sentimientos sin trivializar), silencio terapéutico (permitir procesamiento emocional), enfoque (redirigir a tema relevante), y confrontación suave (señalar incongruencias con respeto). La comunicación no verbal constituye el 70-80% del mensaje: postura, tono de voz, expresión facial, distancia interpersonal (zona social 1.2-3.6 m, zona personal 0.5-1.2 m, zona íntima <0.5 m). En pacientes con ideación suicida, preguntar directamente (¿Has pensado en lastimarte?) no aumenta el riesgo. En pacientes psicóticos: lenguaje concreto, evitar metáforas, validar emociones sin reforzar delirios ('Entiendo que esto es real para ti, yo lo veo diferente'). En pacientes con TLP: validación emocional, establecer límites claros, evitar rescate. En pacientes con demencia: orientación a la realidad, lenguaje simple, validación emocional, evitar confrontar desorientación. La técnica de primeros auxilios psicológicos (PAP) incluye: contacto y compromiso, seguridad y confort, estabilización (si angustia aguda), información y apoyo práctico, conexión con redes de apoyo, y derivación a servicios especializados. Las barreras incluyen: prejuicios del profesional, falta de tiempo, agotamiento emocional, y déficit de habilidades comunicativas. La capacitación continua y supervisión clínica mejoran la competencia comunicativa. La escucha activa requiere atención plena, contacto visual (adaptado culturalmente), asentir, y evitar distracciones. La paráfrasis reformula el mensaje para verificar comprensión: 'Si te he entendido bien, lo que dices es que...' La validación emocional normaliza la experiencia del paciente: 'Es completamente comprensible que te sientas así después de lo que has pasado.' El silencio terapéutico permite al paciente procesar emociones, encontrar sus propias palabras, y tomar conciencia de sus sentimientos. La confrontación suave señala incongruencias: 'Por un lado dices que quieres mejorar, pero por otro lado no asistes a las citas.' La autorrevelación debe ser limitada, intencionada y siempre en beneficio del paciente, no del terapeuta. En la entrevista motivacional (Miller & Rollnick), se exploran ambivalencias con preguntas abiertas, afirmaciones, reflejo y resumen (OARS). Las habilidades de comunicación en salud mental se entrenan mediante role-playing, grupos Balint, supervisión clínica y feedback estructurado. La alianza terapéutica (Bordin 1979) incluye: acuerdo en metas, acuerdo en tareas, y vínculo emocional. Una alianza fuerte predice mejores resultados terapéuticos independientemente del enfoque. En pacientes con trastornos de personalidad, la comunicación debe ser clara, consistente, con límites firmes pero cálidos. La técnica DEARMAN (DBT) para comunicación asertiva: Describe, Express, Assert, Reinforce, Mindfulness, Appear confident, Negotiate.",
+        "fuente": "Hildebrandt & Marlett Therapeutic Communication Guidelines 2024; OMS Psychological First Aid Guide 2024"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Escala PHQ-9 para depresión",
+        "descripcion": "Cuestionario PHQ-9 con sus 9 ítems y puntuación: 5-9 leve, 10-14 moderado, 15-19 moderado-severo, >19 severo",
+        "url": "/api/v1/education/image/phq9_scale",
+        "fuente": "Kroenke et al. J Gen Intern Med 2001"
+      },
+      {
+        "titulo": "Algoritmo manejo riesgo suicida",
+        "descripcion": "Flujograma tamizaje, evaluación, estratificación y derivación según C-SSRS y SAD PERSONS",
+        "url": "/api/v1/education/image/riesgo_suicida",
+        "fuente": "APA Guidelines 2024"
+      },
+      {
+        "titulo": "Contención mecánica pasos",
+        "descripcion": "Procedimiento estandarizado de contención mecánica en 6 pasos con checklist de seguridad",
+        "url": "/api/v1/education/image/contencion_mecanica",
+        "fuente": "Ministerio Sanidad Protocolo Contención 2024"
+      }
+    ],
+    "imagen": "/static/images/education/salud_mental.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Jasmina El Bouamraoui & Karabo Poppy Moletsane, Wikimedia Foundation"
+  },
+  {
+    "id": "pediatria",
+    "nombre": "Pediatría",
+    "descripcion": "Signos vitales pediátricos, crecimiento, desarrollo, vacunación, urgencias pediátricas y neonatología",
+    "icono": "👶",
+    "flashcards": [
+      {
+        "pregunta": "¿FC normal recién nacido?",
+        "respuesta": "120-160 lpm"
+      },
+      {
+        "pregunta": "¿FC normal 1-2 años?",
+        "respuesta": "110-130 lpm"
+      },
+      {
+        "pregunta": "¿FC normal 3-5 años?",
+        "respuesta": "95-115 lpm"
+      },
+      {
+        "pregunta": "¿FR normal RN?",
+        "respuesta": "40-60 rpm"
+      },
+      {
+        "pregunta": "¿FR normal 1-2 años?",
+        "respuesta": "25-35 rpm"
+      },
+      {
+        "pregunta": "¿PAS normal RN?",
+        "respuesta": "65-95 mmHg"
+      },
+      {
+        "pregunta": "¿PAS normal 1-2 años?",
+        "respuesta": "85-105 mmHg"
+      },
+      {
+        "pregunta": "¿Percentil crecimiento OMS qué incluye?",
+        "respuesta": "Peso/edad, talla/edad, peso/talla, IMC/edad, PC/edad"
+      },
+      {
+        "pregunta": "¿PC normal RN?",
+        "respuesta": "34-36 cm"
+      },
+      {
+        "pregunta": "¿Cierre fontanela anterior?",
+        "respuesta": "12-18 meses"
+      },
+      {
+        "pregunta": "¿Primer control prenatal PV?",
+        "respuesta": "Semana 12-14"
+      },
+      {
+        "pregunta": "¿Vacuna BCG cuándo?",
+        "respuesta": "RN (<28 días)"
+      },
+      {
+        "pregunta": "¿Vacuna hepatitis B cuándo?",
+        "respuesta": "RN, 2, 4, 6 meses"
+      },
+      {
+        "pregunta": "¿Triple viral SPR cuándo?",
+        "respuesta": "12 meses y 3-4 años"
+      },
+      {
+        "pregunta": "¿Desarrollo motor 6 meses?",
+        "respuesta": "Sedestación con apoyo, traspasa objetos"
+      },
+      {
+        "pregunta": "¿Desarrollo motor 12 meses?",
+        "respuesta": "Gatea, se para, dice 1-2 palabras"
+      },
+      {
+        "pregunta": "¿Deshidratación leve signos?",
+        "respuesta": "Sed leve, mucosa seca, pliegue <1s"
+      },
+      {
+        "pregunta": "¿Deshidratación severa signos?",
+        "respuesta": "Hipotensión, obnubilación, pliegue >2s, llenado >3s"
+      },
+      {
+        "pregunta": "¿Plan A deshidratación OMS?",
+        "respuesta": "SRO en casa, continuar alimentación"
+      },
+      {
+        "pregunta": "¿Plan C deshidratación OMS?",
+        "respuesta": "IV Ringer Lactato 100 mL/kg, 30 en 30 min, luego 70 en 2.5h"
+      },
+      {
+        "pregunta": "¿Fiebre sin foco RN?",
+        "respuesta": "Siempre sepsis: hemocultivo, PL, antibióticos empíricos"
+      },
+      {
+        "pregunta": "¿Crup viral qué es?",
+        "respuesta": "Laringotraqueobronquitis por parainfluenza. Tos perruna, estridor"
+      },
+      {
+        "pregunta": "¿Bronquiolitis aguda?",
+        "respuesta": "Infección VRS. Sibilancias, polipnea, retracciones. <12 meses"
+      },
+      {
+        "pregunta": "¿Reanimación neonatal pasos?",
+        "respuesta": "Calor, posición, aspirar vía aérea, secar, estimular, ventilar"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿FC normal 1-2 años?",
+        "opciones": [
+          "80-100 lpm",
+          "110-130 lpm",
+          "140-160 lpm",
+          "60-90 lpm"
+        ],
+        "correcta": 1,
+        "explicacion": "FC 1-2 años 110-130 lpm."
+      },
+      {
+        "pregunta": "¿FR normal RN?",
+        "opciones": [
+          "20-30 rpm",
+          "40-60 rpm",
+          "60-80 rpm",
+          "30-40 rpm"
+        ],
+        "correcta": 1,
+        "explicacion": "FR RN 40-60 rpm."
+      },
+      {
+        "pregunta": "¿Cierre fontanela anterior?",
+        "opciones": [
+          "6-9 meses",
+          "12-18 meses",
+          "18-24 meses",
+          "3-6 meses"
+        ],
+        "correcta": 1,
+        "explicacion": "Fontanela anterior cierra entre 12-18 meses."
+      },
+      {
+        "pregunta": "¿Triple viral cuándo?",
+        "opciones": [
+          "6 meses",
+          "12 meses y 3-4 años",
+          "2 meses",
+          "4 años sola"
+        ],
+        "correcta": 1,
+        "explicacion": "SPR 12 meses y refuerzo 3-4 años."
+      },
+      {
+        "pregunta": "¿Desarrollo 6 meses?",
+        "opciones": [
+          "Camina",
+          "Sedestación con apoyo",
+          "Gatea",
+          "Dice frases"
+        ],
+        "correcta": 1,
+        "explicacion": "A 6 meses: sedestación con apoyo, traspasa objetos."
+      },
+      {
+        "pregunta": "¿Deshidratación severa que plan?",
+        "opciones": [
+          "Plan A",
+          "Plan B",
+          "Plan C",
+          "Plan D"
+        ],
+        "correcta": 2,
+        "explicacion": "Plan C: rehidratación IV urgente 100 mL/kg."
+      },
+      {
+        "pregunta": "¿Fiebre sin foco RN manejo?",
+        "opciones": [
+          "Antipiréticos",
+          "Siempre sepsis: PL + AB",
+          "Observación",
+          "SRO"
+        ],
+        "correcta": 1,
+        "explicacion": "RN con fiebre sin foco: sepsis hasta demostrar contrario."
+      },
+      {
+        "pregunta": "¿Bronquiolitis típicamente por?",
+        "opciones": [
+          "Influenza",
+          "VRS",
+          "Adenovirus",
+          "Rinovirus"
+        ],
+        "correcta": 1,
+        "explicacion": "Bronquiolitis: VRS >80% de casos."
+      },
+      {
+        "pregunta": "¿PC normal RN?",
+        "opciones": [
+          "30-32 cm",
+          "34-36 cm",
+          "36-38 cm",
+          "32-34 cm"
+        ],
+        "correcta": 1,
+        "explicacion": "Perímetro cefálico RN 34-36 cm."
+      },
+      {
+        "pregunta": "¿Escala Silverman-Anderson evalúa?",
+        "opciones": [
+          "Crecimiento",
+          "Distrés respiratorio neonatal",
+          "Desarrollo motor",
+          "Ictericia"
+        ],
+        "correcta": 1,
+        "explicacion": "Silverman-Anderson evalúa severidad de dificultad respiratoria en RN."
+      },
+      {
+        "pregunta": "¿Desarrollo motor 12 meses?",
+        "opciones": [
+          "Camina solo",
+          "Gatea, se para, dice 1-2 palabras",
+          "Corre",
+          "Sedestación"
+        ],
+        "correcta": 1,
+        "explicacion": "12 meses: gatea, se para con apoyo, dice 1-2 palabras."
+      },
+      {
+        "pregunta": "¿Crup causa frecuente?",
+        "opciones": [
+          "VRS",
+          "Parainfluenza",
+          "Influenza",
+          "Estreptococo"
+        ],
+        "correcta": 1,
+        "explicacion": "Crup por parainfluenza tipo 1-3. Tos perruna, estridor."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Signos vitales pediátricos y evaluación temprana del niño grave",
+        "contenido": "Los signos vitales pediátricos varían significativamente con la edad, lo que requiere conocimiento de rangos normales para cada grupo etario. FC: RN 120-160, 1-2 a 110-130, 3-5 a 95-115, 6-12 a 80-100, >12 a 60-90 lpm. FR: RN 40-60, 1-2 a 25-35, 3-5 a 20-30, 6-12 a 18-25, >12 a 12-20 rpm. PAS (percentil 50): RN 65-95, 1 a 85-105, 3-5 a 90-110, 6-12 a 95-120, >12 a 100-130 mmHg. La evaluación temprana del niño grave se basa en el triángulo de evaluación pediátrica (TEP): apariencia (tono, interactividad, consolabilidad, mirada, habla/grito), trabajo respiratorio (retracciones, aleteo nasal, quejido, postura), y circulación (color, palidez, cianosis, petequias). La identificación temprana de shock compensado (taquicardia, llenado capilar prolongado >2s, extremidades frías, PA normal) permite intervención antes de la descompensación. El shock descompensado incluye hipotensión (signo tardío y ominoso). El cálculo de peso estimado: <1 año: (edad meses + 9)/2; 1-6 años: (edad años × 2) + 8; 7-12 años: (edad años × 4) + 8. La dosis de medicamentos y fluidos se calcula por peso (mg/kg). El acceso intraóseo es la vía de elección en paro pediátrico si no hay acceso venoso en 90 segundos. La regla del 5-5-5 para reanimación: 5 respiraciones iniciales, 5 ciclos de 15:2 (dos reanimadores) o 30:2 (un reanimador), 5 compresiones por 2 respiraciones. La frecuencia de compresiones: 100-120/min. La aplicación del Soporte Vital Avanzado Pediátrico (PALS) ha mejorado la supervivencia del paro cardíaco pediátrico del 10-15% al 20-30%. La monitorización incluye: oximetría de pulso, capnografía, ECG continuo, y PA no invasiva repetida. El triángulo de evaluación pediátrica (TEP) se completa en 30 segundos sin contacto físico. Apariencia anormal: llanto débil o inconsolable, mirada vidriosa, no interactúa, tono disminuido. Trabajo respiratorio aumentado: retracciones intercostales/subcostales, aleteo nasal, quejido espiratorio, postura en trípode. La oximetría de pulso es el quinto signo vital en pediatría. SatO₂ <92% indica insuficiencia respiratoria. La escala de alerta pediátrica (PEWS) puntúa comportamiento, cardiovascular y respiratorio para detectar deterioro temprano. La hipotensión en niños es signo tardío de shock descompensado (pérdida >25-40% volumen). La taquicardia es el signo más temprano de shock compensado; la bradicardia es signo pre-paro ominoso. El llenado capilar normal es <2 segundos. >3 segundos indica hipoperfusión significativa. La fórmula de peso para emergencias (APLS): peso estimado (kg) = (edad × 3) + 7. Los líquidos de reanimación: Ringer Lactato 20 mL/kg en bolo; repetir hasta 60 mL/kg. Si shock persistente, considerar transfusión de glóbulos rojos 10 mL/kg. La intubación difícil en niños: puntuación LEMON modificada. Tamaño tubo endotraqueal: (edad/4) + 4, o usar cinta de Broselow. La reanimación cardiopulmonar pediátrica: compresiones 100-120/min, profundidad 1/3 del diámetro torácico, relación 15:2 (2 reanimadores) o 30:2 (1 reanimador).",
+        "fuente": "PALS Guidelines AHA 2024; WHO ETAT Guidelines 2024; Nelson Pediatrics 2024"
+      },
+      {
+        "titulo": "Crecimiento y desarrollo infantil: hitos y evaluación",
+        "contenido": "El crecimiento y desarrollo infantil son indicadores fundamentales de salud. La OMS publicó estándares de crecimiento (2006) basados en niños amamantados de 6 países, que incluyen peso/edad, talla/edad, peso/talla, IMC/edad y perímetro cefálico/edad. El seguimiento en percentiles permite detectar alteraciones tempranas: peso <P3 o >P97, cruce de percentiles, o meseta de crecimiento son señales de alarma. El desarrollo neurológico sigue hitos predecibles. Desarrollo motor grueso: 0-2 meses: levanta cabeza, 4-6 meses: sedestación con apoyo, 6-9 meses: sedestación sin apoyo, 8-10 meses: gateo, 10-12 meses: bipedestación, 12-15 meses: marcha independiente, 18 meses: sube escaleras, 2 años: corre, 3 años: triciclo, 4 años: salta en un pie. Desarrollo motor fino: 3 meses: prensión voluntaria, 6 meses: traspasa objetos, 9 meses: pinza fina, 12 meses: palmea, 18 meses: garabatea, 2 años: torre 6 cubos. Desarrollo del lenguaje: 2 meses: vocaliza, 6 meses: balbucea, 9-10 meses: sílabas repetitivas (ma-ma, pa-pa), 12 meses: 1-2 palabras, 18 meses: 10-20 palabras, 2 años: frases de 2 palabras, 3 años: oraciones completas. Desarrollo social: 2 meses: sonrisa social, 6 meses: ansiedad ante extraños, 12 meses: juego interactivo (avión, palmitas), 18 meses: juego paralelo, 3 años: juego asociativo. Las señales de alarma incluyen: pérdida de hitos (regresión), asimetría persistente, hipotonía o hipertonía, retraso en >2 áreas del desarrollo, microcefalia o macrocefalia, ausencia de balbuceo a 12 meses, ausencia de palabras a 18 meses, ausencia de frases a 2 años. La evaluación sistemática con herramientas como el Denver Developmental Screening Test (DDST) o ASQ permite detección temprana de trastornos del neurodesarrollo. El diagnóstico precoz de TEA (Trastorno del Espectro Autista) mejora significativamente el pronóstico; el M-CHAT R/F es la herramienta de tamizaje recomendada a los 18 y 24 meses. Los factores que afectan el crecimiento incluyen: genética, nutrición, hormonas (GH, IGF-1, tiroideas, esteroides sexuales), y factores psicosociales. El seguimiento del crecimiento debe realizarse con estándares OMS 0-5 años y referencias CDC/NCHS >5 años. La velocidad de crecimiento normal: 2-4 cm/año prepuberal. La aceleración puberal: 8-14 cm/año en niños, 6-10 cm/año en niñas. El perímetro cefálico (PC) se mide hasta 36 meses. Crecimiento normal PC: primer trimestre 2 cm/mes, segundo trimestre 1 cm/mes, 4-6 meses 0.5 cm/mes. Las señales de alarma en PC: microcefalia (<P3), macrocefalia (>P97), o cruce rápido de percentiles (investigar hidrocefalia o craneosinostosis). La evaluación del desarrollo debe incluir tamizaje de niños con riesgo de retraso: prematuros, asfixia perinatal, infecciones congénitas, deprivación psicosocial. Los signos de alarma para TEA: no señalar a los 12 meses, no juego de imitación a 18 meses, no juegos de ficción a 24 meses, pérdida de lenguaje a cualquier edad. El Trastorno por Déficit de Atención e Hiperactividad (TDAH) se diagnostica a partir de los 4-5 años; los síntomas deben estar presentes en >2 contextos. La detección temprana de trastornos del neurodesarrollo permite intervención temprana que mejora significativamente el pronóstico (neuroplasticidad máxima <3 años). Los programas de estimulación temprana como Portage y TEACCH mejoran hitos en niños con discapacidad. La lactancia materna exclusiva hasta los 6 meses y complementada hasta 2 años es el estándar de oro para nutrición y desarrollo.",
+        "fuente": "WHO Child Growth Standards 2006/2024; CDC Developmental Milestones 2024; AAP Guidelines 2024"
+      },
+      {
+        "titulo": "Reanimación neonatal: algoritmo NRP 2024",
+        "contenido": "La reanimación neonatal es una emergencia que sigue el algoritmo NRP (Neonatal Resuscitation Program). Aproximadamente el 10% de RN requieren alguna asistencia al nacer, 1% requiere reanimación avanzada. El algoritmo secuencial incluye: (1) Evaluación inicial: ¿RN a término? ¿Llora o respira? ¿Buen tono? Si no, iniciar pasos iniciales. (2) Pasos iniciales: calor (mantener temperatura 36.5-37.5°C), posición (decúbito supino con cabeza en posición neutra), aspirar vía aérea (boca primero, luego nariz si secreciones excesivas), secar, estimular. La asfixia perinatal desencadena una secuencia fisiopatológica: hipoxia → respiración rápida (taquipnea) → apnea primaria → respiración periódica (jadeo) → apnea secundaria (no responde a estímulos). La apnea primaria responde a estimulación táctil; la apnea secundaria requiere ventilación a presión positiva (VPP). (3) Ventilación: si apnea o FC <100 lpm, iniciar VPP con presión 20-25 cmH₂O, frecuencia 40-60 rpm, FiO₂ 0.21-0.21 (iniciar con aire). La VPP es la maniobra más efectiva en reanimación neonatal. Evaluar FC a los 15 segundos de VPP: si FC >100 lpm y respira, suspender VPP. (4) Aumentar FiO₂ si cianosis persistente. (5) Si FC <60 lpm después 30 segundos VPP, intubación y compresiones torácicas (relación 3:1 con 90 compresiones + 30 ventilaciones/min). (6) Adrenalina: 0.1-0.3 mL/kg de solución 1:10,000 IV o IO. (7) Expansor de volumen: Ringer Lactato o SSN 10 mL/kg. El test de Apgar evalúa la respuesta a reanimación al minuto 1 y 5 (y cada 5 si <7). La oxigenoterapia se guía por oximetría de pulso: objetivo saturación 60-65% a 1 min, 70-75% a 3 min, 80-85% a 5 min, 85-95% a 10 min. El cuidado post-reanimación incluye monitorización de temperatura, glucemia, gases, y posible hipotermia terapéutica si encefalopatía hipóxico-isquémica moderada-grave. La reanimación se debe realizar en sala de partos y no se debe retrasar el pinzamiento de cordón (30-60 segundos) salvo emergencia. La temperatura del RN debe mantenerse entre 36.5-37.5°C. La hipotermia aumenta el consumo de oxígeno y altera la coagulación. El uso de bolsa térmica, gorro, y colchón térmico son medidas de prevención de hipotermia. La posición neutra de la cabeza alinea el eje faríngeo-laríngeo-traqueal optimizando la permeabilidad de la vía aérea. La presión de VPP debe ser monitorizada con manómetro; la presión excesiva (>30 cmH₂O) causa neumotórax. La máscara debe cubrir mentón, boca y nariz sin presionar ojos ni cubrir frente. La colocación de SOG (sonda orogástrica) descomprime el estómago durante VPP con máscara. La intubación neonatal se confirma con capnografía colorimétrica (ETCO₂) y elevación del vapor de agua en el tubo. La profundidad de intubación orotraqueal: peso (kg) + 6 cm. Para RN 3 kg: 3+6=9 cm. Las compresiones torácicas se realizan con técnica de dos pulgares (en el tercio inferior del esternón, por debajo de la línea intermamilar). La adrenalina IV/IO 0.1-0.3 mL/kg de 1:10,000. Puede repetirse cada 3-5 minutos. Por tubo ET: 0.5-1 mL/kg de 1:10,000 (menor absorción). El expansor de volumen (Ringer Lactato o SSN 0.9%) 10 mL/kg IV en 5-10 minutos, repetir si necesario. La hipoglucemia neonatal: <47 mg/dL. Tratar con bolo de dextrosa 10% 2 mL/kg (200 mg/kg) IV, seguido de infusión. La reanimación neonatal debe suspenderse si no hay respuesta después de 20 minutos de reanimación completa (probabilidad de muerte o discapacidad severa >99%).",
+        "fuente": "NRP 8th Edition/AAP Guidelines 2024; International Consensus on Neonatal Resuscitation 2024"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Signos vitales pediátricos por edad",
+        "descripcion": "Tabla rangos normales FC, FR, PAS por grupos etarios RN a adolescente",
+        "url": "/api/v1/education/image/signos_vitales_ped",
+        "fuente": "PALS AHA 2024"
+      },
+      {
+        "titulo": "Algoritmo reanimación neonatal NRP",
+        "descripcion": "Flujograma completo NRP 2024: pasos iniciales, VPP, compresiones, adrenalina",
+        "url": "/api/v1/education/image/nrp_algorithm",
+        "fuente": "NRP 8th Ed/AAP 2024"
+      },
+      {
+        "titulo": "Curvas crecimiento OMS",
+        "descripcion": "Gráficas percentilares OMS peso/talla por edad 0-5 años niños y niñas",
+        "url": "/api/v1/education/image/curvas_crecimiento",
+        "fuente": "WHO Multicentre Growth Reference Study 2006"
+      }
+    ],
+    "imagen": "/static/images/education/pediatria.jpg",
+    "imagen_licencia": "Public Domain (NIH/NCI)",
+    "imagen_atribucion": "Bill Branson / National Cancer Institute"
+  },
+  {
+    "id": "geriatria",
+    "nombre": "Geriatría",
+    "descripcion": "Valoración geriátrica integral, síndromes geriátricos, polifarmacia, demencias, caídas y úlceras por presión",
+    "icono": "👴",
+    "flashcards": [
+      {
+        "pregunta": "¿Barthel Index evalúa?",
+        "respuesta": "Actividades básicas vida diaria (ABVD). Rango 0-100"
+      },
+      {
+        "pregunta": "¿Barthel puntaje dependencia total?",
+        "respuesta": "<20 puntos"
+      },
+      {
+        "pregunta": "¿Barthel puntaje independencia total?",
+        "respuesta": "100 puntos"
+      },
+      {
+        "pregunta": "¿Ítems Barthel?",
+        "respuesta": "Comer, bañarse, vestirse, arreglarse, deposición, micción, ir retrete, trasladarse, deambular, escaleras"
+      },
+      {
+        "pregunta": "¿Criterios de Fried fragilidad?",
+        "respuesta": "≥3: pérdida peso, agotamiento, baja actividad, lentitud, debilidad"
+      },
+      {
+        "pregunta": "¿Pre-frágil Fried?",
+        "respuesta": "1-2 criterios"
+      },
+      {
+        "pregunta": "¿Sarcopenia definición?",
+        "respuesta": "Pérdida masa, fuerza y función muscular"
+      },
+      {
+        "pregunta": "¿Sarcopenia tratamiento?",
+        "respuesta": "Ejercicio resistencia + proteínas 1.2-1.5 g/kg/día + vitamina D"
+      },
+      {
+        "pregunta": "¿STOPP criterios?",
+        "respuesta": "Criterios de prescripción inapropiada en mayores"
+      },
+      {
+        "pregunta": "¿START criterios?",
+        "respuesta": "Criterios de omisión de prescripción en mayores"
+      },
+      {
+        "pregunta": "¿Polifarmacia define como?",
+        "respuesta": "≥5 medicamentos diarios"
+      },
+      {
+        "pregunta": "¿Polifarmacia severa?",
+        "respuesta": "≥10 medicamentos diarios"
+      },
+      {
+        "pregunta": "¿Delirium vs demencia?",
+        "respuesta": "Delirium: agudo, fluctuante, reversible. Demencia: crónico, progresivo"
+      },
+      {
+        "pregunta": "¿Test del reloj para?",
+        "respuesta": "Evaluación cognitiva: disfunción ejecutiva y visuoespacial"
+      },
+      {
+        "pregunta": "¿Mini Mental (MEC) puntaje normal?",
+        "respuesta": "≥24 sobre 30"
+      },
+      {
+        "pregunta": "¿PAINAD evalúa?",
+        "respuesta": "Dolor en pacientes con demencia avanzada"
+      },
+      {
+        "pregunta": "¿PAINAD ítems?",
+        "respuesta": "Respiración, vocalización, expresión facial, lenguaje corporal, consolabilidad"
+      },
+      {
+        "pregunta": "¿Caídas prevención?",
+        "respuesta": "Ejercicio equilibrio, revisar visión/piezas, retirar alfombras, revisar fármacos"
+      },
+      {
+        "pregunta": "¿UPP estadio I?",
+        "respuesta": "Eritema que no blanquea, piel intacta"
+      },
+      {
+        "pregunta": "¿UPP estadio IV?",
+        "respuesta": "Pérdida total espesor con hueso/tendón/músculo expuesto"
+      },
+      {
+        "pregunta": "¿Braden puntaje riesgo?",
+        "respuesta": "≤18 riesgo; ≤9 alto riesgo"
+      },
+      {
+        "pregunta": "¿Síndrome geriátrico ejemplos?",
+        "respuesta": "Caídas, incontinencia, delirium, inmovilidad, polifarmacia"
+      },
+      {
+        "pregunta": "¿Vitamina D dosis anciano?",
+        "respuesta": "800-2000 UI/día"
+      },
+      {
+        "pregunta": "¿Evaluación funcional geriátrica incluye?",
+        "respuesta": "ABVD, AIVD, movilidad, caídas, continencia, cognición, ánimo, fármacos, apoyo social"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Barthel 100 significa?",
+        "opciones": [
+          "Dependencia total",
+          "Independencia total",
+          "Dependencia moderada",
+          "Dependencia severa"
+        ],
+        "correcta": 1,
+        "explicacion": "Barthel 100: independencia total en ABVD."
+      },
+      {
+        "pregunta": "¿Cuántos ítems Barthel?",
+        "opciones": [
+          "5",
+          "8",
+          "10",
+          "12"
+        ],
+        "correcta": 2,
+        "explicacion": "Barthel: 10 ítems (comer, bañarse, etc.), rango 0-100."
+      },
+      {
+        "pregunta": "¿Criterios Fried fragilidad?",
+        "opciones": [
+          "2 criterios",
+          "3 de 5",
+          "4 de 6",
+          "5 de 5"
+        ],
+        "correcta": 1,
+        "explicacion": "Fried: ≥3 de 5: pérdida peso, agotamiento, baja actividad, lentitud, debilidad."
+      },
+      {
+        "pregunta": "¿Polifarmacia definición?",
+        "opciones": [
+          ">3 fármacos",
+          "≥5 fármacos",
+          "≥10 fármacos",
+          "≥15 fármacos"
+        ],
+        "correcta": 1,
+        "explicacion": "Polifarmacia ≥5 fármacos; severa ≥10."
+      },
+      {
+        "pregunta": "¿Delirium vs demencia?",
+        "opciones": [
+          "Ambos crónicos",
+          "Delirium agudo reversible",
+          "Demencia aguda",
+          "Igual"
+        ],
+        "correcta": 1,
+        "explicacion": "Delirium: agudo, fluctuante, reversible. Demencia: crónico, progresivo."
+      },
+      {
+        "pregunta": "¿STOPP/START evalúa?",
+        "opciones": [
+          "Caídas",
+          "Prescripción inapropiada/omisión",
+          "Nutrición",
+          "Dolor"
+        ],
+        "correcta": 1,
+        "explicacion": "STOPP: medicación inapropiada; START: omisión de prescripción."
+      },
+      {
+        "pregunta": "¿PAINAD para quién?",
+        "opciones": [
+          "Dolor agudo",
+          "Demencia avanzada",
+          "Cáncer",
+          "Postquirúrgico"
+        ],
+        "correcta": 1,
+        "explicacion": "PAINAD: dolor en demencia avanzada (5 ítems)."
+      },
+      {
+        "pregunta": "¿UPP estadio I?",
+        "opciones": [
+          "Pérdida parcial piel",
+          "Eritema no blanquea",
+          "Flictena",
+          "Necrosis"
+        ],
+        "correcta": 1,
+        "explicacion": "Estadio I: eritema no blanqueable, piel intacta."
+      },
+      {
+        "pregunta": "¿Sarcopenia tratamiento?",
+        "opciones": [
+          "Solo reposo",
+          "Ejercicio resistencia + proteínas + vit D",
+          "Solo proteínas",
+          "Solo vit D"
+        ],
+        "correcta": 1,
+        "explicacion": "Ejercicio resistencia + proteínas 1.2-1.5 g/kg/día + vitamina D."
+      },
+      {
+        "pregunta": "¿Braden puntaje alto riesgo?",
+        "opciones": [
+          ">18",
+          "≤9",
+          "≤15",
+          ">20"
+        ],
+        "correcta": 1,
+        "explicacion": "Braden ≤18 riesgo, ≤9 alto riesgo de UPP."
+      },
+      {
+        "pregunta": "¿Test del reloj para qué?",
+        "opciones": [
+          "Depresión",
+          "Cognición/ejecutivo",
+          "Fragilidad",
+          "Nutrición"
+        ],
+        "correcta": 1,
+        "explicacion": "Test del reloj: función ejecutiva y visuoespacial."
+      },
+      {
+        "pregunta": "¿MEC puntaje normal?",
+        "opciones": [
+          ">30",
+          "≥24",
+          "≥20",
+          "≥15"
+        ],
+        "correcta": 1,
+        "explicacion": "MiniMental (MEC) >24 puntos normal, <24 deterioro cognitivo."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Valoración geriátrica integral: Barthel, Lawton y evaluación funcional",
+        "contenido": "La valoración geriátrica integral (VGI) es el proceso diagnóstico multidimensional que evalúa las capacidades funcionales, físicas, cognitivas y sociales del adulto mayor. El Índice de Barthel (Mahoney & Barthel 1965) evalúa 10 actividades básicas de la vida diaria (ABVD): comer, bañarse, vestirse, arreglarse, deposición, micción, uso del retrete, trasladarse (cama-sillón), deambular, y subir/bajar escaleras. Cada ítem se puntúa 0 (dependiente), 5 (ayuda parcial) o 10 (independiente), con puntuación total de 0 (dependencia total) a 100 (independencia total). Puntos de corte: <20 dependencia total, 20-35 severa, 40-55 moderada, ≥60 dependencia leve. La Escala de Lawton y Brody evalúa 8 actividades instrumentales (AIVD): usar teléfono, compras, preparar comida, cuidado del hogar, lavandería, uso de transporte, responsabilidad sobre medicación, manejo de finanzas. Puntaje máximo 8 (mujeres) u 5 (hombres, excluye comida/hogar/lavandería). La VGI incluye también: evaluación de la marcha (Time Up and Go, Tinetti), valoración cognitiva (MiniMental/MMSE, test del reloj, MoCA), valoración afectiva (Escala de Depresión Geriátrica Yesavage), valoración nutricional (Mini Nutritional Assessment), revisión de fármacos (Beers, STOPP/START), evaluación sensorial (visión, audición), y valoración del entorno social. La fragilidad es un estado de vulnerabilidad previo a la discapacidad. Los criterios de Fried (2001) definen fragilidad como presencia de ≥3 de 5: pérdida involuntaria de peso >4.5 kg/año, agotamiento auto-reportado, baja actividad física, lentitud en la marcha (<0.8 m/s), debilidad (fuerza prensil disminuida). Pre-frágil: 1-2 criterios. La VGI permite identificar síndromes geriátricos, planificar intervenciones, predecir pronóstico y optimizar la calidad de vida. Las guías de la Sociedad Española de Geriatría y Gerontología (SEGG) recomiendan VGI anual en mayores de 75 años o con comorbilidad significativa. La VGI se realiza mediante equipos multidisciplinarios (médico, enfermera, trabajador social, terapeuta ocupacional). El Índice de Barthel tiene alta fiabilidad inter-observador y es sensible a cambios clínicos. El Barthel se puede administrar por entrevista directa, auto-reporte o por observación. La Escala de Lawton diferencia el nivel funcional en mujeres y hombres por roles tradicionales de género, limitación reconocida que debe considerarse en la interpretación. La fuerza prensil (dinamometría manual) es un marcador pronóstico: <20 kg mujeres, <30 kg hombres se asocia a mayor mortalidad. La velocidad de marcha <0.8 m/s predice caídas, hospitalización y mortalidad. El Time Up and Go (TUG): tiempo en levantarse, caminar 3 metros, girar y sentarse. >12 segundos alterado. La Escala de Depresión Geriátrica (GDS-15): ≥5 puntos sugiere depresión. El Mini Nutritional Assessment (MNA): <17 puntos desnutrición, 17-23.5 riesgo. El Cuestionario de Apoyo Social de Duke (Duke-UNC-11): <32 puntos apoyo social insuficiente. La polifarmacia severa (≥10 fármacos) se asocia a 2.5 veces más caídas, 1.5 veces más hospitalización y 1.3 veces más mortalidad. La intervención en fragilidad (ejercicio multicomponente + nutrición + revisión fármacos) revierte fragilidad en un 15-20% de casos. Los programas de ejercicio en mayores: fuerza (2-3/sem), equilibrio (1-2/sem), aeróbico (150 min/sem).",
+        "fuente": "SEGG Valoración Geriátrica Integral 2024; Fried et al. J Gerontol 2001; Mahoney & Barthel Maryland Med J 1965"
+      },
+      {
+        "titulo": "Delirium vs demencia: diagnóstico diferencial y manejo",
+        "contenido": "El delirium y la demencia son dos trastornos cognitivos con presentación y pronóstico muy diferentes. El delirium se define como una alteración aguda (horas-días) de la atención, conciencia y cognición, con curso fluctuante, causada por una condición médica subyacente. La demencia es un trastorno crónico (meses-años) de múltiples dominios cognitivos que interfiere con las actividades diarias sin alteración de conciencia. Fisiopatología del delirium: inflamación sistémica, disfunción neuroendocrina, desequilibrio de neurotransmisores (déficit colinérgico, exceso dopaminérgico), alteración de la barrera hematoencefálica, estrés oxidativo. Factores predisponentes: edad >65, deterioro cognitivo previo, comorbilidades, déficit sensorial, desnutrición. Factores precipitantes: infecciones (ITU, neumonía), fármacos (BZD, anticolinérgicos, opioides), cirugía, anestesia, alteraciones metabólicas (Na, Ca, glucosa), hipoxia, retención urinaria/fecal, privación de sueño, inmovilización. Tipos de delirium: hiperactivo (agitación, alucinaciones), hipoactivo (letargo, apatía, bajo riesgo de detección), y mixto. El delirium hipoactivo tiene peor pronóstico y mayor mortalidad. Las herramientas diagnósticas incluyen: CAM (Confusion Assessment Method), CAM-ICU (UCI), 3D-CAM y 4AT (rápido). La demencia más prevalente es Alzheimer (60-70%), seguida de demencia vascular, Lewy Bodies y frontotemporal. El diagnóstico diferencial clave: delirium es de inicio agudo, fluctuante, con alteración de atención/conciencia y reversible. Demencia es insidiosa, progresiva, memoria afectada tempranamente, sin alteración de conciencia hasta etapas avanzadas. El manejo del delirium es fundamentalmente no farmacológico: reorientación verbal y visual, corrección de déficits sensoriales, movilización temprana, ciclo sueño-vigilia natural, evitar contención física, participación familiar, control de ruido y luz. Farmacológico: si agitación severa, dexmedetomidina o haloperidol a baja dosis (0.5-2 mg). Evitar BZD salvo abstinencia alcohólica. La prevención multicomponente reduce incidencia de delirium en 30-40%. El manejo de demencia incluye: inhibidores de colinesterasa (donepezilo, rivastigmina) en Alzheimer leve-moderado, memantina en moderada-severo, y manejo de síntomas conductuales con intervenciones no farmacológicas. La prevalencia de delirium al ingreso hospitalario es del 10-30% y aumenta al 50% en postoperatorio de cadera. El delirium es un marcador de fragilidad y predice deterioro cognitivo incidente a largo plazo, independientemente de demencia previa. La evaluación con CAM incluye 9 ítems y 4 criterios diagnósticos. Versión CAM-ICU para pacientes no verbales en UCI. La escala 4AT (4 A's Test) evalúa alerta, AMT4, atención (meses al revés), y cambio agudo; puntuación ≥4 sugiere delirium. La demencia de cuerpos de Lewy tiene características similares a delirium: fluctuación cognitiva, alucinaciones visuales, parkinsonismo; diferenciar es crucial porque antipsicóticos pueden ser fatales (hipersensibilidad neuroléptica). La demencia frontotemporal (variante conductual) puede confundirse con trastorno psiquiátrico: desinhibición, apatía, conductas estereotipadas. La resonancia magnética cerebral ayuda al diagnóstico diferencial: atrofia hipocampal (Alzheimer), atrofia frontal (FTD), enfermedad de pequeño vaso (vascular). El diagnóstico de demencia requiere evaluación formal con neuropsicología para determinar perfil de deterioro. El manejo de síntomas conductuales en demencia (BPSD) sigue el modelo DICE: Describe, Investigate, Create, Evaluate. Los inhibidores de colinesterasa tienen beneficio modesto en Alzheimer (CDR-SB -0.5 a -1 punto a 6 meses). La memantina está aprobada para Alzheimer moderado-severo; combinada con donepezilo tiene beneficio adicional marginal. El cuidador del paciente con demencia tiene alto riesgo de sobrecarga (Zarit Burden Interview) y depresión; el apoyo psicoeducativo reduce institucionalización temprana.",
+        "fuente": "ESPEN/AGS Guidelines Delirium 2024; DSM-5-TR; NICE Dementia Guideline 2024"
+      },
+      {
+        "titulo": "Polifarmacia y criterios STOPP/START: optimización farmacoterapéutica",
+        "contenido": "La polifarmacia, definida como el uso de 5 o más medicamentos, afecta a más del 40% de los adultos mayores. La polifarmacia severa (≥10 medicamentos) afecta al 15-20%. Se asocia a mayor riesgo de reacciones adversas, interacciones medicamentosas, caídas, deterioro cognitivo, hospitalización y mortalidad. La prescripción inapropiada en mayores es una causa prevenible de eventos adversos. Los criterios STOPP (Screening Tool of Older Persons' Prescriptions) y START (Screening Tool to Alert to Right Treatment) son herramientas validadas para detectar medicación inapropiada y omisiones de prescripción en adultos mayores. Versión STOPP/START v3 (2024) incluye 133 criterios STOPP (medicación potencialmente inapropiada) y 33 criterios START (omisiones de prescripción). Ejemplos STOPP: BZD en >4 semanas (riesgo caídas, dependencia), AINE con IRC o HTA no controlada, antipsicóticos en delirium sin indicación, opioides sin laxante concomitante, antidepresivos tricíclicos en demencia (efectos anticolinérgicos). Ejemplos START: estatinas en enfermedad cardiovascular establecida, anticoagulantes en fibrilación auricular, bifosfonatos en osteoporosis, calcio + vitamina D en osteoporosis, ISRS en depresión mayor, inhibidores de colinesterasa en Alzheimer leve-moderado. Los criterios de Beers (American Geriatrics Society) son otra referencia para prescripción inapropiada, actualizados en 2023. La deprescripción es el proceso planificado de reducir o suspender medicación inapropiada. El algoritmo de deprescripción incluye: (1) revisar medicación completa (incluyendo OTC), (2) identificar fármacos sin indicación clara, (3) evaluar riesgo/beneficio individual, (4) priorizar fármacos de alto riesgo (BZD, anticolinérgicos, antipsicóticos), (5) retirar uno a la vez, (6) monitorizar efectos de retirada y resultados. Las intervenciones de optimización farmacoterapéutica reducen el número de fármacos en un 20-30% y mejoran outcomes como caídas, función cognitiva y calidad de vida. La colaboración multidisciplinaria (médico, enfermera, farmacéutico) mejora los resultados de deprescripción. La cascada de prescripción ocurre cuando un efecto adverso de un fármaco se interpreta como nueva enfermedad y se prescribe otro fármaco. Ejemplo: ibuprofeno → HTA → antihipertensivo → gota → alopurinol. La deprescripción de BZD es una prioridad: retirada gradual (reducir 25% cada 2 semanas), con apoyo psicológico. La deprescripción de inhibidores de bomba de protones (IBP) sin indicación: reducir a dosis mínima o retirar gradualmente (riesgo de rebote ácido). Los anticolinérgicos (antidepresivos tricíclicos, antihistamínicos, oxibutinina) se asocian a deterioro cognitivo acumulativo. Los criterios STOPP/START v3 incluyen nuevos criterios: anticoagulantes en demencia (riesgo caídas vs beneficio), SGLT2 en IC con FE reducida (START), y antipiscóticos en insomnio (STOPP). La escala de carga anticolinérgica (ACB) puntúa fármacos de 1 a 3 según su efecto anticolinérgico; puntuación ≥3 se asocia a deterioro cognitivo. La revisión de medicación debe incluir fármacos de venta libre (OTC) y fitoterápicos. El ginkgo biloba interactúa con anticoagulantes. La herramienta MedStopper (www.medstopper.com) ayuda a priorizar fármacos para deprescripción según expectativa de vida. La implementación de revisión de medicación por farmacéutico clínico reduce polifarmacia en un 25% y hospitalizaciones evitables. La comunicación con el paciente y familiares es esencial: explicar riesgos de cada fármaco, beneficios esperados, y el plan de deprescripción con seguimiento.",
+        "fuente": "STOPP/START v3 Guidelines 2024; AGS Beers Criteria 2023; O'Mahony et al. Age Ageing 2024"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Índice Barthel: puntuación e interpretación",
+        "descripcion": "Tabla detallada de los 10 ítems del Barthel con criterios de puntuación 0-5-10 y clasificación de dependencia",
+        "url": "/api/v1/education/image/barthel_index",
+        "fuente": "Mahoney & Barthel 1965; SEGG 2024"
+      },
+      {
+        "titulo": "Delirium vs Demencia",
+        "descripcion": "Tabla comparativa: inicio, curso, atención, conciencia, cognición, causas y manejo",
+        "url": "/api/v1/education/image/delirium_vs_demencia",
+        "fuente": "DSM-5-TR; ESPEN Guidelines 2024"
+      },
+      {
+        "titulo": "Escala PAINAD dolor en demencia",
+        "descripcion": "PAINAD: 5 ítems (respiración, vocalización, expresión facial, lenguaje corporal, consolabilidad) con puntuación 0-2 cada uno",
+        "url": "/api/v1/education/image/painad_scale",
+        "fuente": "Warden et al. JAMDA 2003"
+      }
+    ],
+    "imagen": "/static/images/education/geriatria.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "geralt, Pixabay via Wikimedia Commons"
+  },
+  {
+    "id": "epidemiologia",
+    "nombre": "Epidemiología",
+    "descripcion": "Medidas de frecuencia, diseño de estudios, pruebas diagnósticas, riesgo, asociación y sesgos",
+    "icono": "📊",
+    "flashcards": [
+      {
+        "pregunta": "¿Incidencia?",
+        "respuesta": "Casos nuevos en un período / población en riesgo"
+      },
+      {
+        "pregunta": "¿Prevalencia?",
+        "respuesta": "Casos existentes (nuevos + viejos) / población total"
+      },
+      {
+        "pregunta": "¿Sensibilidad?",
+        "respuesta": "Probabilidad de que un enfermo dé positivo: VP / (VP + FN)"
+      },
+      {
+        "pregunta": "¿Especificidad?",
+        "respuesta": "Probabilidad de que un sano dé negativo: VN / (VN + FP)"
+      },
+      {
+        "pregunta": "¿Valor predictivo positivo?",
+        "respuesta": "Probabilidad de estar enfermo si prueba positiva: VP / (VP + FP)"
+      },
+      {
+        "pregunta": "¿Valor predictivo negativo?",
+        "respuesta": "Probabilidad de estar sano si prueba negativa: VN / (VN + FN)"
+      },
+      {
+        "pregunta": "¿Riesgo relativo (RR)?",
+        "respuesta": "Incidencia expuestos / Incidencia no expuestos"
+      },
+      {
+        "pregunta": "¿Odds ratio (OR)?",
+        "respuesta": "Odds exposición en casos / Odds exposición en controles"
+      },
+      {
+        "pregunta": "¿NNT?",
+        "respuesta": "Número necesario a tratar: 1 / Reducción Absoluta del Riesgo"
+      },
+      {
+        "pregunta": "¿Curva ROC?",
+        "respuesta": "Gráfica Sensibilidad vs 1-Especificidad. AUC mide precisión diagnóstica"
+      },
+      {
+        "pregunta": "¿Estudio cohorte?",
+        "respuesta": "Sigue expuestos y no expuestos en el tiempo. Mide incidencia y RR"
+      },
+      {
+        "pregunta": "¿Estudio caso-control?",
+        "respuesta": "Compara exposición entre casos y controles. Mide OR"
+      },
+      {
+        "pregunta": "¿Estudio transversal?",
+        "respuesta": "Mide exposición y enfermedad simultáneamente. Da prevalencia"
+      },
+      {
+        "pregunta": "¿Ensayo clínico?",
+        "respuesta": "Intervención asignada aleatoriamente. Gold standard causal"
+      },
+      {
+        "pregunta": "¿Sesgo de selección?",
+        "respuesta": "Error por diferencias sistemáticas en selección de participantes"
+      },
+      {
+        "pregunta": "¿Sesgo de información?",
+        "respuesta": "Clasificación errónea exposición o enfermedad"
+      },
+      {
+        "pregunta": "¿Confusión?",
+        "respuesta": "Tercera variable asociada a exposición y desenlace, distorsiona asociación"
+      },
+      {
+        "pregunta": "¿Sesgo de memoria?",
+        "respuesta": "Recuerdo diferencial entre casos y controles (casos recuerdan más)"
+      },
+      {
+        "pregunta": "¿Sesgo de supervivencia?",
+        "respuesta": "Solo se incluyen sobrevivientes, no fallecidos previos"
+      },
+      {
+        "pregunta": "¿IC 95%?",
+        "respuesta": "Rango donde está el verdadero valor poblacional con 95% confianza"
+      },
+      {
+        "pregunta": "¿Valor p <0.05?",
+        "respuesta": "Probabilidad <5% de observar asociación tan extrema si H₀ verdadera"
+      },
+      {
+        "pregunta": "¿Metaanálisis?",
+        "respuesta": "Combinación estadística de resultados de múltiples estudios"
+      },
+      {
+        "pregunta": "¿Precisión vs exactitud?",
+        "respuesta": "Precisión = reproducibilidad. Exactitud = cercanía al valor real"
+      },
+      {
+        "pregunta": "¿Prevalencia de una enfermedad rara?",
+        "respuesta": "<1/2000 según OMS"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿Incidencia mide?",
+        "opciones": [
+          "Casos totales",
+          "Casos nuevos en período",
+          "Casos crónicos",
+          "Casos fatales"
+        ],
+        "correcta": 1,
+        "explicacion": "Incidencia: casos nuevos de enfermedad en un período en población en riesgo."
+      },
+      {
+        "pregunta": "¿Sensibilidad fórmula?",
+        "opciones": [
+          "VP/(VP+FP)",
+          "VP/(VP+FN)",
+          "VN/(VN+FP)",
+          "VN/(VN+FN)"
+        ],
+        "correcta": 1,
+        "explicacion": "Sensibilidad = VP/(VP+FN). Probabilidad de positivo en enfermos."
+      },
+      {
+        "pregunta": "¿VPP depende de?",
+        "opciones": [
+          "Solo sensibilidad",
+          "Sensibilidad y prevalencia",
+          "Solo especificidad",
+          "No depende"
+        ],
+        "correcta": 1,
+        "explicacion": "VPP aumenta con prevalencia de la enfermedad."
+      },
+      {
+        "pregunta": "¿Estudio cohorte qué mide?",
+        "opciones": [
+          "Prevalencia",
+          "OR",
+          "RR",
+          "Sensibilidad"
+        ],
+        "correcta": 2,
+        "explicacion": "Cohorte: sigue expuestos y no expuestos, mide incidencia y RR."
+      },
+      {
+        "pregunta": "¿Estudio caso-control qué mide?",
+        "opciones": [
+          "RR",
+          "OR",
+          "Prevalencia",
+          "NNT"
+        ],
+        "correcta": 1,
+        "explicacion": "Caso-control: odds ratio como medida de asociación."
+      },
+      {
+        "pregunta": "¿NNT de 10 significa?",
+        "opciones": [
+          "10 enferman",
+          "Tratar 10 para evitar 1 evento",
+          "10 eventos evitan 1",
+          "1 evento cada 10 pacientes"
+        ],
+        "correcta": 1,
+        "explicacion": "NNT=10: tratar 10 pacientes para prevenir un evento adverso."
+      },
+      {
+        "pregunta": "¿Curva ROC AUC = 1?",
+        "opciones": [
+          "Prueba aleatoria",
+          "Prueba perfecta",
+          "Prueba inútil",
+          "Error diagnóstico"
+        ],
+        "correcta": 1,
+        "explicacion": "AUC=1: discriminación perfecta entre enfermos y sanos."
+      },
+      {
+        "pregunta": "¿Sesgo de memoria típico?",
+        "opciones": [
+          "Cohorte",
+          "Caso-control",
+          "Ensayo clínico",
+          "Transversal"
+        ],
+        "correcta": 1,
+        "explicacion": "Sesgo de memoria: casos recuerdan más exposiciones que controles."
+      },
+      {
+        "pregunta": "¿Cómo controlar confusión?",
+        "opciones": [
+          "No se puede",
+          "Aleatorización, estratificación, ajuste multivariable",
+          "Aumentar muestra",
+          "Solo descriptivo"
+        ],
+        "correcta": 1,
+        "explicacion": "Aleatorización (ensayos), estratificación, regresión multivariable."
+      },
+      {
+        "pregunta": "¿IC 95% incluye el 1 en RR?",
+        "opciones": [
+          "Asociación significativa",
+          "Asociación no significativa",
+          "Error",
+          "Protección"
+        ],
+        "correcta": 1,
+        "explicacion": "Si IC 95% del RR incluye 1, no hay asociación estadísticamente significativa."
+      },
+      {
+        "pregunta": "¿Sesgo de selección ejemplos?",
+        "opciones": [
+          "Mala memoria",
+          "Pérdida durante seguimiento",
+          "Instrumento mal calibrado",
+          "Análisis incorrecto"
+        ],
+        "correcta": 1,
+        "explicacion": "Pérdida diferencial durante seguimiento es sesgo de selección."
+      },
+      {
+        "pregunta": "¿Metaanálisis qué es?",
+        "opciones": [
+          "Estudio primario",
+          "Combinación estadística de múltiples estudios",
+          "Revisión narrativa",
+          "Serie de casos"
+        ],
+        "correcta": 1,
+        "explicacion": "Metaanálisis: síntesis cuantitativa de resultados de estudios individuales."
+      }
+    ],
+    "explicaciones": [
+      {
+        "titulo": "Sensibilidad, especificidad y valores predictivos: aplicación clínica",
+        "contenido": "La evaluación de pruebas diagnósticas es fundamental en epidemiología clínica. Se basa en una tabla 2x2 que compara el resultado de la prueba con el gold standard (verdad). La sensibilidad (S) es la probabilidad de que un enfermo tenga prueba positiva: S = VP / (VP + FN). Una prueba altamente sensible tiene pocos falsos negativos. La regla mnemotécnica SnOUT: cuando una prueba es muy sensible (Sn), un resultado Negativo descarta la enfermedad (rule-OUT). Ejemplo: la prueba de ELISA para VIH es >99.9% sensible, por lo que un negativo descarta infección. La especificidad (E) es la probabilidad de que un sano tenga prueba negativa: E = VN / (VN + FP). Una prueba altamente específica tiene pocos falsos positivos. La regla SpIN: cuando una prueba es muy específica (Sp), un resultado Positivo confirma la enfermedad (rule-IN). Ejemplo: la Western Blot para VIH es altamente específica. El valor predictivo positivo (VPP) es la probabilidad de enfermedad si prueba positiva y depende críticamente de la prevalencia en la población: VPP = VP / (VP + FP). A baja prevalencia, incluso pruebas con alta especificidad tienen bajo VPP (paradoja de la prueba diagnóstica). El valor predictivo negativo (VPN) es la probabilidad de no enfermedad si prueba negativa: VPN = VN / (VN + FN). La prevalencia afecta inversamente a VPN: a mayor prevalencia, menor VPN. El teorema de Bayes formaliza esta relación: probabilidad post-prueba = (S × prevalencia) / (S × prevalencia + (1-E) × (1-prevalencia)). Las curvas ROC (Receiver Operating Characteristic) grafican S vs 1-E para todos los puntos de corte posibles. El área bajo la curva (AUC) mide la capacidad discriminativa: 0.5-0.6 inútil, 0.7-0.8 aceptable, 0.8-0.9 excelente, >0.9 excepcional. La razón de verosimilitud (LR) combina S y E: LR+ = S/(1-E) y LR- = (1-S)/E. LR+ >10 y LR- <0.1 proporcionan cambios grandes en probabilidad post-prueba. La aplicación clínica incluye: pruebas de tamizaje (alta S), pruebas confirmatorias (alta E), pruebas secuenciales en serie (aumenta E) o en paralelo (aumenta S). La sensibilidad y especificidad no dependen de prevalencia, pero VPP y VPN sí. La interpretación siempre debe considerar el contexto clínico y la probabilidad pre-prueba basada en la historia y examen físico.",
+        "fuente": "Gordis Epidemiology 7th ed 2024; BMJ Evidence-Based Medicine 2024; Bossuyt et al. STARD Guidelines 2024"
+      },
+      {
+        "titulo": "Diseños de estudio epidemiológicos: cohortes, casos y controles, y ensayos clínicos",
+        "contenido": "Los diseños de estudio epidemiológicos se clasifican en observacionales y experimentales. Los estudios observacionales incluyen transversales, cohortes y casos-controles. Los estudios de cohorte siguen un grupo de individuos expuestos y otro no expuestos a un factor, y comparan la incidencia de enfermedad entre ambos. Son prospectivos (siguen hacia adelante) o retrospectivos (usan datos históricos). Ventajas: permiten calcular incidencia y RR, establecen temporalidad (exposición antes que enfermedad), ideales para exposiciones raras. Desventajas: costosos, pérdidas durante seguimiento, larga duración (enfermedades con período latencia largo). El Framingham Heart Study es el ejemplo clásico. El análisis incluye: tasa de incidencia en expuestos / tasa en no expuestos = RR; diferencia de riesgos; riesgo atribuible poblacional. Los estudios de casos y controles seleccionan individuos con enfermedad (casos) y sin enfermedad (controles) y comparan la exposición previa entre ambos. Son retrospectivos. Ventajas: eficientes para enfermedades raras, rápidos, económicos. Desventajas: sesgo de memoria, selección de controles adecuados, no permite calcular incidencia ni RR (solo OR). La odds ratio (OR) aproxima al RR cuando la enfermedad es rara (<10%). El apareamiento (matching) controla confusores en diseño. Los estudios transversales miden exposición y enfermedad simultáneamente. Proporcionan prevalencia, no incidencia. Son útiles para planificación sanitaria. Los estudios ecológicos usan datos agregados (países, regiones) y pueden presentar falacia ecológica (asumir asociación individual de datos grupales). Los ensayos clínicos aleatorizados (ECA) son el gold standard para establecer causalidad. Asignan aleatoriamente la intervención, minimizando confusores conocidos y desconocidos. El enmascaramiento (simple, doble o triple ciego) reduce sesgos. El CONSORT Statement guía la presentación de resultados. El análisis por intención de tratar (intention-to-treat) preserva la aleatorización. El número necesario a tratar (NNT) es el inverso de la reducción absoluta de riesgo (RAR): NNT = 1/RAR. Un NNT bajo indica tratamiento muy efectivo. La jerarquía de evidencia: revisión sistemática/metaanálisis > ECA > cohorte > caso-control > transversal > series de casos > opinión experta.",
+        "fuente": "Gordis Epidemiology 7th ed 2024; CONSORT 2024 Statement; STROBE Guidelines 2024"
+      },
+      {
+        "titulo": "Sesgos y confusión: identificación y control en epidemiología",
+        "contenido": "Los sesgos (errores sistemáticos) y la confusión son las principales amenazas a la validez de los estudios epidemiológicos. El sesgo de selección ocurre cuando la relación exposición-enfermedad difiere entre participantes y no participantes del estudio. Ejemplos: sesgo de autoselección (personas más sanas participan en tamizaje), sesgo de supervivencia (solo sobrevivientes incluidos en estudio), sesgo de pérdida durante seguimiento (attrition bias: pérdida diferencial entre grupos). En casos-controles: sesgo de selección de controles (controles no representativos de la población fuente). En cohortes: sesgo de pérdida de seguimiento diferencial. El sesgo de información ocurre cuando la medición de exposición o enfermedad es incorrecta o diferencial. Sesgo de memoria (recall bias): los casos recuerdan más exposiciones que controles. Sesgo del entrevistador: el observador registra información diferencial según grupo. Sesgo de clasificación errónea: puede ser diferencial (distinta probabilidad de error entre grupos) o no diferencial (igual probabilidad, generalmente diluye la asociación). Sesgo de detección (detection bias): mayor búsqueda de enfermedad en expuestos. Sesgo de publicación: estudios con resultados positivos tienen más probabilidad de publicarse. La confusión es una distorsión de la asociación exposición-enfermedad por una tercera variable (confusor) que cumple tres criterios: (1) está asociada a la exposición, (2) es un factor de riesgo independiente para la enfermedad, (3) no está en la vía causal entre exposición y enfermedad. Ejemplo clásico: la asociación entre café y cáncer de pulmón está confundida por tabaco (fumadores beben más café y fumar causa cáncer). El confusor más conocido es la edad, que se asocia a casi todas las exposiciones y enfermedades. Métodos de control de confusión en diseño: aleatorización (distribuye confusores en ECA), restricción (limitar a un nivel de confusor), apareamiento (matching). Métodos en análisis: estratificación (Mantel-Haenszel, análisis por subgrupos), estandarización (directa e indirecta), regresión multivariable (logística, Cox, Poisson), propensity score matching, análisis de sensibilidad. El análisis multivariable ajusta simultáneamente por múltiples confusores. La identificación de confusores requiere conocimiento previo de la relación causal (diagramas DAG - Directed Acyclic Graphs). La interacción (modificación de efecto) se diferencia de confusión: interacción es cuando el efecto de la exposición varía según nivel de otra variable (análisis de subgrupos). Los estudios bien diseñados minimizan sesgos en diseño, no solo en análisis.",
+        "fuente": "Rothman Epidemiology: An Introduction 3rd ed 2024; Greenland & Pearce IJE Review 2024; STROBE Guidelines 2024"
+      }
+    ],
+    "imagenes": [
+      {
+        "titulo": "Tabla 2x2 pruebas diagnósticas",
+        "descripcion": "Diagrama sensibilidad, especificidad, VPP, VPN, LR+ y LR- con fórmulas y ejemplo numérico",
+        "url": "/api/v1/education/image/tabla_2x2",
+        "fuente": "BMJ Evidence-Based Medicine 2024"
+      },
+      {
+        "titulo": "Diseños de estudio pirámide evidencia",
+        "descripcion": "Jerarquía evidencia: metaanálisis > ECA > cohorte > caso-control > transversal > serie casos > experto",
+        "url": "/api/v1/education/image/jerarquia_evidencia",
+        "fuente": "OCEBM Levels of Evidence 2024"
+      },
+      {
+        "titulo": "Confusión diagrama DAG",
+        "descripcion": "Diagrama causal DAG: exposición, desenlace y confusor con criterios de confusión",
+        "url": "/api/v1/education/image/confusion_dag",
+        "fuente": "Greenland & Pearce 2024; STROBE Guidelines"
+      }
+    ],
+    "imagen": "/static/images/education/epidemiologia.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "CDC / Zellfaze, Wikimedia Commons"
+  }
+]

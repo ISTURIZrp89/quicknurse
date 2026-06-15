@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="yes" launchScreen="yes" colorMatched="yes">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="UILaunchViewController" customModule="UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="yes" heightSizable="yes"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="no" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="no" id="iconImageView">
+                                <rect key="frame" x="171" y="376" width="51" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="w5p-Cm-n3e"/>
+                                    <constraint firstAttribute="height" constant="51" id="hL3-7d-6k2"/>
+                                </constraints>
+                                <image name="LaunchIcon" catalog="Assets"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="no" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QuickNurse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="no" id="titleLabel">
+                                <rect key="frame" x="136" y="440" width="121" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20" weight="bold"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="no" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asistente Clínico Inteligente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="no" id="subtitleLabel">
+                                <rect key="frame" x="86" y="470" width="221" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="iconImageView" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a1b-G2-L9c"/>
+                            <constraint firstItem="iconImageView" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-60" id="b2c-H3-M4k"/>
+                            <constraint firstItem="titleLabel" firstAttribute="top" secondItem="iconImageView" secondAttribute="bottom" constant="16" id="c3d-I4-N5l"/>
+                            <constraint firstItem="titleLabel" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d4e-J5-O6m"/>
+                            <constraint firstItem="subtitleLabel" firstAttribute="top" secondItem="titleLabel" secondAttribute="bottom" constant="4" id="e5f-K6-P7n"/>
+                            <constraint firstItem="subtitleLabel" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f6g-L7-Q8o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i7j-M8-R9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.0" y="375.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchIcon" width="1024" height="1024"/>
+    </resources>
+</document>

@@ -26,3 +26,34 @@ src-tauri/Wrapper-MacOS/
 src-tauri/target/
 src-tauri/debug/
 src-tauri/release/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+*.egg
+venv/
+.venv/
+
+# Flutter
+flutter/build/
+flutter/.dart_tool/
+flutter/.packages
+flutter/.flutter-plugins
+flutter/.flutter-plugins-dependencies
+flutter/pubspec.lock
+flutter/ios/Pods/
+flutter/ios/.symlinks/
+flutter/android/.gradle/
+flutter/android/local.properties
+flutter/android/app/build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+

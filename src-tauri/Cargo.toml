@@ -1,0 +1,35 @@
+[package]
+name = "quicknurse"
+version = "1.0.0"
+description = "QuickNurse - Asistente Clínico Inteligente"
+authors = ["ISTURIZrp89"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [
+  "fs-all",
+  "sql",
+  "notification",
+  "dialog-all",
+  "opener",
+  "shell-all",
+  "clipboard-manager",
+  "process-relaunch",
+  "process-restart",
+  "os-ext"] }
+tauri-plugin-sql = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-store = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-clipboard-manager = "2"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+libsqlite3-sys = { version = "0.28", features = ["bundled", "enable_load_extension"] }
