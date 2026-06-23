@@ -1,9 +1,15 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import '../models/symptom_response.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://localhost:8000/api/v1';
+  static String get _baseUrl {
+    if (kIsWeb) {
+      return '/api/v1';
+    }
+    return 'http://localhost:8000/api/v1';
+  }
   static String get baseUrl => _baseUrl;
 
   static Future<SymptomResponse> analyzeSymptoms(String symptoms, {bool llm = false, int? age, String? sex}) async {
@@ -254,6 +260,110 @@ class ApiService {
       }
       return {};
     }
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  // ─── Pacientes ─────────────────────────────────────────────────
+  static Future<Map<String, dynamic>> createPatient(Map<String, dynamic> data) async {
+    final url = Uri.parse('$_baseUrl/patients');
+    final response = await http.post(url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode(data),
+    );
+    if (response.statusCode == 201) return jsonDecode(response.body);
+    throw Exception('Error: ${response.body}');
+  }
+
+  static Future<List<dynamic>> listPatients({bool activeOnly = true}) async {
+    final url = Uri.parse('$_baseUrl/patients?active_only=$activeOnly');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  static Future<Map<String, dynamic>> getPatient(int id) async {
+    final url = Uri.parse('$_baseUrl/patients/$id');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  static Future<List<dynamic>> searchPatients(String query) async {
+    final url = Uri.parse('$_baseUrl/patients/search?q=${Uri.encodeComponent(query)}');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  // ─── Signos Vitales ─────────────────────────────────────────
+  static Future<Map<String, dynamic>> addVitalSigns(int patientId, Map<String, dynamic> data) async {
+    final url = Uri.parse('$_baseUrl/patients/$patientId/vitals');
+    final response = await http.post(url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode(data),
+    );
+    if (response.statusCode == 201) return jsonDecode(response.body);
+    throw Exception('Error: ${response.body}');
+  }
+
+  static Future<List<dynamic>> getVitalsHistory(int patientId, {int days = 30}) async {
+    final url = Uri.parse('$_baseUrl/patients/$patientId/vitals?days=$days');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  // ─── Episodios ──────────────────────────────────────────────
+  static Future<Map<String, dynamic>> createEpisode(int patientId, Map<String, dynamic> data) async {
+    final url = Uri.parse('$_baseUrl/episodes/patients/$patientId');
+    final response = await http.post(url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode(data),
+    );
+    if (response.statusCode == 201) return jsonDecode(response.body);
+    throw Exception('Error: ${response.body}');
+  }
+
+  static Future<List<dynamic>> listEpisodes(int patientId) async {
+    final url = Uri.parse('$_baseUrl/episodes/patients/$patientId');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  // ─── Prescripciones ─────────────────────────────────────────
+  static Future<List<dynamic>> listPrescriptions(int patientId) async {
+    final url = Uri.parse('$_baseUrl/patients/$patientId/prescriptions');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
+    throw Exception('Error: ${response.statusCode}');
+  }
+
+  static Future<Map<String, dynamic>> createPrescription(int patientId, Map<String, dynamic> data) async {
+    final url = Uri.parse('$_baseUrl/patients/$patientId/prescriptions');
+    final response = await http.post(url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode(data),
+    );
+    if (response.statusCode == 201) return jsonDecode(response.body);
+    throw Exception('Error: ${response.body}');
+  }
+
+  // ─── Notas Clínicas ─────────────────────────────────────────
+  static Future<Map<String, dynamic>> createNote(int episodeId, Map<String, dynamic> data) async {
+    final url = Uri.parse('$_baseUrl/episodes/$episodeId/notes');
+    final response = await http.post(url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode(data),
+    );
+    if (response.statusCode == 201) return jsonDecode(response.body);
+    throw Exception('Error: ${response.body}');
+  }
+
+  static Future<List<dynamic>> listNotes(int episodeId) async {
+    final url = Uri.parse('$_baseUrl/episodes/$episodeId/notes');
+    final response = await http.get(url);
+    if (response.statusCode == 200) return jsonDecode(response.body);
     throw Exception('Error: ${response.statusCode}');
   }
 

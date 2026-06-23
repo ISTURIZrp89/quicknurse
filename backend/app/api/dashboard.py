@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.database import get_db
-from app.models import PlanPAE, TimerTurno
+from app.models import PlanPAE, TimerTurno, Turno, Credencial
 from datetime import datetime, timezone
 import os
 
@@ -45,4 +45,6 @@ def dashboard(db: Session = Depends(get_db)):
         "timers_hoy": timers_hoy,
         "guias_disponibles": guias_disponibles,
         "chat_ia": "online",
+        "turnos_disponibles": db.query(Turno).filter(Turno.estado == "DISPONIBLE").count(),
+        "credenciales_activas": db.query(Credencial).filter(Credencial.activa == True).count(),
     }

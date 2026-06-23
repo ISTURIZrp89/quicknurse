@@ -113,7 +113,7 @@ def evaluar_sintomas(sintomas: str, age: int | None = None, sex: str | None = No
         }
 
     return {
-        "diagnosis": "Sintomas inespecificos",
+        "diagnosis": "Síntomas inespecíficos",
         "confidence": 0.50,
         "recommendation": "Vigilancia por 24h. Si empeoran, buscar atencion medica.",
         "source": "offline_rules",

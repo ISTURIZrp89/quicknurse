@@ -8,6 +8,7 @@ import 'farmacologia_screen.dart';
 import 'cronometro_screen.dart';
 import 'chat_screen.dart';
 import 'education_screen.dart';
+import 'patients_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final VoidCallback onToggleTheme;
@@ -109,6 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           _drawerItem(cs, Icons.dashboard_rounded, 'Dashboard', () { Navigator.pop(context); _setTab(0); }),
+          _drawerItem(cs, Icons.people_rounded, 'Pacientes', () { Navigator.pop(context); _openScreen(context, const PatientsScreen()); }),
           _drawerItem(cs, Icons.healing_rounded, 'Triaje', () { Navigator.pop(context); _openScreen(context, SymptomScreen()); }),
           _drawerItem(cs, Icons.assignment_rounded, 'Planes PAE', () { Navigator.pop(context); _openScreen(context, PlanesPaeScreen()); }),
           _drawerItem(cs, Icons.menu_book_rounded, 'Guías Clínicas', () { Navigator.pop(context); _openScreen(context, GuidesScreen()); }),
@@ -159,6 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          _moreTile(context, cs, Icons.people_rounded, 'Pacientes', moduleColor, const PatientsScreen()),
           _moreTile(context, cs, Icons.healing_rounded, 'Triaje', moduleColor, const SymptomScreen()),
           _moreTile(context, cs, Icons.assignment_rounded, 'Planes PAE', moduleColor, const PlanesPaeScreen()),
           _moreTile(context, cs, Icons.menu_book_rounded, 'Guías Clínicas', moduleColor, const GuidesScreen()),

@@ -56,4 +56,7 @@ flutter/android/app/build/
 *.sqlite
 *.sqlite3
 
+# Vercel
+public/
+.vercel/
 

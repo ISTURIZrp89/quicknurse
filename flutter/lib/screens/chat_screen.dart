@@ -1,6 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import '../services/api_service.dart';
+import '../services/web_llm_service.dart';
+import '../services/offline_data_service.dart';
 
 class ModelOption {
   final String id;
@@ -11,16 +13,22 @@ class ModelOption {
   const ModelOption(this.id, this.nombre, this.descripcion, this.badge, this.fuente);
 }
 
-const List<ModelOption> _models = [
-  ModelOption('phi4-mini', 'Phi-4 Mini', 'Modelo médico ligero local', 'Recomendado', 'Ollama'),
-  ModelOption('llama3.2:3b', 'Llama 3.2 3B', 'Balance velocidad/calidad', 'Popular', 'Ollama'),
-  ModelOption('mistral:7b', 'Mistral 7B', 'Mayor precisión', 'Preciso', 'Ollama'),
-  ModelOption('llama3:8b', 'Llama 3 8B', 'Modelo general potente', 'Potente', 'Ollama'),
-  ModelOption('medllama2', 'MedLlama2', 'Modelo médico especializado', 'Médico', 'Ollama'),
-  ModelOption('hf-deepseek', 'DeepSeek Coder (HF)', 'IA via HuggingFace', 'HF', 'HuggingFace'),
-  ModelOption('hf-mistral', 'Mistral HF', 'Mistral via HuggingFace', 'HF', 'HuggingFace'),
-  ModelOption('hf-meditron', 'Meditron (HF)', 'Modelo médico HF', 'Médico HF', 'HuggingFace'),
-];
+List<ModelOption> _getModels() {
+  final models = <ModelOption>[
+    const ModelOption('phi4-mini', 'Phi-4 Mini', 'Modelo médico ligero local', 'Recomendado', 'Ollama'),
+    const ModelOption('llama3.2:3b', 'Llama 3.2 3B', 'Balance velocidad/calidad', 'Popular', 'Ollama'),
+    const ModelOption('mistral:7b', 'Mistral 7B', 'Mayor precisión', 'Preciso', 'Ollama'),
+    const ModelOption('llama3:8b', 'Llama 3 8B', 'Modelo general potente', 'Potente', 'Ollama'),
+    const ModelOption('medllama2', 'MedLlama2', 'Modelo médico especializado', 'Médico', 'Ollama'),
+    const ModelOption('hf-deepseek', 'DeepSeek Coder (HF)', 'IA via HuggingFace', 'HF', 'HuggingFace'),
+    const ModelOption('hf-mistral', 'Mistral HF', 'Mistral via HuggingFace', 'HF', 'HuggingFace'),
+    const ModelOption('hf-meditron', 'Meditron (HF)', 'Modelo médico HF', 'Médico HF', 'HuggingFace'),
+  ];
+  if (WebLLMService.isAvailable) {
+    models.add(const ModelOption('offline', 'Phi-3 Offline (WebLLM)', 'IA en el navegador sin internet', 'Offline', 'Local'));
+  }
+  return models;
+}
 
 const List<Map<String, String>> _quickActions = [
   {'icon': '💊', 'text': 'Dosis de Heparina'},
@@ -67,7 +75,12 @@ class _ChatScreenState extends State<ChatScreen> {
       if (mounted) {
         setState(() => _availableDocs = docs);
       }
-    } catch (_) {}
+    } catch (_) {
+      final offline = await OfflineDataService.loadGuideList();
+      if (mounted && offline.isNotEmpty) {
+        setState(() => _availableDocs = offline);
+      }
+    }
   }
 
   @override
@@ -77,9 +90,9 @@ class _ChatScreenState extends State<ChatScreen> {
     super.dispose();
   }
 
-  String get _currentModelId => _models[_selectedModelIndex].id;
-  String get _currentModelName => _models[_selectedModelIndex].nombre;
-  String get _currentModelFuente => _models[_selectedModelIndex].fuente;
+  String get _currentModelId => _getModels()[_selectedModelIndex].id;
+  String get _currentModelName => _getModels()[_selectedModelIndex].nombre;
+  String get _currentModelFuente => _getModels()[_selectedModelIndex].fuente;
 
   void _sendMessage({String? text}) {
     final msg = text ?? _controller.text.trim();
@@ -97,6 +110,10 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   Future<void> _getResponse(String mensaje) async {
+    if (_currentModelId == 'offline') {
+      await _handleOfflineResponse(mensaje);
+      return;
+    }
     try {
       final res = await ApiService.enviarMensajeChat(
         mensaje,
@@ -124,21 +141,58 @@ class _ChatScreenState extends State<ChatScreen> {
       });
       _sessionHistory.add(assistantMsg);
     } catch (e) {
-      final errorMsg = {
-        'role': 'assistant',
-        'text': '⚠️ Error de conexión. Verifica que Ollama esté corriendo o la configuración de HuggingFace.',
-        'time': DateTime.now().millisecondsSinceEpoch,
-        'error': true,
-        'fuentes': <String>[],
-      };
-      setState(() {
-        _messages.add(errorMsg);
-      });
-      _sessionHistory.add(errorMsg);
+      await _handleFallbackResponse(mensaje);
     } finally {
       setState(() => _loading = false);
       _scrollToBottom();
     }
+  }
+
+  Future<void> _handleOfflineResponse(String mensaje) async {
+    final respuesta = await WebLLMService.chat(
+      'Eres un asistente clínico para enfermería. Responde en español, sé conciso y preciso.',
+      mensaje,
+    );
+    final assistantMsg = {
+      'role': 'assistant',
+      'text': respuesta,
+      'time': DateTime.now().millisecondsSinceEpoch,
+      'modelo': 'Phi-3 Offline',
+      'fuentes': <String>[],
+      'web_results': <Map<String, dynamic>>[],
+      'fuente_origen': 'Local (WebLLM)',
+      'web_searched': false,
+    };
+    setState(() => _messages.add(assistantMsg));
+    _sessionHistory.add(assistantMsg);
+  }
+
+  Future<void> _handleFallbackResponse(String mensaje) async {
+    String respuesta;
+    String modelo = 'Offline';
+    if (WebLLMService.modelLoaded) {
+      respuesta = await WebLLMService.chat(
+        'Eres un asistente clínico para enfermería. Responde en español, sé conciso y preciso.',
+        mensaje,
+      );
+      modelo = 'Phi-3 Offline (WebLLM)';
+    } else {
+      respuesta = WebLLMService.offlineFallback(mensaje);
+      modelo = 'Reglas offline';
+    }
+    final assistantMsg = {
+      'role': 'assistant',
+      'text': respuesta,
+      'time': DateTime.now().millisecondsSinceEpoch,
+      'modelo': modelo,
+      'fuentes': <String>[],
+      'web_results': <Map<String, dynamic>>[],
+      'fuente_origen': 'Local',
+      'web_searched': false,
+      'offline': true,
+    };
+    setState(() => _messages.add(assistantMsg));
+    _sessionHistory.add(assistantMsg);
   }
 
   void _clearChat() {
@@ -280,9 +334,9 @@ class _ChatScreenState extends State<ChatScreen> {
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
-                    children: List.generate(_models.length, (i) {
+                    children: List.generate(_getModels().length, (i) {
                       final selected = i == _selectedModelIndex;
-                      final model = _models[i];
+                      final model = _getModels()[i];
                       final isHfModel = model.fuente == 'HuggingFace';
                       return Padding(
                         padding: const EdgeInsets.only(right: 4),

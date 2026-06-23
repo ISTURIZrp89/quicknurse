@@ -1,7 +1,7 @@
 [
   {
     "nombre_generico": "Paracetamol (Acetaminofén)",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor leve-moderado, fiebre",
     "dosis_adulto": "500-1000 mg c/6-8h (max 4g/día)",
     "dosis_pediatrica": "15 mg/kg/dosis c/6-8h (max 60 mg/kg/día)",
@@ -13,11 +13,12 @@
     "interacciones": "Anticoagulantes orales (aumenta INR), alcohol, anticonvulsivantes",
     "efectos_adversos": "Náuseas, rash, hepatotoxicidad (sobredosis >7.5g)",
     "embarazo_lactancia": "Categoría B. Seguro en lactancia",
-    "mecanismo_accion": "Inhibidor COX-3 central. Analgésico y antipirético sin acción antiinflamatoria significativa."
+    "mecanismo_accion": "Inhibidor COX-3 central. Analgésico y antipirético sin acción antiinflamatoria significativa.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ácido Acetilsalicílico (Aspirina)",
-    "categoria": "AINE / Antiinflamatorio",
+    "categoria": "AINE/Antiinflamatorio",
     "indicacion": "Dolor leve-moderado, fiebre, antiagregante",
     "dosis_adulto": "500-1000 mg c/6-8h (max 4g/día). Antiagregante: 100-325 mg/día",
     "dosis_pediatrica": "Evitar en <12 años (Riesgo Reye). 10-15 mg/kg/dosis",
@@ -29,7 +30,8 @@
     "interacciones": "Anticoagulantes (riesgo sangrado), metotrexato, AINEs, IECA",
     "efectos_adversos": "GI (dispepsia, úlcera, sangrado), broncoespasmo, tinnitus, hemorragia",
     "embarazo_lactancia": "Evitar en embarazo (cierre ductus, hemorragia). Compatible lactancia.",
-    "mecanismo_accion": "Inhibe COX-1 y COX-2 irreversiblemente. Antiagregante por inhibición TxA2 plaquetario."
+    "mecanismo_accion": "Inhibe COX-1 y COX-2 irreversiblemente. Antiagregante por inhibición TxA2 plaquetario.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ibuprofeno",
@@ -45,7 +47,8 @@
     "interacciones": "IECA/ARA-II, diureticos, warfarina, aspirina, litio, MTX",
     "efectos_adversos": "GI (dispepsia, ulcera, sangrado), IR, HTA, retardar curacion",
     "embarazo_lactancia": "Evitar embarazo (especialmente 3er trim). Compatible lactancia",
-    "mecanismo_accion": "AINE no selectivo COX-1/COX-2."
+    "mecanismo_accion": "AINE no selectivo COX-1/COX-2.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Naproxeno",
@@ -61,7 +64,8 @@
     "interacciones": "IECA/ARA-II, warfarina, litio, MTX, diureticos",
     "efectos_adversos": "GI (dispepsia, ulcera, sangrado), IR, HTA, edema",
     "embarazo_lactancia": "Evitar 3er trim. Compatible lactancia",
-    "mecanismo_accion": "AINE no selectivo COX-1/COX-2. Vida media larga."
+    "mecanismo_accion": "AINE no selectivo COX-1/COX-2. Vida media larga.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Diclofenaco",
@@ -77,7 +81,8 @@
     "interacciones": "IECA/ARA-II, ACO, litio, MTX, diureticos",
     "efectos_adversos": "GI, IR, HTA, riesgo CV (dosis altas/largas), hepatotoxicidad",
     "embarazo_lactancia": "Evitar 3er trim. Compatible lactancia",
-    "mecanismo_accion": "AINE no selectivo COX-1/COX-2."
+    "mecanismo_accion": "AINE no selectivo COX-1/COX-2.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ketorolaco",
@@ -93,11 +98,12 @@
     "interacciones": "Anticoagulantes, AINEs, litio, metotrexato, probenecid, pentoxifilina",
     "efectos_adversos": "GI (sangrado, perforación), renal (IRA), retención hídrica, somnolencia",
     "embarazo_lactancia": "Evitar en embarazo. Compatible lactancia (uso corto)",
-    "mecanismo_accion": "Inhibidor COX potente. Analgésico de potencia similar a opioides en dolor agudo."
+    "mecanismo_accion": "Inhibidor COX potente. Analgésico de potencia similar a opioides en dolor agudo.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metamizol (Dipirona)",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor agudo severo, fiebre alta refractaria",
     "dosis_adulto": "500 mg-2g c/6-8h (max 4g/día) IV/IM/PO",
     "dosis_pediatrica": "10-15 mg/kg/dosis c/6h",
@@ -109,11 +115,12 @@
     "interacciones": "Metotrexato (aumenta toxicidad), alcohol, anticonvulsivantes",
     "efectos_adversos": "Agranulocitosis (raro), hipotensión, reacciones cutáneas, anafilaxia",
     "embarazo_lactancia": "Evitar en embarazo (1er y 3er trim). Evitar lactancia",
-    "mecanismo_accion": "Analgésico no opioide con acción espasmolítica. Mecanismo de acción no completamente conocido."
+    "mecanismo_accion": "Analgésico no opioide con acción espasmolítica. Mecanismo de acción no completamente conocido.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Tramadol",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor moderado-severo",
     "dosis_adulto": "50-100 mg c/4-6h (max 400 mg/día)",
     "dosis_pediatrica": "1-2 mg/kg/dosis c/6-8h",
@@ -125,11 +132,12 @@
     "interacciones": "ISRS, IRSN, tricíclicos (riesgo convulsiones), anticoagulantes, BZD, alcohol",
     "efectos_adversos": "Náuseas, mareos, somnolencia, estreñimiento, convulsiones (altas dosis), dependencia",
     "embarazo_lactancia": "Categoría C. Evitar lactancia",
-    "mecanismo_accion": "Agonista μ-opioide débil + inhibidor recaptación serotonina/noradrenalina. Analgésico dual."
+    "mecanismo_accion": "Agonista μ-opioide débil + inhibidor recaptación serotonina/noradrenalina. Analgésico dual.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Morfina",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor severo agudo y crónico, edema agudo de pulmón",
     "dosis_adulto": "2.5-10 mg IV/SC c/2-6h. PO: 5-30 mg c/4h",
     "dosis_pediatrica": "0.1-0.2 mg/kg IV/SC c/2-4h",
@@ -141,11 +149,12 @@
     "interacciones": "BZD, alcohol, otros depresores SNC (depresión respiratoria aditiva), IMAO",
     "efectos_adversos": "Depresión respiratoria, náuseas/vómitos, estreñimiento, hipotensión, prurito, retención urinaria, dependencia",
     "embarazo_lactancia": "Categoría C. Uso en trabajo de parto (depresión neonatal). Compatible lactancia",
-    "mecanismo_accion": "Agonista opioide μ puro. Analgésico potente con acción sobre SNC, GI y cardiovascular."
+    "mecanismo_accion": "Agonista opioide μ puro. Analgésico potente con acción sobre SNC, GI y cardiovascular.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Fentanilo",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor severo, inducción anestésica, sedación procedimental",
     "dosis_adulto": "25-100 μg IV c/5-10 min. Parche: 12-100 μg/h c/72h",
     "dosis_pediatrica": "1-2 μg/kg IV c/30-60 min",
@@ -157,11 +166,12 @@
     "interacciones": "BZD, alcohol, otros depresores SNC (potenciación), IMAO, antirretrovirales",
     "efectos_adversos": "Depresión respiratoria, rigidez torácica, náuseas, estreñimiento, bradicardia, dependencia",
     "embarazo_lactancia": "Categoría C. Compatible lactancia. Evitar en embarazo crónico",
-    "mecanismo_accion": "Agonista opioide μ puro potente. Acción rápida y corta duración (IV 30-60 min)."
+    "mecanismo_accion": "Agonista opioide μ puro potente. Acción rápida y corta duración (IV 30-60 min).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Codeína",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor leve-moderado, antitusígeno",
     "dosis_adulto": "15-60 mg c/4-6h (max 360 mg/día)",
     "dosis_pediatrica": "0.5-1 mg/kg/dosis c/4-6h",
@@ -173,7 +183,8 @@
     "interacciones": "BZD, alcohol, depresores SNC, IMAO, inhibidores CYP2D6 (fluoxetina, paroxetina)",
     "efectos_adversos": "Estreñimiento, náuseas, somnolencia, mareo, depresión respiratoria, dependencia",
     "embarazo_lactancia": "Categoría C. Evitar lactancia",
-    "mecanismo_accion": "Codeína es profármaco: convertida a morfina vía CYP2D6. Agonista μ opioide."
+    "mecanismo_accion": "Codeína es profármaco: convertida a morfina vía CYP2D6. Agonista μ opioide.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Enalapril",
@@ -189,7 +200,8 @@
     "interacciones": "Diuréticos ahorradores K, suplementos K, AINEs (↓ eficacia), litio, alopurinol",
     "efectos_adversos": "Tos seca (~15%), hipercalemia, angioedema (raro), hipotensión, IR, rash",
     "embarazo_lactancia": "Contraindicado embarazo (toxicidad fetal). Compatible lactancia",
-    "mecanismo_accion": "Inhibidor de la enzima convertidora de angiotensina (IECA). Vasodilatador."
+    "mecanismo_accion": "Inhibidor de la enzima convertidora de angiotensina (IECA). Vasodilatador.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Losartán",
@@ -205,7 +217,8 @@
     "interacciones": "Diuréticos ahorradores K, suplementos K, AINEs, litio, rifampicina, fluconazol",
     "efectos_adversos": "Hipotensión, hipercalemia, IR, mareos, angioedema (raro), diarrea",
     "embarazo_lactancia": "Contraindicado embarazo (toxicidad fetal). Compatible lactancia",
-    "mecanismo_accion": "Antagonista de receptor AT1 de angiotensina II (ARA-II). Vasodilatador."
+    "mecanismo_accion": "Antagonista de receptor AT1 de angiotensina II (ARA-II). Vasodilatador.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Amlodipino",
@@ -221,7 +234,8 @@
     "interacciones": "Inh/ind CYP3A4, simvastatina, B-bloqueadores",
     "efectos_adversos": "Edema maleolar, cefalea, rubor, mareos, fatiga, hiperplasia gingival",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "BCC dihidropiridinico. Vasodilatador arterial."
+    "mecanismo_accion": "BCC dihidropiridinico. Vasodilatador arterial.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metoprolol",
@@ -237,7 +251,8 @@
     "interacciones": "Verapamilo/diltiazem (bradicardia, hipotensión), digital (bradicardia), AINEs, insulina",
     "efectos_adversos": "Bradicardia, fatiga, mareos, extremidades frías, depresión, disfunción eréctil, broncoespasmo",
     "embarazo_lactancia": "Categoría C. Compatible lactancia (monitorizar RN)",
-    "mecanismo_accion": "Bloqueador β1 selectivo. Reduce frecuencia cardíaca, contractilidad y presión arterial."
+    "mecanismo_accion": "Bloqueador β1 selectivo. Reduce frecuencia cardíaca, contractilidad y presión arterial.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Hidroclorotiazida",
@@ -253,7 +268,8 @@
     "interacciones": "AINEs (↓ eficacia), litio, digital, antidiabéticos, corticosteroides, colestiramina",
     "efectos_adversos": "Hipocalemia, hiponatremia, hipercalcemia, hiperuricemia, hiperglucemia, fotosensibilidad, dislipidemia",
     "embarazo_lactancia": "Evitar en embarazo. Compatible lactancia",
-    "mecanismo_accion": "Diurético tiazídico. Inhibe cotransportador Na-Cl en túbulo contorneado distal."
+    "mecanismo_accion": "Diurético tiazídico. Inhibe cotransportador Na-Cl en túbulo contorneado distal.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Furosemida",
@@ -269,7 +285,8 @@
     "interacciones": "Aminoglucosidos, IECA, digoxina, litio, AINEs",
     "efectos_adversos": "Hipocalemia, hiponatremia, hipocalcemia, ototoxicidad, IR, hipotension",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "Diuretico de asa. Inhibe NKCC2 en asa Henle."
+    "mecanismo_accion": "Diuretico de asa. Inhibe NKCC2 en asa Henle.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Amiodarona",
@@ -285,7 +302,8 @@
     "interacciones": "Clase III (QT), warfarina, digoxina, estatinas, fenitoina, muchos mas",
     "efectos_adversos": "Fibrosis pulmonar, disfuncion tiroidea, hepatotoxicidad, QT, depositos corneales, fotosensibilidad",
     "embarazo_lactancia": "Categoria D (afecta tiroides fetal). Evitar lactancia",
-    "mecanismo_accion": "Clase III antiarritmico. Multiples efectos (I,II,III,IV)."
+    "mecanismo_accion": "Clase III antiarritmico. Multiples efectos (I,II,III,IV).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Digoxina",
@@ -301,7 +319,8 @@
     "interacciones": "Amiodarona, verapamilo, macrolidos, diureticos, quinidina, itraconazol",
     "efectos_adversos": "Arritmias (bigeminismo, BAV), GI (nausea, anorexia), visual (xantopsia)",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "Inhibe Na/K ATPasa. Inotropico + cronotropico negativo."
+    "mecanismo_accion": "Inhibe Na/K ATPasa. Inotropico + cronotropico negativo.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Norepinefrina (Noradrenalina)",
@@ -317,7 +336,8 @@
     "interacciones": "IMAO (↑ efecto), antidepresivos tricíclicos, linezolid, halogenados (arritmias)",
     "efectos_adversos": "Isquemia periférica/digital, bradicardia, HTA, arritmias, necrosis por extravasación, hiperglucemia",
     "embarazo_lactancia": "Uso en emergencia. Cruzar placenta (vasoconstricción uterina)",
-    "mecanismo_accion": "Agonista α1 y α2 adrenérgico (vasoconstricción potente) + β1 (inotropo positivo). Vasopresor de primera línea."
+    "mecanismo_accion": "Agonista α1 y α2 adrenérgico (vasoconstricción potente) + β1 (inotropo positivo). Vasopresor de primera línea.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Dopamina",
@@ -333,7 +353,8 @@
     "interacciones": "IMAO (↑ efecto), antidepresivos tricíclicos, halogenados (arritmias), β-bloqueadores (↑ HTA)",
     "efectos_adversos": "Taquiarritmias, extrasístoles, angina, HTA, necrosis por extravasación, náuseas, vasoconstricción periférica",
     "embarazo_lactancia": "Categoría C. Uso en emergencia obstétrica",
-    "mecanismo_accion": "Precursor de noradrenalina. Acción dosis-dependente: DA1→β1→α1. Inotropo y vasopresor."
+    "mecanismo_accion": "Precursor de noradrenalina. Acción dosis-dependente: DA1→β1→α1. Inotropo y vasopresor.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Dobutamina",
@@ -349,7 +370,8 @@
     "interacciones": "β-bloqueadores (antagonizan efecto), halogenados, cocaína",
     "efectos_adversos": "Taquicardia, arritmias, HTA, hipotensión (dosis altas), angina, cefalea, náuseas",
     "embarazo_lactancia": "Categoría B. Uso en emergencia",
-    "mecanismo_accion": "Agonista β1 selectivo (inotropo positivo fuerte) + β2 suave (vasodilatación). Inotropo puro."
+    "mecanismo_accion": "Agonista β1 selectivo (inotropo positivo fuerte) + β2 suave (vasodilatación). Inotropo puro.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Amoxicilina",
@@ -365,7 +387,8 @@
     "interacciones": "Alopurinol (rash), ACO, metotrexato, warfarina",
     "efectos_adversos": "Rash, diarrea, nauseas, colitis C. difficile",
     "embarazo_lactancia": "Categoria B. Seguro embarazo/lactancia",
-    "mecanismo_accion": "Penicilina semisintetica. Inhibe sintesis pared bacteriana."
+    "mecanismo_accion": "Penicilina semisintetica. Inhibe sintesis pared bacteriana.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ceftriaxona",
@@ -381,7 +404,8 @@
     "interacciones": "Warfarina, Ca IV (RN), alcohol, AINEs",
     "efectos_adversos": "Diarrea, rash, elevacion enzimas hepaticas, colitis C. difficile",
     "embarazo_lactancia": "Categoria B. Seguro embarazo/lactancia",
-    "mecanismo_accion": "Cefalosporina 3ra gen. Inhibe sintesis pared bacteriana. Vida media 8h."
+    "mecanismo_accion": "Cefalosporina 3ra gen. Inhibe sintesis pared bacteriana. Vida media 8h.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Vancomicina",
@@ -397,7 +421,8 @@
     "interacciones": "Aminoglucosidos, anfotericina B, AINEs, diureticos asa (nefrotoxicidad)",
     "efectos_adversos": "Sx hombre rojo (infusion rapida), nefrotoxicidad, ototoxicidad, flebitis",
     "embarazo_lactancia": "Categoria C. Compatible embarazo/lactancia",
-    "mecanismo_accion": "Glicopeptido. Inhibe sintesis pared bacteriana."
+    "mecanismo_accion": "Glicopeptido. Inhibe sintesis pared bacteriana.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Sertralina",
@@ -413,7 +438,8 @@
     "interacciones": "ISRS (SNC), AINEs (sangrado), warfarina, litio, ATC, triptanes",
     "efectos_adversos": "GI (nausea, diarrea), insomnio, disfuncion sexual, SNC (serotonergico)",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "ISRS. Aumenta serotonina sináptica."
+    "mecanismo_accion": "ISRS. Aumenta serotonina sináptica.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Diazepam",
@@ -429,7 +455,8 @@
     "interacciones": "Alcohol, BZD, opioides, antiepilepticos, azoles (todos potencian)",
     "efectos_adversos": "Sedacion, depresion respiratoria, dependencia, tolerancia, somnolencia",
     "embarazo_lactancia": "Categoria D. Evitar embarazo/lactancia",
-    "mecanismo_accion": "Benzodiazepina. Potencia GABA-A."
+    "mecanismo_accion": "Benzodiazepina. Potencia GABA-A.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Fluoxetina",
@@ -445,7 +472,8 @@
     "interacciones": "ISRS (potente inhibidor CYP2D6), ATC, antipsicoticos, beta-bloqueadores, warfarina, triptanes",
     "efectos_adversos": "GI, insomnio, nerviosismo, cefalea, disfuncion sexual, SNC",
     "embarazo_lactancia": "Categoria C. Evitar lactancia (vida media larga)",
-    "mecanismo_accion": "ISRS. Inhibe recaptacion serotonina."
+    "mecanismo_accion": "ISRS. Inhibe recaptacion serotonina.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Haloperidol",
@@ -461,7 +489,8 @@
     "interacciones": "Anticolinergicos, QT-largos, litio, BZD, antiepilepticos",
     "efectos_adversos": "EPS (distonia, acatisia, parkinsonismo), sedacion, hiperprolactinemia, SNC, QT",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "Antipsicotico tipico. Antagonista D2."
+    "mecanismo_accion": "Antipsicotico tipico. Antagonista D2.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Heparina Sódica (No Fraccionada)",
@@ -477,7 +506,8 @@
     "interacciones": "Anticoagulantes/antiagregantes (↑ sangrado), AINEs, trombolíticos, nitroglicerina (↓ efecto)",
     "efectos_adversos": "Sangrado, TIH tipo I y II, osteoporosis (uso >6m), elevación transaminasas, reacciones cutáneas",
     "embarazo_lactancia": "Categoría C (no cruza placenta). Seguro en lactancia",
-    "mecanismo_accion": "Anticoagulante indirecto. Activa antitrombina III (inactiva trombina, Xa, IXa, XIa)."
+    "mecanismo_accion": "Anticoagulante indirecto. Activa antitrombina III (inactiva trombina, Xa, IXa, XIa).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Heparina de Bajo Peso Molecular (Enoxaparina)",
@@ -493,7 +523,8 @@
     "interacciones": "Anticoagulantes/antiagregantes (↑ sangrado), AINEs, antiagregantes, dextrán",
     "efectos_adversos": "Sangrado, TIH (<1%), hematoma local, elevación transaminasas, osteoporosis (raro)",
     "embarazo_lactancia": "Categoría B. Seguro en lactancia",
-    "mecanismo_accion": "Anticoagulante. Activa antitrombina III, inhibe factor Xa > trombina. HBPM (peso molecular ~4500 Da)."
+    "mecanismo_accion": "Anticoagulante. Activa antitrombina III, inhibe factor Xa > trombina. HBPM (peso molecular ~4500 Da).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Warfarina",
@@ -509,7 +540,8 @@
     "interacciones": "Multitud (ACO, AINEs, azoles, antibioticos, estatinas, antiarritmicos)",
     "efectos_adversos": "Sangrado, necrosis piel (def prot C/S), embolizacion colesterol",
     "embarazo_lactancia": "Contraindicado embarazo (teratogena). Compatible lactancia",
-    "mecanismo_accion": "Antagonista vitamina K (factores II, VII, IX, X, prot C/S)."
+    "mecanismo_accion": "Antagonista vitamina K (factores II, VII, IX, X, prot C/S).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Salbutamol (Albuterol)",
@@ -525,7 +557,8 @@
     "interacciones": "β-bloqueadores (antagonizan), diuréticos (hipocalemia), antidepresivos tricíclicos, IMAO, halogenados",
     "efectos_adversos": "Temblor, taquicardia, cefalea, ansiedad, hipocalemia, hiperglucemia, irritación orofaríngea",
     "embarazo_lactancia": "Categoría C. Seguro en lactancia",
-    "mecanismo_accion": "β2-agonista adrenérgico de acción corta (SABA). Relaja músculo liso bronquial. Broncodilatador."
+    "mecanismo_accion": "β2-agonista adrenérgico de acción corta (SABA). Relaja músculo liso bronquial. Broncodilatador.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ipratropio",
@@ -541,7 +574,8 @@
     "interacciones": "Otros anticolinérgicos (efectos aditivos), β2-agonistas (efecto aditivo broncodilatador)",
     "efectos_adversos": "Sequedad boca, tos, irritación faríngea, visión borrosa, retención urinaria, glaucoma",
     "embarazo_lactancia": "Categoría B. Compatible lactancia",
-    "mecanismo_accion": "Anticolinérgico. Bloquea receptores muscarínicos M1-M3 en bronquios. Broncodilatador."
+    "mecanismo_accion": "Anticolinérgico. Bloquea receptores muscarínicos M1-M3 en bronquios. Broncodilatador.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Omeprazol",
@@ -557,7 +591,8 @@
     "interacciones": "Clopidogrel, metotrexato, digoxina, warfarina, hierro, Ca, azoles",
     "efectos_adversos": "Cefalea, diarrea, def Vit B12/Mg, nefritis intersticial, osteoporosis LPD",
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
-    "mecanismo_accion": "IBP. Inhibe bomba H+/K+ ATPasa celula parietal."
+    "mecanismo_accion": "IBP. Inhibe bomba H+/K+ ATPasa celula parietal.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metoclopramida",
@@ -573,7 +608,8 @@
     "interacciones": "Antipsicoticos, paracetamol, digoxina, insulina",
     "efectos_adversos": "EPS (distonia aguda), sedacion, discinesia tardia, hiperprolactinemia",
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
-    "mecanismo_accion": "Procinetico. Antagonista D2, agonista 5HT4."
+    "mecanismo_accion": "Procinetico. Antagonista D2, agonista 5HT4.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Fenitoina",
@@ -589,7 +625,8 @@
     "interacciones": "Multitud (fenitoina inductor enzimatico). Warfarina, ACO, BZD, antiepilepticos",
     "efectos_adversos": "Nistagmo, ataxia, sedacion, HMG, rash/SJS, hiperplasia gingival, osteoporosis",
     "embarazo_lactancia": "Categoria D (teratogeno). Compatible lactancia",
-    "mecanismo_accion": "Bloquea canales Na+ voltaje-dependiente."
+    "mecanismo_accion": "Bloquea canales Na+ voltaje-dependiente.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Atropina",
@@ -605,7 +642,8 @@
     "interacciones": "Antihistamínicos, antidepresivos tricíclicos (efectos anticolinérgicos aditivos), haloperidol, fenotiazinas",
     "efectos_adversos": "Sequedad boca, visión borrosa, midriasis, taquicardia, retención urinaria, estreñimiento, hipertermia",
     "embarazo_lactancia": "Categoría C. Compatible lactancia",
-    "mecanismo_accion": "Anticolinérgico. Bloquea receptores muscarínicos M2. Aumenta FC. Disminuye secreciones."
+    "mecanismo_accion": "Anticolinérgico. Bloquea receptores muscarínicos M2. Aumenta FC. Disminuye secreciones.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Insulina Rápida (Regular)",
@@ -621,7 +659,8 @@
     "interacciones": "β-bloqueadores (enmascaran hipoglucemia), ACHO, corticosteroides, diuréticos, alcohol (↑ hipoglucemia)",
     "efectos_adversos": "Hipoglucemia, hipocalemia, lipodistrofia, alergia, edema insulínico, aumento peso",
     "embarazo_lactancia": "Categoría B. Segura en embarazo y lactancia (esencial en DM gestacional)",
-    "mecanismo_accion": "Análogo de insulina humana. Une a receptor de insulina. Transporta glucosa a células. Disminuye glucemia."
+    "mecanismo_accion": "Análogo de insulina humana. Une a receptor de insulina. Transporta glucosa a células. Disminuye glucemia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Oxígeno (O2)",
@@ -637,7 +676,8 @@
     "interacciones": "Bleomicina (toxicidad pulmonar), amiodarona, nitrofurantoína, paraquat",
     "efectos_adversos": "Atelectasias por absorción, toxicidad pulmonar, fibrosis, retinopatía (pretérmino), depresión respiratoria (EPOC)",
     "embarazo_lactancia": "Seguro y necesario en emergencia obstétrica",
-    "mecanismo_accion": "Aumenta presión alveolar de O2, mejorando difusión a sangre. Corrige hipoxemia."
+    "mecanismo_accion": "Aumenta presión alveolar de O2, mejorando difusión a sangre. Corrige hipoxemia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Suero Fisiológico (NaCl 0.9%)",
@@ -653,7 +693,8 @@
     "interacciones": "Corticosteroides (↑ retención Na), litio (excreción alterada)",
     "efectos_adversos": "Sobrecarga de volumen, hipernatremia, hipercloremia, acidosis metabólica hiperclorémica, edema",
     "embarazo_lactancia": "Seguro en embarazo y lactancia",
-    "mecanismo_accion": "Solución cristaloide isotónica (308 mOsm/L). Expande volumen intravascular transitoriamente."
+    "mecanismo_accion": "Solución cristaloide isotónica (308 mOsm/L). Expande volumen intravascular transitoriamente.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Lidocaina",
@@ -669,7 +710,8 @@
     "interacciones": "Amiodarona, B-bloqueadores, haloperidol, cimetidina (aumenta nivel)",
     "efectos_adversos": "SNC (mareo, confusión, convulsiones), CV (hipotension, BAV, paro)",
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
-    "mecanismo_accion": "Bloquea canales Na+. Anestesico local clase Ib antiarritmico."
+    "mecanismo_accion": "Bloquea canales Na+. Anestesico local clase Ib antiarritmico.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Propofol",
@@ -685,7 +727,8 @@
     "interacciones": "BZD, opioides (sinergia), halogenados, succinilcolina, depresores SNC",
     "efectos_adversos": "Hipotensión, depresión respiratoria, bradicardia, dolor a la inyección, mioclonías, síndrome infusión, hipertrigliceridemia",
     "embarazo_lactancia": "Categoría B. Evitar lactancia 24h",
-    "mecanismo_accion": "Anestésico IV no barbitúrico. Agonista GABA-A. Sedante-hipnótico. Rápido inicio y recuperación."
+    "mecanismo_accion": "Anestésico IV no barbitúrico. Agonista GABA-A. Sedante-hipnótico. Rápido inicio y recuperación.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ketamina",
@@ -701,7 +744,8 @@
     "interacciones": "Halogenados (↑ efecto), BZD (reduce emergencia), atropina, teofilina, hormona tiroidea",
     "efectos_adversos": "HTA, taquicardia, emergencia disociativa, laringoespasmo, aumento salivación, nistagmo, vómitos",
     "embarazo_lactancia": "Categoría B. Compatible lactancia 24h",
-    "mecanismo_accion": "Anestésico disociativo. Antagonista NMDA. Analgesia potente. Mantiene reflejos. Broncodilatador."
+    "mecanismo_accion": "Anestésico disociativo. Antagonista NMDA. Analgesia potente. Mantiene reflejos. Broncodilatador.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Captopril",
@@ -717,7 +761,8 @@
     "embarazo_lactancia": "Contraindicado embarazo. Compatible lactancia",
     "mecanismo_accion": "Inhibidor ECA (IECA) accion corta. Vasodilatador.",
     "precauciones": "IRC, estenosis arteria renal, hipovolemia, hipercalemia, tos seca",
-    "alerta": "Riesgo angioedema (0.1%). Monitorizar funcion renal y electrolitos."
+    "alerta": "Riesgo angioedema (0.1%). Monitorizar funcion renal y electrolitos.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Nifedipino",
@@ -733,7 +778,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Bloqueador canal Ca tipo L. Vasodilatador.",
     "precauciones": "ICC, estenosis aortica, hepatopatia, ancianos",
-    "alerta": "Evitar liberacion inmediata en emergencias hipertensivas."
+    "alerta": "Evitar liberacion inmediata en emergencias hipertensivas.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Carvedilol",
@@ -749,7 +795,8 @@
     "mecanismo_accion": "B-bloqueador no selectivo + bloqueo alfa1. Vasodilatador. Antioxidante.",
     "precauciones": "Asma/EPOC, DM, enf. vascular periferica, tirotoxicosis",
     "alerta": "No suspender bruscamente (riesgo rebote). Ajustar en hepatopatia.",
-    "dosis_pediatrica": "0.1-0.8 mg/kg/dosis c/12h"
+    "dosis_pediatrica": "0.1-0.8 mg/kg/dosis c/12h",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Espironolactona",
@@ -765,7 +812,8 @@
     "embarazo_lactancia": "Categoria C (antiandrogenico feto masculino). Evitar lactancia",
     "mecanismo_accion": "Antagonista aldosterona. Diuretico ahorrador K.",
     "precauciones": "IRC, ancianos, hiponatremia, monitorizar K+",
-    "alerta": "Ginecomastia dosis-dependiente. No con suplementos K."
+    "alerta": "Ginecomastia dosis-dependiente. No con suplementos K.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Bicarbonato de Sodio",
@@ -781,7 +829,8 @@
     "embarazo_lactancia": "Categoria C. Seguro en emergencia",
     "mecanismo_accion": "Aporta bicarbonato exogeno. Buffer H+.",
     "precauciones": "IRC, ICC, hipernatremia, no mezclar Ca",
-    "alerta": "No rutina en PCR. No bolo."
+    "alerta": "No rutina en PCR. No bolo.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Gluconato de Calcio",
@@ -797,7 +846,8 @@
     "embarazo_lactancia": "Categoria C. Seguro lactancia",
     "mecanismo_accion": "Aporta calcio ionizado. Estabiliza membrana. Antagoniza K/Mg.",
     "precauciones": "ICC, IRC, sarcoidosis, evitar extravasacion",
-    "alerta": "Cloruro Ca 3x mas calcio elemental. Preferible en emergencias."
+    "alerta": "Cloruro Ca 3x mas calcio elemental. Preferible en emergencias.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Sulfato de Magnesio",
@@ -813,7 +863,8 @@
     "embarazo_lactancia": "Categoria A. Compatible lactancia",
     "mecanismo_accion": "Antagonista Ca. Bloquea NMDA. Vasodilatador cerebral.",
     "precauciones": "IRC, monitorizar reflejos (perdida ROT = toxicidad)",
-    "alerta": "Perdida ROT = toxicidad >8 mg/dL. Antidoto: gluconato Ca."
+    "alerta": "Perdida ROT = toxicidad >8 mg/dL. Antidoto: gluconato Ca.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Potasio Cloruro (KCl)",
@@ -829,7 +880,8 @@
     "mecanismo_accion": "Aporte exogeno K. Mantiene potencial membrana.",
     "precauciones": "Monitorizar K y ECG, NO bolo IV",
     "alerta": "NO bolo IV. Concentracion periferica max 10 mEq/100mL.",
-    "dosis_pediatrica": "0.3-0.5 mEq/kg/dosis IV"
+    "dosis_pediatrica": "0.3-0.5 mEq/kg/dosis IV",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Alteplasa (Activador Plasminogeno Tisular)",
@@ -845,7 +897,8 @@
     "mecanismo_accion": "Activador plasminogeno tisular. Fibrinolitico.",
     "precauciones": "HTA severa, >75a, DM, endocarditis",
     "alerta": "Ventana estricta ACV <4.5h. Riesgo hemorragico alto.",
-    "dosis_pediatrica": "0.5 mg/kg IV (uso limitado)"
+    "dosis_pediatrica": "0.5 mg/kg IV (uso limitado)",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Clopidogrel",
@@ -861,7 +914,8 @@
     "mecanismo_accion": "Antiagregante. Inhibe P2Y12. Prodroga activada por CYP2C19.",
     "precauciones": "IRC, hepatopatia, cirugia, metabolizadores lentos CYP2C19",
     "alerta": "Metabolizadores lentos CYP2C19 (2-14%). Omeprazol reduce eficacia.",
-    "dosis_pediatrica": "0.2-1 mg/kg/dia (off-label)"
+    "dosis_pediatrica": "0.2-1 mg/kg/dia (off-label)",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Acido Tranexamico",
@@ -877,7 +931,8 @@
     "mecanismo_accion": "Antifibrinolitico. Inhibe activacion plasminogeno a plasmina.",
     "precauciones": "IRC, tromboembolia previa, hematuria",
     "alerta": "Usar dentro 3h trauma/HPP. No en hematuria.",
-    "dosis_pediatrica": "15-25 mg/kg/dosis IV"
+    "dosis_pediatrica": "15-25 mg/kg/dosis IV",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Prednisona",
@@ -893,7 +948,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "Glucocorticoide. Antiinflamatorio. Modula transcripcion genica.",
     "precauciones": "DM, HTA, osteoporosis, taper gradual",
-    "alerta": "No suspender bruscamente tras >3sem. Requiere taper."
+    "alerta": "No suspender bruscamente tras >3sem. Requiere taper.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Dexametasona",
@@ -909,7 +965,8 @@
     "mecanismo_accion": "Glucocorticoide larga duracion (36-54h). Estabiliza BHE.",
     "precauciones": "DM, HTA, ICC, taper si >3sem",
     "alerta": "RECOVERY: reduce mortalidad en COVID-19 severo.",
-    "dosis_pediatrica": "0.15-0.3 mg/kg/dosis"
+    "dosis_pediatrica": "0.15-0.3 mg/kg/dosis",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Hidrocortisona",
@@ -925,7 +982,8 @@
     "mecanismo_accion": "Glucocorticoide corta duracion (8-12h). Minera/glucocorticoide.",
     "precauciones": "DM, HTA, ICC, ulcera peptica, osteoporosis",
     "alerta": "En insuficiencia suprarrenal: aumentar dosis en estres.",
-    "dosis_pediatrica": "1-5 mg/kg/dia IV"
+    "dosis_pediatrica": "1-5 mg/kg/dia IV",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metformina",
@@ -941,7 +999,8 @@
     "mecanismo_accion": "Biguanida. Disminuye gluconeogenesis, aumenta sensibilidad insulina.",
     "precauciones": "IRC, ICC, alcohol, ayuno prolongado, cirugia",
     "alerta": "Suspender 48h antes contraste IV (riesgo acidosis lactica).",
-    "dosis_pediatrica": "500-2000 mg/dia (>10a)"
+    "dosis_pediatrica": "500-2000 mg/dia (>10a)",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ondansetron",
@@ -957,7 +1016,8 @@
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
     "mecanismo_accion": "Antiemetico. Antagonista 5HT3.",
     "precauciones": "QT largo, hipocalemia, hipomagnesemia",
-    "alerta": "No exceder 16 mg dosis unica IV por riesgo QT."
+    "alerta": "No exceder 16 mg dosis unica IV por riesgo QT.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Loperamida",
@@ -973,7 +1033,8 @@
     "mecanismo_accion": "Antidiarreico. Agonista opioide periferico (no atraviesa BHE).",
     "precauciones": "Diarrea invasiva, ancianos, hepatopatia, deshidratacion",
     "alerta": "No usar con fiebre/sangre/toxicos. Suspender si no mejora 48h.",
-    "dosis_pediatrica": "No usar <6 años"
+    "dosis_pediatrica": "No usar <6 años",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Simvastatina",
@@ -989,7 +1050,8 @@
     "mecanismo_accion": "Estatina. Inhibidor HMG-CoA reductasa.",
     "precauciones": "Hepatopatia, IRC, alcohol, evitar CYP3A4",
     "alerta": "Max 20 mg con amlodipino. No con pomelo.",
-    "dosis_pediatrica": "10-40 mg/dia"
+    "dosis_pediatrica": "10-40 mg/dia",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Atorvastatina",
@@ -1005,7 +1067,8 @@
     "mecanismo_accion": "Estatina. Inhibidor HMG-CoA reductasa. Reduce LDL.",
     "precauciones": "Hepatopatia, IRC, alcohol, hipotiroidismo",
     "alerta": "Rabdomiolisis rara (<0.01%). Reportar mialgias inexplicadas.",
-    "dosis_pediatrica": "10-20 mg/dia"
+    "dosis_pediatrica": "10-20 mg/dia",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Levofloxacino",
@@ -1021,7 +1084,8 @@
     "mecanismo_accion": "Fluoroquinolona. Inhibe DNA girasa/topo IV. Levo-forma ofloxacino.",
     "precauciones": "Epilepsia, QT largo, DM, >60a, corticoides, IRC",
     "alerta": "Riesgo tendinitis/rotura tendon. Evitar en <18a.",
-    "dosis_pediatrica": "8-20 mg/kg/dia (uso limitado)"
+    "dosis_pediatrica": "8-20 mg/kg/dia (uso limitado)",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Azitromicina",
@@ -1037,7 +1101,8 @@
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
     "mecanismo_accion": "Macrolido. Inhibe sintesis proteica bacteriana 50S.",
     "precauciones": "QT largo, miastenia gravis, hepatopatia",
-    "alerta": "Riesgo QT prolongacion (dosis altas). No con antiacidos."
+    "alerta": "Riesgo QT prolongacion (dosis altas). No con antiacidos.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Fluconazol",
@@ -1053,7 +1118,8 @@
     "mecanismo_accion": "Azol. Inhibe sintesis ergosterol membrana fungica.",
     "precauciones": "Hepatopatia, QT largo, IRC",
     "alerta": "Ajustar en IRC (ClCr <50: mitad dosis).",
-    "dosis_pediatrica": "3-12 mg/kg/dia"
+    "dosis_pediatrica": "3-12 mg/kg/dia",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Sildenafil",
@@ -1069,7 +1135,8 @@
     "mecanismo_accion": "Inhibidor PDE-5. Vasodilatador. Aumenta GMPc.",
     "precauciones": "IAM, HTA, IRC, hepatopatia, priapismo, anemia falciforme",
     "alerta": "NO con nitratos (hipotension severa). Priapismo >4h emergencia.",
-    "dosis_pediatrica": "HAP: 0.25-0.5 mg/kg c/6-8h"
+    "dosis_pediatrica": "HAP: 0.25-0.5 mg/kg c/6-8h",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Adrenalina (Epinefrina)",
@@ -1085,7 +1152,8 @@
     "embarazo_lactancia": "Categoria C. Compatible emergencia",
     "mecanismo_accion": "Agonista alfa1/beta1/beta2. Vasopresor + inotropo + broncodilatador.",
     "precauciones": "HTA, arritmias, DM, hipertiroidismo, ancianos",
-    "alerta": "En PCR: 1 mg IV c/3-5min. En anafilaxia: 0.3 mg IM muslo anterolateral."
+    "alerta": "En PCR: 1 mg IV c/3-5min. En anafilaxia: 0.3 mg IM muslo anterolateral.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Naloxona",
@@ -1101,7 +1169,8 @@
     "embarazo_lactancia": "Categoria C. Seguro emergencia",
     "mecanismo_accion": "Antagonista opioide mu competitivo. Reversible.",
     "precauciones": "Vida media corta (30-90min) vs opioides (riesgo recurrencia)",
-    "alerta": "Vida media corta: monitorizar recurrencia depresion respiratoria."
+    "alerta": "Vida media corta: monitorizar recurrencia depresion respiratoria.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Flumazenilo",
@@ -1117,7 +1186,8 @@
     "embarazo_lactancia": "Categoria C. Emergencia",
     "mecanismo_accion": "Antagonista competitivo GABA-A/BZD.",
     "precauciones": "Dependencia BZD/epilepsia, cociente TCA",
-    "alerta": "Riesgo convulsiones en dependientes BZD o TCA."
+    "alerta": "Riesgo convulsiones en dependientes BZD o TCA.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Protamina",
@@ -1133,7 +1203,8 @@
     "mecanismo_accion": "Se une a heparina formando complejo inactivo.",
     "precauciones": "Alergia pescado, vasectomia, CEC previo (riesgo HTP)",
     "alerta": "Riesgo HTP severa tras CEC. Dosis excesiva tiene efecto anticoagulante.",
-    "dosis_pediatrica": "1 mg/100 U heparina"
+    "dosis_pediatrica": "1 mg/100 U heparina",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Vitamina K (Fitomenadiona)",
@@ -1149,7 +1220,8 @@
     "embarazo_lactancia": "Categoria C. Seguro (necesario para coagulacion)",
     "mecanismo_accion": "Revierte anticoagulacion warfarina. Aporta factor K.",
     "precauciones": "SC/IM evitar en anticoagulados. IV lenta (max 1 mg/min).",
-    "alerta": "IV lenta solo si sangrado. Reversion warfarina completa en 24h."
+    "alerta": "IV lenta solo si sangrado. Reversion warfarina completa en 24h.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Carbon Activado",
@@ -1165,7 +1237,8 @@
     "embarazo_lactancia": "Categoria C. Emergencia",
     "mecanismo_accion": "Adsorbe toxinas GI. Reduce absorcion sistemica.",
     "precauciones": "Via aerea protegida (riesgo aspiracion), administrar dentro 1h ingestion",
-    "alerta": "Ventana eficaz 1h post ingestion. No en causticos/hidrocarburos."
+    "alerta": "Ventana eficaz 1h post ingestion. No en causticos/hidrocarburos.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "N-Acetilcisteina (NAC)",
@@ -1181,7 +1254,8 @@
     "mecanismo_accion": "Antidoto paracetamol (repleta glutatión). Mucolitico (rompe puentes disulfuro).",
     "precauciones": "Asma (broncoespasmo), via aerea protegida",
     "alerta": "Antidoto paracetamol. Eficaz dentro 8-10h. Reaccion anafilactoide IV.",
-    "dosis_pediatrica": "Misma dosis que adultos (segun peso). Mucolitico: 200 mg c/8h"
+    "dosis_pediatrica": "Misma dosis que adultos (segun peso). Mucolitico: 200 mg c/8h",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ciprofloxacino",
@@ -1197,7 +1271,8 @@
     "embarazo_lactancia": "Evitar embarazo (cartilago). Evitar lactancia",
     "mecanismo_accion": "Fluoroquinolona. Inhibe DNA girasa/topoisomerasa IV.",
     "precauciones": "Epilepsia, QT largo, >60a, corticoides concomitantes",
-    "alerta": "Riesgo rotura tendón (>60a, corticoides). Evitar en niños."
+    "alerta": "Riesgo rotura tendón (>60a, corticoides). Evitar en niños.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metronidazol",
@@ -1213,7 +1288,8 @@
     "embarazo_lactancia": "Evitar 1er trim. Compatible lactancia",
     "mecanismo_accion": "Nitroimidazol. Inhibe sintesis DNA microbiano.",
     "precauciones": "Hepatopatia, neuropatia, alcohol",
-    "alerta": "No alcohol durante y 48h post (reaccion disulfiram)."
+    "alerta": "No alcohol durante y 48h post (reaccion disulfiram).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Clindamicina",
@@ -1229,7 +1305,8 @@
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
     "mecanismo_accion": "Lincosamida. Inhibe sintesis proteica 50S. Bacteriostatico.",
     "precauciones": "Hepatopatia, IRC, GI previa",
-    "alerta": "Colitis C. difficile incluso semanas despues. Alta incidencia."
+    "alerta": "Colitis C. difficile incluso semanas despues. Alta incidencia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Aciclovir",
@@ -1245,7 +1322,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "Analogico nucleosido. Inhibe DNA polimerasa viral.",
     "precauciones": "IRC, hidratacion adecuada, IV infusion lenta",
-    "alerta": "Cristaluria renal si IV rapida. Hidratar y ajustar en IRC."
+    "alerta": "Cristaluria renal si IV rapida. Hidratar y ajustar en IRC.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Oseltamivir",
@@ -1261,7 +1339,8 @@
     "embarazo_lactancia": "Categoria C. Compatible embarazo (beneficio > riesgo)",
     "mecanismo_accion": "Inhibidor neuraminidasa. Bloquea liberacion viral.",
     "precauciones": "IRC (ClCr <30: 30 mg c/12h), hepatopatia",
-    "alerta": "Iniciar <48h sintomas. Profilaxis postexposicion efectiva."
+    "alerta": "Iniciar <48h sintomas. Profilaxis postexposicion efectiva.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Heparina Sódica",
@@ -1277,7 +1356,8 @@
     "embarazo_lactancia": "Categoria C. Compatible embarazo (no atraviesa placenta)",
     "mecanismo_accion": "Anticoagulante. Activa antitrombina III.",
     "precauciones": "HTA, ulcera, hepatopatia, IRC, >65a",
-    "alerta": "HIT tipo II (5-14d). Monitorizar plaquetas c/2-3d."
+    "alerta": "HIT tipo II (5-14d). Monitorizar plaquetas c/2-3d.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Enoxaparina",
@@ -1293,7 +1373,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "HBPM. Activa antitrombina III (Xa > IIa).",
     "precauciones": "IRC (ClCr <30 ajustar), >75a, peso <45kg",
-    "alerta": "No requiere monitoreo TTPA rutina. Revertir protamina 1:1."
+    "alerta": "No requiere monitoreo TTPA rutina. Revertir protamina 1:1.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Levotiroxina Sodica (T4)",
@@ -1309,7 +1390,8 @@
     "embarazo_lactancia": "Categoria A. Seguro y necesario embarazo (aumentar dosis 30-50%)",
     "mecanismo_accion": "Hormona tiroidea sintetica T4. Convertida a T3 activa.",
     "precauciones": "Cardiopatia isquemica, ancianos (iniciar baja dosis)",
-    "alerta": "Tomar ayunas 30-60min desayuno. Separar 4h de Ca/Fe/hierro."
+    "alerta": "Tomar ayunas 30-60min desayuno. Separar 4h de Ca/Fe/hierro.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Salbutamol",
@@ -1325,7 +1407,8 @@
     "embarazo_lactancia": "Categoria C. Compatible embarazo/lactancia",
     "mecanismo_accion": "Beta2-agonista corta accion. Broncodilatador.",
     "precauciones": "Cardiopatia, DM, hipertiroidismo, hipocalemia",
-    "alerta": "Uso excesivo = mal control asma. No profilaxis."
+    "alerta": "Uso excesivo = mal control asma. No profilaxis.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ipratropio Bromuro",
@@ -1341,7 +1424,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "Anticolinergico. Broncodilatador inhalado.",
     "precauciones": "HPB, glaucoma, arritmias",
-    "alerta": "EPOC 1ra linea. No es rescate agudo (inicio lento)."
+    "alerta": "EPOC 1ra linea. No es rescate agudo (inicio lento).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Beclometasona Dipropionato",
@@ -1357,7 +1441,8 @@
     "embarazo_lactancia": "Categoria C. Compatible embarazo/lactancia",
     "mecanismo_accion": "Glucocorticoide inhalado. Antiinflamatorio via aerea.",
     "precauciones": "Enjuagar boca tras uso (prevenir candidiasis), TBC",
-    "alerta": "Uso regular (no rescate). Enjuagar boca tras inhalacion."
+    "alerta": "Uso regular (no rescate). Enjuagar boca tras inhalacion.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Doxiciclina",
@@ -1373,7 +1458,8 @@
     "embarazo_lactancia": "Contraindicado (decoloracion dientes/hueso feto)",
     "mecanismo_accion": "Tetraciclina. Inhibe sintesis proteica 30S ribosoma.",
     "precauciones": "Fotosensibilidad, hepatopatia, lupus, LES",
-    "alerta": "Fotosensibilidad. Separar 2-3h de antiacidos/leche."
+    "alerta": "Fotosensibilidad. Separar 2-3h de antiacidos/leche.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Gentamicina",
@@ -1389,7 +1475,8 @@
     "embarazo_lactancia": "Categoria D (ototoxicidad fetal). Evitar embarazo/lactancia",
     "mecanismo_accion": "Aminoglucosido. Inhibe sintesis proteica 30S. Bactericida.",
     "precauciones": "IRC, ancianos, monitorizar niveles, audicion",
-    "alerta": "Ototoxicidad irreversible. Monitorizar niveles valle y pico."
+    "alerta": "Ototoxicidad irreversible. Monitorizar niveles valle y pico.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Nistatina",
@@ -1405,7 +1492,8 @@
     "embarazo_lactancia": "Categoria C. Seguro embarazo/lactancia (no absorbida)",
     "mecanismo_accion": "Antifungico polieno. Se une a ergosterol membrana.",
     "precauciones": "Solo topico/oral (no IV)",
-    "alerta": "No absorbida. Ineficaz para candidiasis sistemica."
+    "alerta": "No absorbida. Ineficaz para candidiasis sistemica.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Bisacodilo",
@@ -1421,7 +1509,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Laxante estimulante. Estimula plexo mienterico colico.",
     "precauciones": "Uso cronico (riesgo laxante dependencia, colon catartico)",
-    "alerta": "Uso cronico >1sem puede causar dependencia."
+    "alerta": "Uso cronico >1sem puede causar dependencia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Carbamazepina",
@@ -1437,7 +1526,8 @@
     "embarazo_lactancia": "Categoria D (DTN). Compatible lactancia",
     "mecanismo_accion": "Estabilizador membrana. Bloquea canales Na+.",
     "precauciones": "Riesgo HLA-B1502 (asiaticos), MO, funcion hepatica",
-    "alerta": "SJS/TEN asociado HLA-B1502. Screening en asiaticos."
+    "alerta": "SJS/TEN asociado HLA-B1502. Screening en asiaticos.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Rifampicina",
@@ -1453,7 +1543,8 @@
     "embarazo_lactancia": "Categoria C. Compatible (monitorizar RN)",
     "mecanismo_accion": ">Inhibe RNA polimerasa DNA-dependiente bacteriana.",
     "precauciones": "Hepatopatia, alcoholismo, TBC con IR, adherencia",
-    "alerta": "Secreciones naranja (color). Potente inductor CYP."
+    "alerta": "Secreciones naranja (color). Potente inductor CYP.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Isoniazida",
@@ -1469,7 +1560,8 @@
     "embarazo_lactancia": "Categoria C. Compatible (dar B6 profilaxis)",
     "mecanismo_accion": "Inhibe sintesis acidos micolicos pared mitocondrial.",
     "precauciones": ">35a, alcohol, hepatopatia, VIH, malnutricion",
-    "alerta": "Suplementar B6 (25-50 mg/dia) para prevenir neuropatia."
+    "alerta": "Suplementar B6 (25-50 mg/dia) para prevenir neuropatia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Lorazepam",
@@ -1485,7 +1577,8 @@
     "embarazo_lactancia": "Categoria D. Evitar lactancia",
     "mecanismo_accion": "Benzodiazepina. Potencia GABA-A.",
     "precauciones": "ancianos, hepatopatia, IRC, abuso historial",
-    "alerta": "Vida media intermedia (10-20h). Menos acumulacion que diazepam."
+    "alerta": "Vida media intermedia (10-20h). Menos acumulacion que diazepam.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Alprazolam",
@@ -1501,7 +1594,8 @@
     "embarazo_lactancia": "Categoria D. Evitar lactancia",
     "mecanismo_accion": "Benzodiazepina. Potencia GABA-A. Alta potencia.",
     "precauciones": "ancianos, hepatopatia, IRC, historial abuso",
-    "alerta": "Alta dependencia. Abstinencia severa posible. Vida media corta (6-12h)."
+    "alerta": "Alta dependencia. Abstinencia severa posible. Vida media corta (6-12h).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Metotrexato",
@@ -1517,7 +1611,8 @@
     "embarazo_lactancia": "Contraindicado (X). Aborto/teratogeno",
     "mecanismo_accion": "Antifolico. Inhibe DHFR. Antiproliferativo/inmunosupresor.",
     "precauciones": "Monitorizar HMG, funcion hepatica/renal, Rx torax",
-    "alerta": "Suplementar acido folico (1 mg/dia excepto dia MTX)."
+    "alerta": "Suplementar acido folico (1 mg/dia excepto dia MTX).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ciclosporina",
@@ -1533,7 +1628,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Inhibe calcineurina. Bloquea activacion linfocitos T.",
     "precauciones": "IRC, HTA, infecciones, monitorizar niveles (150-400 ng/mL)",
-    "alerta": "Nefrotoxicidad dosis-dependiente. Monitorizar funcion renal y niveles."
+    "alerta": "Nefrotoxicidad dosis-dependiente. Monitorizar funcion renal y niveles.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Tacrolimus",
@@ -1549,7 +1645,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Inhibe calcineurina mas potente que ciclosporina.",
     "precauciones": "IRC, DM, HTA, infecciones, monitorizar niveles 5-20 ng/mL",
-    "alerta": "Menos HTA/hirsutismo que ciclosporina. Mayor DM postrasplante."
+    "alerta": "Menos HTA/hirsutismo que ciclosporina. Mayor DM postrasplante.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Adenosina",
@@ -1565,7 +1662,8 @@
     "embarazo_lactancia": "Categoria C. Compatible emergencia",
     "mecanismo_accion": "Receptor A1 miocardio. Crea bloqueo AV transitorio.",
     "precauciones": "Asma, angina inestable, BAV, marcapasos",
-    "alerta": "Vida media <10 segundos. Rubor/disnea esperado transitorio."
+    "alerta": "Vida media <10 segundos. Rubor/disnea esperado transitorio.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Alopurinol",
@@ -1581,7 +1679,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "Inhibe xantina oxidasa. Reduce urato.",
     "precauciones": "IRC, ataque gota agudo, riesgo DRESS",
-    "alerta": "Sx hipersensibilidad (DRESS): rash, fiebre, eosinofilia. Suspender."
+    "alerta": "Sx hipersensibilidad (DRESS): rash, fiebre, eosinofilia. Suspender.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Colchicina",
@@ -1597,7 +1696,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "Inhibe polimerizacion tubulina. Antiinflamatorio.",
     "precauciones": "IRC, hepatopatia, ancianos (ajustar dosis)",
-    "alerta": "Diarrea = toxicidad. Reducir/interrumpir. No duplicar parche."
+    "alerta": "Diarrea = toxicidad. Reducir/interrumpir. No duplicar parche.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Acido Ursodesoxicolico",
@@ -1613,7 +1713,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "Acido biliar hidrofilico. Mejora flujo biliar.",
     "precauciones": "Monitorizar funcion hepatica cada 3-6m",
-    "alerta": "Mejora enzimas hepaticas y prurito en CBP."
+    "alerta": "Mejora enzimas hepaticas y prurito en CBP.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Naltrexona",
@@ -1629,7 +1730,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Antagonista opioide mu. Reduce craving alcohol/opioides.",
     "precauciones": "Hepatopatia, dependencia opioide activa",
-    "alerta": "Precipita abstinencia opioide. Esperar 7-14d sin opioides."
+    "alerta": "Precipita abstinencia opioide. Esperar 7-14d sin opioides.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Timolol",
@@ -1645,7 +1747,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "B-bloqueador no selectivo topico. Disminuye produccion humor acuoso.",
     "precauciones": "Asma, bradicardia, DM (enmascara hipoglucemia)",
-    "alerta": "Absorcion sistemica puede causar efectos CV/pulmonares."
+    "alerta": "Absorcion sistemica puede causar efectos CV/pulmonares.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Tropicamida",
@@ -1661,7 +1764,8 @@
     "embarazo_lactancia": "Categoria C",
     "mecanismo_accion": "Anticolinergico topico. Bloquea M3 esfinter pupila/muscular ciliar.",
     "precauciones": "Glaucoma, TCE, ancianos",
-    "alerta": "Midriasis maxima a 20-30min. Dura 4-6h. Fotofobia temporal."
+    "alerta": "Midriasis maxima a 20-30min. Dura 4-6h. Fotofobia temporal.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Ranitidina",
@@ -1677,7 +1781,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "Antagonista H2. Inhibe secrecion acida gastrica.",
     "precauciones": "IRC (ajustar), hepatopatia, ancianos, descartar neoplasia gastrica",
-    "alerta": "Retirado mercados por contaminacion NDMA. Alternativa: IBP."
+    "alerta": "Retirado mercados por contaminacion NDMA. Alternativa: IBP.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Sucralfato",
@@ -1693,7 +1798,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo",
     "mecanismo_accion": "Forma barrera protectora sobre ulcera. No antisecretor.",
     "precauciones": "IRC (acumulacion aluminio), estreñimiento, sonda NG",
-    "alerta": "Separar 2h de otros farmacos. Masticar comprimido."
+    "alerta": "Separar 2h de otros farmacos. Masticar comprimido.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Litio Carbonato",
@@ -1709,7 +1815,8 @@
     "embarazo_lactancia": "Categoria D (teratogeno). Evitar lactancia",
     "mecanismo_accion": "Estabilizador animo. Modula inositol/G-proteina/bloquea canales.",
     "precauciones": "IRC, tiroides, ancianos, deshidratacion, monitorizar niveles cada 3m",
-    "alerta": "Ventana terapeutica estrecha (0.6-1.2 mEq/L). Toxicidad >1.5."
+    "alerta": "Ventana terapeutica estrecha (0.6-1.2 mEq/L). Toxicidad >1.5.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Lamotrigina",
@@ -1725,7 +1832,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia (menor riesgo teratogeno vs otros)",
     "mecanismo_accion": "Bloquea canales Na+ voltaje. Inhibe glutamato.",
     "precauciones": "Titulacion lenta obligatoria (riesgo SJS). Con valproato: dosis inicial 25 mg c/2d",
-    "alerta": "Riesgo SJS/TEN si titulacion rapida (especialmente con valproato)."
+    "alerta": "Riesgo SJS/TEN si titulacion rapida (especialmente con valproato).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Rosuvastatina",
@@ -1741,7 +1849,8 @@
     "embarazo_lactancia": "Contraindicado (X). Evitar lactancia",
     "mecanismo_accion": "Estatina. Inhibidor HMG-CoA reductasa mas potente.",
     "precauciones": "IRC (ClCr <30: max 10mg), hepatopatia",
-    "alerta": "Mas potente que atorvastatina. Proteinuria transitoria (dosis altas)."
+    "alerta": "Mas potente que atorvastatina. Proteinuria transitoria (dosis altas).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Alendronato Sodico",
@@ -1757,7 +1866,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Bisfosfonato. Inhibe resorcion osea (osteoclastos).",
     "precauciones": "IRC, hipocalcemia, def Vit D, problemas esofago",
-    "alerta": "Tomar ayunas 30-60min antes desayuno. No acostarse 30min."
+    "alerta": "Tomar ayunas 30-60min antes desayuno. No acostarse 30min.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Risperidona",
@@ -1773,7 +1883,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Antipsicotico atipico. Antagonista D2/5HT2A.",
     "precauciones": "ancianos, hepatopatia, DM, enf CV",
-    "alerta": "Mortalidad >65a demencia. Monitorizar peso, prolactina, glucosa."
+    "alerta": "Mortalidad >65a demencia. Monitorizar peso, prolactina, glucosa.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Quetiapina",
@@ -1789,7 +1900,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "Antipsicotico atipico. Antagonista D2/5HT2A/5HT1A/H1.",
     "precauciones": "DM, dislipidemia, enf CV, ancianos, monitorizar catarata",
-    "alerta": "Mortalidad >65a demencia. Monitorizar metabolico."
+    "alerta": "Mortalidad >65a demencia. Monitorizar metabolico.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Olanzapina",
@@ -1805,7 +1917,8 @@
     "embarazo_lactancia": "Categoria C. Evitar lactancia",
     "mecanismo_accion": "Antipsicotico atipico. Antagonista D2/5HT2A/M1/H1.",
     "precauciones": "DM, dislipidemia, hepatopatia, ancianos, riesgo convulsiones",
-    "alerta": "Aumento peso significativo. Monitorizar glucosa y lipidos."
+    "alerta": "Aumento peso significativo. Monitorizar glucosa y lipidos.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Valproato (Acido Valproico)",
@@ -1821,7 +1934,8 @@
     "embarazo_lactancia": "Contraindicado (teratogeno). Evitar lactancia",
     "mecanismo_accion": "Antiepileptico amplio espectro. Bloquea canales Na+ y GABA-T.",
     "precauciones": "Monitorizar funcion hepatica, recuento plaquetas, niveles sericos 50-100 mcg/mL",
-    "alerta": "Riesgo teratogeno (DTN, autismo). No en mujeres edad fertil sin anticoncepcion."
+    "alerta": "Riesgo teratogeno (DTN, autismo). No en mujeres edad fertil sin anticoncepcion.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Levodopa/Carbidopa",
@@ -1837,7 +1951,8 @@
     "embarazo_lactancia": "Categoria C. Compatible lactancia",
     "mecanismo_accion": "Precursor dopamina. Carbidopa inhibe descarboxilasa periferica.",
     "precauciones": "Psicosis, HTA, enf CV, melanoma",
-    "alerta": "Efecto wearing-off tras 2-5 años. No con proteinas."
+    "alerta": "Efecto wearing-off tras 2-5 años. No con proteinas.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Pantoprazol",
@@ -1853,7 +1968,8 @@
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
     "mecanismo_accion": "IBP. Inhibe bomba H+/K+ ATPasa. Profarmaco activado pH acido.",
     "precauciones": "Osteoporosis, IRC, hipomagnesemia, uso prolongado",
-    "alerta": "Menor interaccion con Clopidogrel vs omeprazol."
+    "alerta": "Menor interaccion con Clopidogrel vs omeprazol.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Hidroxicina",
@@ -1869,7 +1985,8 @@
     "embarazo_lactancia": "Contraindicado embarazo (1er trim). Evitar lactancia",
     "mecanismo_accion": "Antihistaminico 1ra gen. Antagonista H1. Sedante.",
     "precauciones": "ancianos (>sedacion/caidas), hepatopatia, IRC",
-    "alerta": "1ra gen: sedacion significativa. Evitar en ancianos (alternativas: loratadina)."
+    "alerta": "1ra gen: sedacion significativa. Evitar en ancianos (alternativas: loratadina).",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Loratadina",
@@ -1885,7 +2002,8 @@
     "embarazo_lactancia": "Categoria B. Compatible lactancia",
     "mecanismo_accion": "Antihistaminico 2da gen. Antagonista H1 periferico. No sedante.",
     "precauciones": "IRC (ClCr <30: 5 mg/dia), hepatopatia",
-    "alerta": "2da gen: no sedacion significativa. Preferir sobre difenhidramina."
+    "alerta": "2da gen: no sedacion significativa. Preferir sobre difenhidramina.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Insulina Glargina",
@@ -1901,11 +2019,12 @@
     "embarazo_lactancia": "Categoria C. Seguro embarazo/lactancia",
     "mecanismo_accion": "Analogico insulina basal. Liberacion lenta (24h).",
     "precauciones": "IRC, ajuste dosis, monitorizar glucemia",
-    "alerta": "No mezclar con otras insulinas. No IV."
+    "alerta": "No mezclar con otras insulinas. No IV.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Acetaminofen (Paracetamol)",
-    "categoria": "Analgésico / Antipirético",
+    "categoria": "Analgésico/Antipirético",
     "indicacion": "Dolor leve-moderado, fiebre",
     "dosis_adulto": "500-1000 mg c/4-6h (max 3000-4000 mg/dia)",
     "dosis_pediatrica": "10-15 mg/kg c/4-6h",
@@ -1917,7 +2036,8 @@
     "embarazo_lactancia": "Categoria B. Compatible embarazo/lactancia",
     "mecanismo_accion": "Analgesico/antipiretico central. Inhibe COX-3 (?).",
     "precauciones": "Hepatopatia, alcoholismo, malnutricion, >65a",
-    "alerta": "Antidoto: N-acetilcisteina. Sobredosis en >4g/dia."
+    "alerta": "Antidoto: N-acetilcisteina. Sobredosis en >4g/dia.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
   },
   {
     "nombre_generico": "Amoxicilina/Clavulanico",
@@ -1933,6 +2053,403 @@
     "embarazo_lactancia": "Categoria B. Seguro embarazo/lactancia",
     "mecanismo_accion": "Penicilina + inhibidor betalactamasa.",
     "precauciones": "Alergia, mononucleosis, IRC, hepatopatia",
-    "alerta": "Diarrea mas frecuente que amoxi sola. Usar relacion 14:1 preferible."
+    "alerta": "Diarrea mas frecuente que amoxi sola. Usar relacion 14:1 preferible.",
+    "fuente": "Infomed (OMS/OMS-IDA)"
+  },
+  {
+    "nombre_generico": "Amoxicilina + Ácido clavulánico (Augmentine)",
+    "categoria": "Antibiótico",
+    "indicacion": "Infecciones respiratorias, ORL, urinarias, piel",
+    "dosis_adulto": "875/125 mg c/8-12h (infección grave: 2g IV c/8h)",
+    "dosis_pediatrica": "40 mg/kg/día c/8h (ajustar peso)",
+    "via": "Oral, IV",
+    "precauciones": "Insuficiencia hepática, mononucleosis (rash)",
+    "alerta": "Riesgo de colitis por C. difficile. Rash en mononucleosis infecciosa.",
+    "presentacion": "Comp 875/125mg, Sobres, Susp 250mg/5mL, IV 1.2g",
+    "contraindicaciones": "Hipersensibilidad penicilinas, ictericia colestática previa",
+    "interacciones": "Anticoagulantes (aumenta INR), probenecid, alopurinol",
+    "efectos_adversos": "GI (diarrea, náuseas), rash, hepatitis, neutropenia",
+    "embarazo_lactancia": "Categoría B. Compatible lactancia",
+    "mecanismo_accion": "Inhibidor β-lactámico (inhibidor β-lactamasas). Acción bactericida.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Meropenem",
+    "categoria": "Antibiótico",
+    "indicacion": "Infecciones graves resistentes (sepsis, meningitis, nosocomial)",
+    "dosis_adulto": "0.5-2 g IV c/8h (meningitis: 2g c/8h)",
+    "dosis_pediatrica": "20-40 mg/kg/dosis c/8h",
+    "via": "IV",
+    "precauciones": "Insuficiencia renal (ajustar dosis), convulsiones",
+    "alerta": "Carbapenémico reservado para infecciones multirresistentes. No usarEmpíricamente leve.",
+    "presentacion": "Amp 500mg/1g",
+    "contraindicaciones": "Hipersensibilidad beta-lactámicos",
+    "interacciones": "Valproato (reduce niveles), probenecid (aumenta niveles)",
+    "efectos_adversos": "Cefalea, náuseas, diarrea, rash, convulsiones (dosis altas)",
+    "embarazo_lactancia": "Categoría B. Uso juicio clínico",
+    "mecanismo_accion": "Carbapenémico. Inhibe síntesis peptidoglicano bacteriano. Amplio espectro.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Vasopresina (Pitressin)",
+    "categoria": "Vasopresor / Inotrópico",
+    "indicacion": "Shock vasodilatado, sangrado variceal, diabetes insípida",
+    "dosis_adulto": "0.03-0.04 U/min IV (shock); 0.1-0.4 U/min (hemorragia)",
+    "dosis_pediatrica": "0.0003-0.002 U/kg/min",
+    "via": "IV, SC, IM, Intranasal (DI)",
+    "precauciones": "Cardiopatía isquémica, IC, vasculopatía periférica",
+    "alerta": "Monitorizar isquemia miocárdica (↑ postcarga). Contraindicada en shock hemorrágico hipovolémico.",
+    "presentacion": "Amp 20 U/mL (vasopresor); Scopolamina",
+    "contraindicaciones": "Hipersensibilidad, shock hipovolémico no corregido, vasculitis",
+    "interacciones": "Nitroprusiato, diazóxido (potencia vasodilatación), digoxina (arrítmico)",
+    "efectos_adversos": "Isquemia MI, angina, arritmia, isquemia periférica, íleo",
+    "embarazo_lactancia": "Categoría C. Uso juicio clínico",
+    "mecanismo_accion": "Agonista V1 (vasoconstricción) y V2 (antidiurético). Aumenta resistencia vascular.",
+    "fuente": "Infomed/OMS-IDA; Surviving Sepsis Campaign 2021",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Milrinona",
+    "categoria": "Vasopresor / Inotrópico",
+    "indicacion": "Insuficiencia cardíaca aguda, shock cardiogénico",
+    "dosis_adulto": "Bolo: 50 mcg/kg IV en 10 min. Mantenimiento: 0.375-0.75 mcg/kg/min",
+    "dosis_pediatrica": "50 mcg/kg IV bolo, 0.5 mcg/kg/min mantenimiento",
+    "via": "IV",
+    "precauciones": "Insuficiencia renal (dosis baja), arritmia",
+    "alerta": "Vasodilatador + inotrópico. Monitorizar PA (riesgo hipotensión) y arritmias.",
+    "presentacion": "Amp 10mg/10mL",
+    "contraindicaciones": "Hipersensibilidad, estenosis aórtica grave, hipovolemia",
+    "interacciones": "Digoxina, disopiramida (arritmogénico), verapamilo (↓ efecto)",
+    "efectos_adversos": "Hipotensión, taquicardia, arritmia, trombocitopenia",
+    "embarazo_lactancia": "Categoría C. Uso juicio clínico",
+    "mecanismo_accion": "Inhibidor PDE3. Aumenta AMPc → inotropia + vasodilatación coronaria/periférica.",
+    "fuente": "Infomed/OMS-IDA; ESC Heart Failure 2021",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Levetiracetam (Keppra)",
+    "categoria": "Anticonvulsivante",
+    "indicacion": "Crisis convulsivas parciales/generalizadas, status epiléptico",
+    "dosis_adulto": "500-1500 mg c/12h (status: 60 mg/kg IV en 15 min → mantenimiento)",
+    "dosis_pediatrica": "10-20 mg/kg c/12h (ajustar)",
+    "via": "Oral, IV",
+    "precauciones": "Insuficiencia renal (ajustar dosis), comportamiento psiquiátrico",
+    "alerta": "Monitorizar depresión/ideación suicida. Ajustar en IRC grave.",
+    "presentacion": "Comp 250/500/750/1000mg, IV 500mg/100mL",
+    "contraindicaciones": "Hipersensibilidad",
+    "interacciones": "Poco metabolizado. Minimales interacciones. Cuidado con otros CNS.",
+    "efectos_adversos": "Somnolencia, fatiga, ansiedad, depresión leve, rash",
+    "embarazo_lactancia": "Categoría C. Considerar levetiracetam en embarazo si requerido",
+    "mecanismo_accion": "Anticonvulsivante no benzodiazepínico. Se une SV2A. Sin afectar GABA.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Naloxona (Narcan)",
+    "categoria": "Antídoto / Quelante",
+    "indicacion": "Reversión intoxicación opioides (morfina, fentanilo, heroína)",
+    "dosis_adulto": "0.4-2 mg IV/IM/SC/SC cada 2-3 min (hasta 10 mg). Nebulizado 2mg/3mL",
+    "dosis_pediatrica": "0.1 mg/kg IV (RN: 0.01 mg/kg)",
+    "via": "IV, IM, SC, Intranasal, Nebulizado",
+    "precauciones": "Insuf. cardíaca, dependencia opioides (síndrome de abstinencia grave)",
+    "alerta": "Duración corta (30-90 min) vs opioides de acción prolongada. Puede requerir dosis repetidas o infusión continua.",
+    "presentacion": "Amp 0.4mg/mL, 1mg/mL, Spray nasal 4mg",
+    "contraindicaciones": "Hipersensibilidad",
+    "interacciones": "Efecto opuesto a opioides",
+    "efectos_adversos": "Síndrome de abstinencia, arritmia, edema pulmonar (raro), náuseas",
+    "embarazo_lactancia": "Categoría B. Seguro en lactancia",
+    "mecanismo_accion": "Antagonista opioide μ-receptor. Reversión competitiva de depresión respiratoria.",
+    "fuente": "Infomed/OMS-IDA; AHA/ASA 2023",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Ondansetrón (Zofran)",
+    "categoria": "Gastrointestinal",
+    "indicacion": "Náuseas/vómitos post-quirúrgico, quimioterapia, postanestésicos",
+    "dosis_adulto": "4-8 mg IV/PO c/8h (quimio: 16 mg antes, luego 8 mg c/12h)",
+    "dosis_pediatrica": "0.15 mg/kg IV c/8h (máx 16 mg/dosis)",
+    "via": "Oral, IV, IM, ODT, Sublingual",
+    "precauciones": "Síndrome QT, bloqueo AV, insuficiencia hepática",
+    "alerta": "Prolonga QT. Riesgo arritmia en pacientes con QT previo. Evitar con apomorfina.",
+    "presentacion": "Comp 4/8mg ODT, Amp 4mg/1mL, Solución oral 4mg/5mL",
+    "contraindicaciones": "Hipersensibilidad, apomorfina concomitante, QT prolongado congénito",
+    "interacciones": "QT+ (antiarrítmicos, antipsicóticos), tramadol (↓ efecto analgésico)",
+    "efectos_adversos": "Cefalea, estreñimiento, mareos, prolong QT, fatiga",
+    "embarazo_lactancia": "Categoría B. Uso juicio clínico",
+    "mecanismo_accion": "Antagonista 5-HT3. Bloquea receptores serotoninérgicos en SNC y GI.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Metoclopramida (Primperan)",
+    "categoria": "Gastrointestinal",
+    "indicacion": "Náuseas/vómitos, gastroparesia, vaciamiento gástrico",
+    "dosis_adulto": "10 mg IV/IM/PO c/8h (máx 0.5 mg/kg/día)",
+    "dosis_pediatrica": "0.1-0.2 mg/kg/dosis c/8h",
+    "via": "Oral, IV, IM",
+    "precauciones": "EPI (Parkinson), ancianos, feocromocitoma",
+    "alerta": "Riesgo síndrome neuroléptico maligno (dosis altas/prolongadas). No usar >5 días.",
+    "presentacion": "Comp 10mg, Amp 10mg/2mL",
+    "contraindicaciones": "EPI, feocromocitoma, hemorragia GI, obstrucción GI",
+    "interacciones": "Antidepresivos (síndrome serotonínico), levodopa (↓ efecto), neurolépticos",
+    "efectos_adversos": "Discinesia, somnolencia, ansiedad, SNM (raro), diarrea",
+    "embarazo_lactancia": "Categoría B. Evitar primer trimestre.",
+    "mecanismo_accion": "Antagonista dopaminérgico D2. Acción procinética y antiemética.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Lactulosa",
+    "categoria": "Gastrointestinal",
+    "indicacion": "Estreñimiento crónico, encefalopatía hepática (NH3)",
+    "dosis_adulto": "15-30 mL/día PO (diluir). EH: 25-30 mL c/8-12h (ajustar a 2-3 depos/día)",
+    "dosis_pediatrica": "2.5-10 mL/día (ajustar edad)",
+    "via": "Oral, rectal (enema)",
+    "precauciones": "Diabetes (contiene azúcares), obstrucción intestinal",
+    "alerta": "Efecto en 24-48h. Prevenir flatulencia/dolor abdominal inicial.",
+    "presentacion": "Jarabe 10g/15mL, Sobres 15mL, Enema",
+    "contraindicaciones": "Obstrucción intestinal, galactosemia",
+    "interacciones": "Antiácidos (↓ efecto), neomicina (sinergia EH)",
+    "efectos_adversos": "Flatulencia, dolor abdominal, náuseas, diarrea si sobredosis",
+    "embarazo_lactancia": "Categoría B. Seguro en lactancia",
+    "mecanismo_accion": "Disacárido sintético. Acidifica colon → atrae NH3, aumenta peristaltismo.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Propofol (Diprivan)",
+    "categoria": "Anestésico",
+    "indicacion": "Inducción/mantenimiento anestesia, sedación en UCI, antiemético",
+    "dosis_adulto": "Inducción: 1.5-2.5 mg/kg IV. Mantenimiento: 50-150 mcg/kg/min.",
+    "dosis_pediatrica": "Inducción: 2.5-3.5 mg/kg IV. Mantenimiento ajustar.",
+    "via": "IV",
+    "precauciones": "Insuficiencia cardíaca, EPOC, apnea sueño, lipidemia",
+    "alerta": "DEPRESIÓN RESPIRATORIA Y CARDIOVASCULAR. Monitorización continua obligatoria. Riesgo síndrome de infusión propofol (PRIS) en infusiones prolongadas >48h.",
+    "presentacion": "Amp 10mg/mL (20/50/100mL), Emulsión lipídica",
+    "contraindicaciones": "Hipersensibilidad huevo/soja (emulsión), shock hipovolémico, Miastenia gravis",
+    "interacciones": "Depresores CNS (sinergia), halogenados (↓ dosis), succinilcolina (↓ FC)",
+    "efectos_adversos": "Depresión respiratoria, hipotensión, dolor inyección, apnea, lipemia",
+    "embarazo_lactancia": "Categoría B. Uso juicio clínico. Compatible lactancia.",
+    "mecanismo_accion": "Anestésico general IV. Modula GABA-A y canales Na+. Rápido inicio/corto.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Labetalol",
+    "categoria": "Antihipertensivo",
+    "indicacion": "Crisis hipertensiva, emergencia hipertensiva, HTA en embarazo",
+    "dosis_adulto": "Bolo IV lento: 20 mg → 40-80 mg c/10 min (máx 300 mg). Infusión: 1-2 mg/min.",
+    "dosis_pediatrica": "0.2-1 mg/kg IV (máx 20 mg/dosis)",
+    "via": "Oral, IV",
+    "precauciones": "Insuf. cardíaca, EPOC, diabetes, bloqueo AV, asma",
+    "alerta": "SHOCK/colapso por exceso velocidad infusión. NO bolo rápido IV! Mantenimiento oral.",
+    "presentacion": "Comp 100/200/300mg, Amp 100mg/20mL",
+    "contraindicaciones": "Asma bronquial grave, bloqueo AV grado 2-3, shock, ICC descompensada",
+    "interacciones": "Otros antihipertensivos (sinergia), antagonistas Ca (↓ FC), insulina, halotano",
+    "efectos_adversos": "Hipotensión, bradicardia, disnea, rubor, hígado (raro elevación enzimas)",
+    "embarazo_lactancia": "Categoría C. USO HABITUAL en emergencia gestante (seguro).",
+    "mecanismo_accion": "Bloqueante α-1 + β (no selectivo). Disminuye FC, GC y RVS.",
+    "fuente": "Infomed/OMS-IDA; Dancygier 2021",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Urokinasa",
+    "categoria": "Anticoagulante / Antiagregante",
+    "indicacion": "Tromboembolia pulmonar masiva, TVP, oclusión arterial periférica, catéter",
+    "dosis_adulto": "TEP masiva: 4400 UI/kg IV en 10 min, luego 4400 UI/kg/h x 12h.",
+    "dosis_pediatrica": "No establecida estándar; uso juicio clínico",
+    "via": "IV",
+    "precauciones": "HTA, hepatopatía, RN, reciente cirugía/trauma, hemorragia activa",
+    "alerta": "Riesgo hemorragia grave. Contraindicada en sangrado activo, ACV hemorrágico, disección aórtica.",
+    "presentacion": "Amp 250 000 UI, 1 000 000 UI",
+    "contraindicaciones": "Hemorragia activa, ACV hemorrágico, disección aórtica, tumor cerebral",
+    "interacciones": "Otros trombolíticos (sinergia), anticoagulantes, antiagregantes, AINE",
+    "efectos_adversos": "Hemorragia (complicación mayor), fiebre, alergia, náuseas",
+    "embarazo_lactancia": "Categoría C. Uso juicio clínico si riesgo vital materno.",
+    "mecanismo_accion": "Trombolítico (urokinasa). Convierte plasminógeno → plasmina (lisis fibrina).",
+    "fuente": "Infomed/OMS-IDA; ESC 2022",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Atenolol",
+    "categoria": "Antihipertensivo",
+    "indicacion": "HTA, angina, post-IAM, arritmias supraventriculares",
+    "dosis_adulto": "25-100 mg/día PO (HTA pos-IAM: 50 mg/día)",
+    "dosis_pediatrica": "0.5-1 mg/kg/día (máx 2 mg/kg/día)",
+    "via": "Oral",
+    "precauciones": "Asma bronquial, diabetes (enmascara hipoglucemia), BRD",
+    "alerta": "No suspender abruptamente. Enmascara hipoglucemia en DM. Monitorizar FC.",
+    "presentacion": "Comp 25/50/100mg",
+    "contraindicaciones": "Bradicardia grave, shock, bloqueo AV 2-3, asma grave",
+    "interacciones": "Calcio antagonistas, verapamilo (bradicardia/síncope), antiinflamatorios (↓ efecto)",
+    "efectos_adversos": "Fatiga, mareos, bradicardia, frialdad extremidades, disfunción eréctil",
+    "embarazo_lactancia": "Categoría D (embarazo). Compatible lactancia.",
+    "mecanismo_accion": "Bloqueante β1 selectivo. ↓ FC, GC y presión arterial.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Mesalazina (5-ASA)",
+    "categoria": "Gastrointestinal",
+    "indicacion": "Enfermedad inflamatoria intestinal (EII), colitis ulcerosa, Crohn",
+    "dosis_adulto": "2-4.8 g/día PO (varios regímenes: 800mg c/6h, o formulaciones retard). Enema: 1g nocturno.",
+    "dosis_pediatrica": "30-50 mg/kg/día c/6-8h",
+    "via": "Oral, rectal (enema/supositorio)",
+    "precauciones": "Insuf. hepática, miocardiopatia, hipersensibilidad ASA",
+    "alerta": "Cefalea/ migraña como efecto adverso. Efecto terapéutico en 2-4 semanas. Exacerbaciones olvido.",
+    "presentacion": "Comp 500/800mg, Supositorios, Enema, Suspensión rectal",
+    "contraindicaciones": "Hipersensibilidad ASA/salicilatos, obstrucción GI, íleo",
+    "interacciones": "AINE (antagonista efecto), warfarina (↑ riesgo hemorrágico)",
+    "efectos_adversos": "Cefalea, náuseas, diarrea, dolor abdominal, rash",
+    "embarazo_lactancia": "Categoría B. Seguro en lactancia.",
+    "mecanismo_accion": "Antiinflamatorio 5-aminosalicílico. Acción local en mucosa GI.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Tiotropio",
+    "categoria": "Broncodilatador",
+    "indicacion": "EPOC mantenimiento, bronquiectasias, asma grave",
+    "dosis_adulto": "18 mcg inhalados 1 vez/día (HandiHaler) o 5 mcg (Respimat c/día)",
+    "dosis_pediatrica": "No aprobado <18 años generalmente",
+    "via": "Inhalación (polvo seco o solución)",
+    "precauciones": "Glaucoma ángulo estrecho (antimuscarínico), retención urinaria",
+    "alerta": "Puede precipitar glaucoma agudo en pacientes no diagnosticados. Monitorear retención urinaria HBP.",
+    "presentacion": "Caps HandiHaler 18 mcg, Respimat 2.5/5 mcg",
+    "contraindicaciones": "Hipersensibilidad, hipersensibilidad lácteo (HandiHaler caps)",
+    "interacciones": "Otros anticolinérgicos (sinergia), β-agonistas (combinación efectiva)",
+    "efectos_adversos": "Sequedad boca, tos, retención urinaria, glaucoma, estreñimiento",
+    "embarazo_lactancia": "Categoría B. Usar si beneficio > riesgo en EPOC sintomático.",
+    "mecanismo_accion": "Anticolinérgico LAMA. Acción prolongada (>24h) sobre receptores M3.",
+    "fuente": "Infomed/OMS-IDA; GOLD 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Ciprofloxacina",
+    "categoria": "Antibiótico",
+    "indicacion": "Infecciones urinarias, respiratorias, gastrointestinales, osteoarticulares",
+    "dosis_adulto": "250-750 mg c/12h PO (infección grave: 400 mg c/12h IV)",
+    "dosis_pediatrica": "15-20 mg/kg/dosis c/12h (máx 1.5 g/día)",
+    "via": "Oral, IV, Oftálmico, Otótico",
+    "precauciones": "Epilepsia, QT prolongado, insuficiencia renal",
+    "alerta": "FLUOROQUINOLONA: Restringida por FDA/EMA (efectos adversos graves: diseña aórtica, neuropatía). No como primera línea.",
+    "presentacion": "Comp 250/500/750mg, IV 200/400mg",
+    "contraindicaciones": "Hipersensibilidad quinolonas, QT prolongado, miastenia gravis",
+    "interacciones": "Antiácidos (↓ absorción), warfarina (↑ INR), teofilina (↓ metabolismo), corticoides (↑ riesgo tendinopatía)",
+    "efectos_adversos": "Tendinopatía (AQUILES), ruptura tendón, neuropatía, prolong QT, discrasias sanguíneas",
+    "embarazo_lactancia": "Categoría C. Evitar en embarazo.",
+    "mecanismo_accion": "Fluoroquinolona. Inhibe girasa bacteriana (DNA gyrase). Bactericida.",
+    "fuente": "Infomed/OMS-IDA; FDA 2023 (black box)",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Sulfato de magnesio (MgSO4)",
+    "categoria": "Electrolito / Nutrición",
+    "indicacion": "Hipomagnesemia, eclampsia, torsades de pointes, asma grave, preeclampsia",
+    "dosis_adulto": "Hipomagnesemia: 1-2 g IV en 1h (mantenimiento 0.5-1 g/h). Eclampsia: 4-6g IV bolo → 1-2 g/h.",
+    "dosis_pediatrica": "25-50 mg/kg IV en 10-15 min (bolo). Mantenimiento 0.5-1 mg/kg/h.",
+    "via": "IV, IM, Oral",
+    "precauciones": "Insuf. renal (riesgo hiperMg), bloqueo AV, miastenia gravis",
+    "alerta": "RESPIRATORIO: Bradicardia, bloqueo AV completo, paro respiratorio si sobredosis IV. Antídoto: gluconato de calcio.",
+    "presentacion": "Amp 1/2/10/20 g cristales, Solución 10/20%",
+    "contraindicaciones": "Hiper-magnesemia, bloqueo AV completo, insuf. renal grave",
+    "interacciones": "Calcio antagonistas (↑ Mg), tetraciclinas (↓ absorción), digoxina (arritmogénico si ↓K/Mg)",
+    "efectos_adversos": "RUBEFACCIÓN, vasodilatación, hipotensión, depresión respiratoria, bradicardia",
+    "embarazo_lactancia": "Uso habitual en preeclampsia/eclampsia. Seguro.",
+    "mecanismo_accion": "Co-factor 300+ enzimas. Modula canales iónicos, transmisión neuromuscular.",
+    "fuente": "Infomed/OMS-IDA; Neuromuscular blockade checklist 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Insulina Glargina (Lantus)",
+    "categoria": "Insulina / Hipoglicemiante",
+    "indicacion": "Diabetes tipo 1 y tipo 2 (basal, 24h sin pico)",
+    "dosis_adulto": "Inicio: 10 U/día SC. Ajustar según glucemias capilares.",
+    "dosis_pediatrica": "0.2-0.4 U/kg/día SC (inicio 0.25-0.5 U/kg en pubertad)",
+    "via": "Subcutánea",
+    "precauciones": "Hipoglucemia, ayuno/cambio horario, ejercicio, obesidad (absorción variable)",
+    "alerta": "NO intercambiar entre insulinas sin prescripción específica. Hipoglucemia nocturna frecuente. No suspender abruptamente.",
+    "presentacion": "Pluma prellena 100 UI/mL (3/10mL)",
+    "contraindicaciones": "Hipersensibilidad, hipoglucemia aguda",
+    "interacciones": "Alcohol (hipoglucemia), esteroides (↑ dosis requerida), betabloqueantes (enmascaran hipoglucemia)",
+    "efectos_adversos": "Hipoglucemia, lipodistrofia, edema transitorio, aumento peso",
+    "embarazo_lactancia": "CATEGORÍA C. Insulina es PRIMERA LÍNEA en embarazo.",
+    "mecanismo_accion": "Insulina basal modificada (sustitución A21→G). Liberación sostenida sin pico.",
+    "fuente": "Infomed/OMS-IDA; ADA Standards of Care 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Fenitoína",
+    "categoria": "Anticonvulsivante",
+    "indicacion": "Crisis convulsivas tónico-clónicas, profilaxis postraumática, estado epiléptico",
+    "dosis_adulto": "Carga: 15-20 mg/kg IV (max 50 mg/min). Mantenimiento: 100 mg c/8h oral.",
+    "dosis_pediatrica": "5-10 mg/kg/día c/12h",
+    "via": "Oral, IV (fosfenitoína IV preferida en urgencias)",
+    "precauciones": "Insuf. hepática, HBA/blanca, arritmia, embarazo",
+    "alerta": "KINÉTICA CERO-ORDEN (saturación/metabolismo). Riesgo TOXICIDAD con cambios pequeños dosis. Monitorizar niveles (10-20 mcg/mL).",
+    "presentacion": "Comp 100mg, Caps 30/100/200/300mg, IV 50mg/mL (fosfenitoína)",
+    "contraindicaciones": "Bloqueo AV 2-3, síndrome de Stokes-Adams, hipersensibilidad",
+    "interacciones": "CAMBIOS drásticos niveles: warfarina, ACO, ISRS, cimetidina, omeprazol. Alcohol.",
+    "efectos_adversos": "Hiperplasia gingival, hirsutismo, ataxia, nistagmo, rash (SJS raro), osteomalacia",
+    "embarazo_lactancia": "Categoría D. Teratógeno (síndrome fetal hidantoína).",
+    "mecanismo_accion": "Anticonvulsivante. Estabiliza membrana neuronal (Na+ canal). Cinetica saturable.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Citicolina (CDP-colina)",
+    "categoria": "Sistema Nervioso / Otros",
+    "indicacion": "IAM, ACV isquémico, traumatismo craneoencefálico, cognitivo (off-label)",
+    "dosis_adulto": "500-2000 mg/día IV/IM o 1000-2000 mg/día oral",
+    "dosis_pediatrica": "No bien establecida; juicio clínico",
+    "via": "Oral, IV, IM",
+    "precauciones": "Insuf. hepática, HTA",
+    "alerta": "Posible exacerbación síntomas parkinsonianos en EP. Evitar en Parkinson.",
+    "presentacion": "Comp 500mg, Solución oral 1000mg, IV 500/1000mg",
+    "contraindicaciones": "Hipersensibilidad",
+    "interacciones": "Poca información. Cuidado con otros estimulantes CNS.",
+    "efectos_adversos": "Cefalea, insomnio, dolores GI, rash, hipotensión",
+    "embarazo_lactancia": "Categoría B. Uso juicio clínico",
+    "mecanismo_accion": "Neuroprotector. Precursor fosfatidilcolina (membrana neuronal).",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Ácido valproico (Valproato)",
+    "categoria": "Anticonvulsivante",
+    "indicacion": "Epilepsia generalizada, crisis parciales, migraña profilaxis, estabilizador ánimo",
+    "dosis_adulto": "10-15 mg/kg/día PO (hasta 60 mg/kg/día en crisis). CR: 10-30 mg/kg/día.",
+    "dosis_pediatrica": "10-15 mg/kg/día c/8-12h (máx 60 mg/kg/día)",
+    "via": "Oral, IV (solución/na)",
+    "precauciones": "Insuf. hepática, trombocitopenia, pancreatitis, embarazo",
+    "alerta": "TERATÓGENO mayor (defectos tubo neural, ITE). MONITORIZAR hepática y plaquetas. NO en embarazo.",
+    "presentacion": "Comp 250/500mg, Solución 250mg/5mL, Sprinkles, IV 100mg/mL",
+    "contraindicaciones": "Hepatopatía aguda/crónica, pancreatitis, trastorno metabolismo úrea, embarazo (alternativas)",
+    "interacciones": "Otros anticonvulsivantes (↓ niveles), warfarina, ISRS (↑ niveles valproato)",
+    "efectos_adversos": "Trombocitopenia, hepatotoxicidad, pancreatitis, teratogenicidad, alopecia, aumento peso",
+    "embarazo_lactancia": "Categoría X. EVITAR en embarazo (>10× riesgo TN). Compatible lactancia (valorar).",
+    "mecanismo_accion": "Estabilizador membrana neuronal. ↑ GABA, bloqueo Na+, inhibe histona deacetilasa.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
+  },
+  {
+    "nombre_generico": "Piperacilina + Tazobactam (Tazocín)",
+    "categoria": "Antibiótico",
+    "indicacion": "Infecciones graves polimicrobianas (nosocomiales, intraabdominales, piel)",
+    "dosis_adulto": "4/0.5 g IV c/8h (grave: 4/0.5 g c/6h o 16/2 g/día inf. continua)",
+    "dosis_pediatrica": "100-150 mg/kg/día (Pip) c/6-8h",
+    "via": "IV",
+    "precauciones": "Insuf. hepática/renal (ajustar tazobactam), alergia penicilina",
+    "alerta": "Diluir en solución compatible. Cambiar con Cefoperazona: pérdida rápido débito urinario diagnóstico.",
+    "presentacion": "Amp 2/0.25g, 4/0.5g, 8/1g",
+    "contraindicaciones": "Hipersensibilidad penicilinas, alergia anafiláctica previa",
+    "interacciones": "Probenecid (↑ niveles), anticoagulantes, otros antibióticos (interacciones variables)",
+    "efectos_adversos": "GI (diarrea, CDI), rash, neutropenia, hepatotoxicidad, coagulopatía",
+    "embarazo_lactancia": "Categoría B. Uso juicio clínico.",
+    "mecanismo_accion": "Penicilina antipseudomonas + inhibidor β-lactamasas. Acción bactericida.",
+    "fuente": "Infomed/OMS-IDA; UpToDate 2024",
+    "sinonimos": []
   }
 ]

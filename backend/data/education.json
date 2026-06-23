@@ -48,6 +48,42 @@
       {
         "pregunta": "¿Tríada de Beck?",
         "respuesta": "Hipotensión, ingurgitación yugular, ruidos apagados"
+      },
+      {
+        "pregunta": "¿ECG en IAMCEST?",
+        "respuesta": "Elevación ST ≥1mm en ≥2 derivaciones contiguas"
+      },
+      {
+        "pregunta": "¿Dolor torácico típico IAM?",
+        "respuesta": "Opresivo retroesternal irradiado a brazo izq/mandíbula + sudoración"
+      },
+      {
+        "pregunta": "¿FA contraindicación fibrinólisis?",
+        "respuesta": "Anticoagulación oral directa <48h sin nivel es contraindicación relativa"
+      },
+      {
+        "pregunta": "¿ECG muestra infarto posterior?",
+        "respuesta": "Depresión ST horizontal en V1-V3 (recíproco) + R alta en V2"
+      },
+      {
+        "pregunta": "¿Criterios Sgarbossa?",
+        "respuesta": "Elevación ST ≥1mm + concordancia (3 pts), QRS >0.12s (2 pts), concordancia ST≥1mm en V1-V6 (2 pts)"
+      },
+      {
+        "pregunta": "¿ECG en pericarditis aguda?",
+        "respuesta": "Supradesnivelación ST concava en múltiples derivaciones + descenso PR"
+      },
+      {
+        "pregunta": "¿Score GRACE >140 interpretación?",
+        "respuesta": "Riesgo muy alto: estrategia invasiva ≤24h indicada"
+      },
+      {
+        "pregunta": "¿DAPT duración IAMCEST?",
+        "respuesta": "12 meses AAS + P2Y12 (ticagrelor preferido)"
+      },
+      {
+        "pregunta": "¿Definición shock cardiogénico?",
+        "respuesta": "PAM <65 + GC <2.2 L/min + resistencias vasculares altas + oliguria"
       }
     ],
     "quizzes": [
@@ -160,11 +196,88 @@
         ],
         "correcta": 2,
         "explicacion": "ECG tiene 12 derivaciones: 6 extremidades + 6 precordiales."
+      },
+      {
+        "pregunta": "¿Qué alteración ECG define IAMCEST?",
+        "opciones": [
+          "Onda T invertida",
+          "Elevación ST ≥1 mm en ≥2 derivaciones contiguas",
+          "Depresión ST horizontal",
+          "Onda Q patológica"
+        ],
+        "correcta": 1,
+        "explicacion": "IAMCEST requiere elevación ST nueva en ≥2 derivaciones contiguas según criterios de Minneapolis."
+      },
+      {
+        "pregunta": "¿Dolor torácico IAM típico es?",
+        "opciones": [
+          "Punzante breve",
+          "Opresivo retroesternal irradiado",
+          "Quemazón epigástrica sin irradiación",
+          "Mejora con movimiento"
+        ],
+        "correcta": 1,
+        "explicacion": "IAM produce dolor opresivo, retroesternal, con irradiación a brazo izquierdo/mandíbula."
+      },
+      {
+        "pregunta": "¿Fármaco primera línea antiagregante tras SCA?",
+        "opciones": [
+          "Clopidogrel",
+          "Ticagrelor",
+          "Prasugrel",
+          "Abciximab"
+        ],
+        "correcta": 1,
+        "explicacion": "Ticagrelor es primera línea por efecto más rápido y consistente; clopidogrel alternativo."
+      },
+      {
+        "pregunta": "¿Tiempo puerta-balón objetivo IAMCEST?",
+        "opciones": [
+          ">180 min",
+          "≤90 min",
+          "≤60 min",
+          "No aplica"
+        ],
+        "correcta": 1,
+        "explicacion": "FMC-to-Balloon ≤90 min mejora supervivencia (Door-to-Balloon ≤30 min en centros)."
+      },
+      {
+        "pregunta": "¿Qué define shock cardiogénico?",
+        "opciones": [
+          "TA <90/60",
+          "PAM <65 + GC <2.2 + oliguria",
+          "FC >130",
+          "Todo lo anterior"
+        ],
+        "correcta": 1,
+        "explicacion": "Shock cardiogénico: hipotensión macrocirculatoria con bajo gasto y signos hipoperfusión."
       }
     ],
     "imagen": "/static/images/education/cardiologia.jpg",
     "imagen_licencia": "Public Domain",
-    "imagen_atribucion": "Tvanbr, Wikimedia Commons"
+    "imagen_atribucion": "Tvanbr, Wikimedia Commons",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Varón 58 años, HTA y tabaquismo activo. Dolor torácico opresivo retroesternal 40 minutos irradiado a brazo izquierdo, sudoración fría. FC 108, PA 90/55, SatO₂ 91%.",
+          "pasos": [
+            "ECG 12 derivaciones",
+            "Activación código infarto",
+            "Troponina de alta sensibilidad",
+            "Doble antiagregación + anticoagulación",
+            "Reposición volémica juiciosa"
+          ]
+        },
+        "simulacion": "Ideal para drill tiempo puerta-balón; repetir hasta ≤90 min.",
+        "fuente_confiable": [
+          "ESC 2023 ACS",
+          "AHA/ACC 2023 STEMI",
+          "UpToDate 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
   },
   {
     "id": "neonatologia",
@@ -271,7 +384,11 @@
     ],
     "imagen": "/static/images/education/neonatologia.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "Evan-Amos, Wikimedia Commons"
+    "imagen_atribucion": "Evan-Amos, Wikimedia Commons",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "farmacologia",
@@ -310,6 +427,46 @@
       {
         "pregunta": "¿Vía SC ejemplos?",
         "respuesta": "Insulina, heparina de bajo peso molecular"
+      },
+      {
+        "pregunta": "¿Biodisponibilidad oral vs IV?",
+        "respuesta": "PO depende de absorción/metabolismo primer paso hepático; IV bypass = 100%"
+      },
+      {
+        "pregunta": "¿Ley de cero orden ejemplo?",
+        "respuesta": "Fenitoína, etanol, aspirina a dosis altas"
+      },
+      {
+        "pregunta": "¿Efecto primer paso hepático?",
+        "respuesta": "Metabolismo antes de llegar a circulación sistémica (reduce biodisponibilidad oral)"
+      },
+      {
+        "pregunta": "¿FDA categorías embarazo A/B/C/D/X?",
+        "respuesta": "A seguro; B probable seguro; C riesgo posible; D riesgo evidencia; X contraindicado"
+      },
+      {
+        "pregunta": "¿IECA código J01?",
+        "respuesta": "No es J01; son ATC C09. J01 es antibióticos"
+      },
+      {
+        "pregunta": "¿Intervalo terapéutico warfarina INR?",
+        "respuesta": "2.0-3.0 (prótesis valvular 2.5-3.5)"
+      },
+      {
+        "pregunta": "¿Metabolismo digoxina?",
+        "respuesta": "Renal (no hepático). Ajustar en IRC."
+      },
+      {
+        "pregunta": "¿Hidrocortisona dosis estrés?",
+        "respuesta": "200 mg/día IV dividido c/6h (50mg c/6h)"
+      },
+      {
+        "pregunta": "¿Etomidato ventaja intubación?",
+        "respuesta": "Estabilidad hemodinámica (inhibe síntesis cortisol)"
+      },
+      {
+        "pregunta": "¿Dopamina dosis β1 vs α?",
+        "respuesta": "β1 3-10 mcg/kg/min (inotrópico); α >10 mcg/kg/min (vasoconstrictor)"
       }
     ],
     "quizzes": [
@@ -400,11 +557,108 @@
         ],
         "correcta": 1,
         "explicacion": "Fármacos con IT estrecho: digoxina, warfarina, fenitoína, litio, teofilina."
+      },
+      {
+        "pregunta": "¿Fármaco ejemplo cinética cero orden?",
+        "opciones": [
+          "Paracetamol",
+          "Fenitoína",
+          "Omeprazol",
+          "Amoxicilina"
+        ],
+        "correcta": 1,
+        "explicacion": "Fenitoína sigue cinética saturable (cero orden): pequeñas variaciones dosis causan grandes cambios niveles."
+      },
+      {
+        "pregunta": "¿Categoría FDA teratógeno conocido?",
+        "opciones": [
+          "A",
+          "B",
+          "D",
+          "X"
+        ],
+        "correcta": 3,
+        "explicacion": "Categoría X: contraindicado en embarazo (riesgo fetal claramente supera beneficio)."
+      },
+      {
+        "pregunta": "¿INR objetivo warfarina terapia estándar?",
+        "opciones": [
+          "1-2",
+          "2-3",
+          "3-4",
+          "4-5"
+        ],
+        "correcta": 1,
+        "explicacion": "INR 2-3 para fibrilación auricular no valvular; prótesis mecánica 2.5-3.5."
+      },
+      {
+        "pregunta": "¿Biodisponibilidad más alta?",
+        "opciones": [
+          "Oral",
+          "Rectal",
+          "IV",
+          "Cutánea"
+        ],
+        "correcta": 2,
+        "explicacion": "IV = 100% biodisponibilidad (bypass absorción y metabolismo primer paso)."
+      },
+      {
+        "pregunta": "¿Efecto adverso específico aminoglucósidos?",
+        "opciones": [
+          "Nefrotoxicidad y ototoxicidad",
+          "Hepatotoxicidad",
+          "Discrasias sanguíneas",
+          "Prolongación QT"
+        ],
+        "correcta": 0,
+        "explicacion": "Aminoglucósidos son nefrotóxicos y ototóxicos (dosis dependiente, irreversible en coclear)."
+      },
+      {
+        "pregunta": "¿Hidrocortisona en shock séptico dosis?",
+        "opciones": [
+          "50 mg/día",
+          "200 mg/día",
+          "500 mg/día",
+          "1000 mg/día"
+        ],
+        "correcta": 1,
+        "explicacion": "Hidrocortisona 200 mg/día IV en shock que requiere vasopresores pese a reposición adecuada."
+      },
+      {
+        "pregunta": "¿Antídoto sobredosis benzodiacepinas?",
+        "opciones": [
+          "Flumazenilo",
+          "Naloxona",
+          "N-acetilcisteína",
+          "Protamina"
+        ],
+        "correcta": 0,
+        "explicacion": "Flumazenilo es antagonista competitivo receptor BZD."
       }
     ],
     "imagen": "/static/images/education/farmacologia.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "Mx. Granger, Wikimedia Commons"
+    "imagen_atribucion": "Mx. Granger, Wikimedia Commons",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Paciente en shock séptico con PAM 58 tras reposión; noradrenalina a 0.1 mcg/kg/min.",
+          "pasos": [
+            "Evaluar volumen residual (ecografía IVC)",
+            "Añadir vasopresina 0.03 U/min o adrenalina si refractario",
+            "Hidrocortisona 200 mg/día si persisten vasopresores",
+            "Revisar sedoanalgesia y temperatura"
+          ]
+        },
+        "simulacion": "Drill cálculo mcg/kg/min a mL/h y titulación vasopresores.",
+        "fuente_confiable": [
+          "Surviving Sepsis Campaign 2021/2024",
+          "UpToDate 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
   },
   {
     "id": "anatomia",
@@ -515,7 +769,11 @@
     ],
     "imagen": "/static/images/education/anatomia.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "Mikael Häggström, Wikimedia Commons"
+    "imagen_atribucion": "Mikael Häggström, Wikimedia Commons",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "fundamentos",
@@ -633,7 +891,11 @@
     ],
     "imagen": "/static/images/education/fundamentos.jpg",
     "imagen_licencia": "Public Domain (NIH)",
-    "imagen_atribucion": "Linda Bartlett / National Cancer Institute"
+    "imagen_atribucion": "Linda Bartlett / National Cancer Institute",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "cuidados_intensivos",
@@ -736,6 +998,50 @@
       {
         "pregunta": "¿Glucemia meta UCI?",
         "respuesta": "140-180 mg/dL"
+      },
+      {
+        "pregunta": "¿Escala APACHE II variables?",
+        "respuesta": "12 variables: edad, Glasgow, FC, PA, FR, Temp, PaO₂/FiO₂, pH, Na, K, Cr, HTO"
+      },
+      {
+        "pregunta": "¿Escala SAPS II usa?",
+        "respuesta": "17 variables al ingreso UCI; predice mortalidad hospitalaria"
+      },
+      {
+        "pregunta": "¿PEEP mínimo ventilación mecánica?",
+        "respuesta": "5 cmH₂O para mantener alveolos abiertos"
+      },
+      {
+        "pregunta": "¿Sedación objetivo RASS -2?",
+        "respuesta": "Sedación ligera: despierta a estímulo verbal <10s; coopera"
+      },
+      {
+        "pregunta": "¿Protocolo ABCDEF?",
+        "respuesta": "Assess, prevent and manage pain; Both spontaneous awakening + breathing trials; Choice of analgesia/sedation; Delirium assess, prevent and manage; Early mobility and exercise; Family engagement"
+      },
+      {
+        "pregunta": "¿Vasopresina dosis fija?",
+        "respuesta": "0.03 U/min IV (no titulación); reduce necesidades noradrenalina en shock séptico refractario"
+      },
+      {
+        "pregunta": "¿β-bloqueante en shock séptico?",
+        "respuesta": "Solo si taquicardia refractaria una vez resueltos hipotensión y shock"
+      },
+      {
+        "pregunta": "¿Nutrición enteral inicio UCI ideal?",
+        "respuesta": "24-48 horas post-ingreso si hemodinámicamente estable"
+      },
+      {
+        "pregunta": "¿Microbioma UCI importante?",
+        "respuesta": "Prevención sobrecrecimiento / clostridium difficile / riesgo sepsis nosocomial"
+      },
+      {
+        "pregunta": "¿Monitorización agresiva UCI incluye?",
+        "respuesta": "ECG continuo, PA invasiva, PIC si TCE neuroquirúrgico, BS, BIS, FloTrac/Vigileo"
+      },
+      {
+        "pregunta": "¿Hidrocortisona dosis estrés UCI?",
+        "respuesta": "200 mg/día IV en shock séptico que requiere vasopresores pese a fluidos"
       }
     ],
     "quizzes": [
@@ -870,6 +1176,72 @@
         ],
         "correcta": 1,
         "explicacion": "Sedación ligera (RASS 0 a -2) salvo contraindicación."
+      },
+      {
+        "pregunta": "¿Escala APACHE II máximo puntaje?",
+        "opciones": [
+          "25",
+          "50",
+          "71",
+          "100"
+        ],
+        "correcta": 2,
+        "explicacion": "APACHE II: rango 0-71. >25: mortalidad muy alta."
+      },
+      {
+        "pregunta": "¿PEEP mínimo en VM recomendado?",
+        "opciones": [
+          "0",
+          "5 cmH₂O",
+          "10 cmH₂O",
+          "Variable"
+        ],
+        "correcta": 1,
+        "explicacion": "PEEP 5 cmH₂O mínimo habitual para prevenir atelectasia; se ajusta por arriba según P/F."
+      },
+      {
+        "pregunta": "¿Volumen tidal en ventilación protectora?",
+        "opciones": [
+          "4 mL/kg",
+          "6 mL/kg",
+          "8 mL/kg",
+          "10 mL/kg"
+        ],
+        "correcta": 1,
+        "explicacion": "Vt 6 mL/kg peso ideal reduce mortalidad (ARMA trial)."
+      },
+      {
+        "pregunta": "¿RASS -2 significa?",
+        "opciones": [
+          "Despierto alerta",
+          "Sedación ligera despierta a voz",
+          "Sedación moderada movimiento ante voz",
+          "No responde"
+        ],
+        "correcta": 1,
+        "explicacion": "RASS -2: despierta al contacto verbal (<10s)."
+      },
+      {
+        "pregunta": "¿Componente B en ABCDEF es?",
+        "opciones": [
+          "Analgesia",
+          "Breathing trial",
+          "Delirium",
+          "Movilización"
+        ],
+        "correcta": 1,
+        "explicacion": "B incluye awakening trial + breathing trial; asociación A+B reduce estancia UCI."
+      },
+      {
+        "pregunta": "¿Vasopresina dosis shock séptico?",
+        "opciones": [
+          "0.001 mcg/kg/min",
+          "0.03 U/min fijo",
+          "0.5 mcg/kg/min",
+          "1 U/min"
+        ],
+        "correcta": 1,
+        "explicacion": "Vasopresina 0.03 U/min como rescate vasopresor."
       }
     ],
     "explicaciones": [
@@ -911,7 +1283,31 @@
     ],
     "imagen": "/static/images/education/cuidados_intensivos.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "Blogotron, Wikimedia Commons"
+    "imagen_atribucion": "Blogotron, Wikimedia Commons",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Mujer 72 años, neumonía comunitaria grave. PCR 24h. Ingresa en shock: FC 128, PA 82/48, SatO₂ 88%, Glasgow 13, lactato 4.8, antecedentes: FA en tratamiento con apixabán.",
+          "pasos": [
+            "qSOFA y código sepsis en 0 min",
+            "Hemocultivos x2 antes ATB",
+            "Lactato objetivo clearance >20% en 2h",
+            "Antibióticos empíricos IV en 60 min",
+            "Cristaloides balanceados 30 mL/kg",
+            "Noradrenalina inicio para PAM ≥65",
+            "Reevaluación c/15-30 min: balance, diuresis, POCUS"
+          ]
+        },
+        "simulacion": "Simulación bundle sepsis 1 hora con debrief; repasar checklist enfermería UCI.",
+        "fuente_confiable": [
+          "Surviving Sepsis Campaign 2021/2024",
+          "SEMICYUC 2022",
+          "UpToDate 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
   },
   {
     "id": "enfermeria_quirurgica",
@@ -1181,7 +1577,11 @@
     ],
     "imagen": "/static/images/education/enfermeria_quirurgica.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "آرمین, Wikimedia Commons"
+    "imagen_atribucion": "آرمین, Wikimedia Commons",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "salud_mental",
@@ -1451,7 +1851,11 @@
     ],
     "imagen": "/static/images/education/salud_mental.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "Jasmina El Bouamraoui & Karabo Poppy Moletsane, Wikimedia Foundation"
+    "imagen_atribucion": "Jasmina El Bouamraoui & Karabo Poppy Moletsane, Wikimedia Foundation",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "pediatria",
@@ -1554,6 +1958,38 @@
       {
         "pregunta": "¿Reanimación neonatal pasos?",
         "respuesta": "Calor, posición, aspirar vía aérea, secar, estimular, ventilar"
+      },
+      {
+        "pregunta": "¿Peso promedio 5 años?",
+        "respuesta": "~18 kg"
+      },
+      {
+        "pregunta": "¿PAS normal niño 5 años?",
+        "respuesta": "~95 mmHg"
+      },
+      {
+        "pregunta": "¿PAS偏低 según percentiles?",
+        "respuesta": "<5º percentil para edad/sexo/talla (referencias NHANES/locales)"
+      },
+      {
+        "pregunta": "¿Fiebre pediatría umbral Uruguay?",
+        "respuesta": "≥38°C rectal/axila ≥37.5°C"
+      },
+      {
+        "pregunta": "¿Deshidratación leve signos?",
+        "respuesta": "Boca seca, menos orina, irritabilidad, turgencia piel ↓"
+      },
+      {
+        "pregunta": "¿Deshidratación grave signos?",
+        "respuesta": "Ojos hundidos, fontanela deprimida, shock, alteración conciencia, no orina >6h"
+      },
+      {
+        "pregunta": "¿Bronquiolitis manejo?",
+        "respuesta": "Soporte: humidificación, hidratación; NO salbutamol/rutina ribavirina"
+      },
+      {
+        "pregunta": "¿Laringotraqueitis stridor tratamiento?",
+        "respuesta": "Dexametasona 0.15-0.6 mg/kg; adrenalina nebulizada si distress"
       }
     ],
     "quizzes": [
@@ -1688,6 +2124,61 @@
         ],
         "correcta": 1,
         "explicacion": "Crup por parainfluenza tipo 1-3. Tos perruna, estridor."
+      },
+      {
+        "pregunta": "¿FC normal recién nacido?",
+        "opciones": [
+          "80-100",
+          "120-160",
+          "100-140",
+          "160-180"
+        ],
+        "correcta": 1,
+        "explicacion": "FC RN 120-160 lpm. Taquicardia >160, bradicardia <100."
+      },
+      {
+        "pregunta": "¿FR normal lactante 6 meses?",
+        "opciones": [
+          "15-25",
+          "25-35",
+          "30-60",
+          "40-50"
+        ],
+        "correcta": 3,
+        "explicacion": "FR lactante 30-60 rpm; niño menor 1 año 25-40."
+      },
+      {
+        "pregunta": "¿Fármaco primera línea fiebre pediatría?",
+        "opciones": [
+          "Dipirona",
+          "Paracetamol",
+          "Ibuprofeno",
+          "Diclofenaco"
+        ],
+        "correcta": 1,
+        "explicacion": "Paracetamol primera línea; ibuprofeno alternativa >3 meses (sin deshidratación ni riesgo renal)."
+      },
+      {
+        "pregunta": "¿Manejo bronquiolitis <12 meses?",
+        "opciones": [
+          "Salbutamol rutina",
+          "Corticoide oral",
+          "Soporte y observación",
+          "Antibiótico"
+        ],
+        "correcta": 2,
+        "explicacion": "Bronquiolitis USU (VRS) manejo fundamentalmente soporte; evitar fármacos inhalados rutina."
+      },
+      {
+        "pregunta": "¿Laringotraqueitis tratamiento principal?",
+        "opciones": [
+          "Antibiótico",
+          "Antifúngico",
+          "Dexametasona + adrenalina nebulizada",
+          "Epinefrina IM"
+        ],
+        "correcta": 2,
+        "explicacion": "Dexametasona oral/IM + adrenalina nebulizada si distress."
       }
     ],
     "explicaciones": [
@@ -1729,7 +2220,28 @@
     ],
     "imagen": "/static/images/education/pediatria.jpg",
     "imagen_licencia": "Public Domain (NIH/NCI)",
-    "imagen_atribucion": "Bill Branson / National Cancer Institute"
+    "imagen_atribucion": "Bill Branson / National Cancer Institute",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Lactante 8 meses, fiebre 39.2 °C, rinorrea, tos perruna, estridor inspiratorio en reposo y dificultad para alimentarse.",
+          "pasos": [
+            "Laringotraqueitis: dexametasona 0.15-0.6 mg/kg",
+            "Adrenalina nebulizada si distress importante",
+            "Observación estrecha primeras horas por riesgo obstrucción progresiva",
+            "Hidratación y humidificación"
+          ]
+        },
+        "simulacion": "Reconocimiento temprano obstrucción vía aérea superior pediátrica.",
+        "fuente_confiable": [
+          "AAP/ACEP 2024",
+          "GINA/RPAS 2024",
+          "UpToDate 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
   },
   {
     "id": "geriatria",
@@ -2007,7 +2519,11 @@
     ],
     "imagen": "/static/images/education/geriatria.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "geralt, Pixabay via Wikimedia Commons"
+    "imagen_atribucion": "geralt, Pixabay via Wikimedia Commons",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
   },
   {
     "id": "epidemiologia",
@@ -2285,6 +2801,532 @@
     ],
     "imagen": "/static/images/education/epidemiologia.jpg",
     "imagen_licencia": "CC0 1.0",
-    "imagen_atribucion": "CDC / Zellfaze, Wikimedia Commons"
+    "imagen_atribucion": "CDC / Zellfaze, Wikimedia Commons",
+    "modos_estudio": {
+      "spaced_repetition": false,
+      "enlace_guias": []
+    }
+  },
+  {
+    "id": "neurologia",
+    "nombre": "Neurología",
+    "descripcion": "ECG cerebral, stroke, escala Glasgow, convulsiones, neuroanatomía básica y abordaje inicial.",
+    "icono": "🧠",
+    "flashcards": [
+      {
+        "pregunta": "¿GCS normal adulto?",
+        "respuesta": "15/15 = consciente, orientado, obedece órdenes"
+      },
+      {
+        "pregunta": "¿GCS apertura ocular 4?",
+        "respuesta": "Espontánea"
+      },
+      {
+        "pregunta": "¿GCS respuesta verbal 5?",
+        "respuesta": "Orientado"
+      },
+      {
+        "pregunta": "¿GCS respuesta motora 6?",
+        "respuesta": "Obedece órdenes"
+      },
+      {
+        "pregunta": "¿GCS ≤8 significado?",
+        "respuesta": "Coma; considerar vía aérea avanzada (IOT)"
+      },
+      {
+        "pregunta": "¿NIHSS mide?",
+        "respuesta": "Déficit neurológico focal en ACV; puntaje 0-42; ≥6 alta probabilidad LVO"
+      },
+      {
+        "pregunta": "¿CuatroScore ventajas sobre GCS?",
+        "respuesta": "Mejora seguimiento TCE: pupilas, reflejos troncoencefálicos, patrón respiratorio"
+      },
+      {
+        "pregunta": "¿FAST pilares ACV?",
+        "respuesta": "Face droop, Arm drift, Speech difficulty, Time to llamar"
+      },
+      {
+        "pregunta": "¿Código ACV objetivo?",
+        "respuesta": "Door-to-Needle ≤45 min para fibrinólisis IV; Door-to-Groin ≤90 min trombectomía"
+      },
+      {
+        "pregunta": "¿Estatus epiléptico tiempo?",
+        "respuesta": "Convulsión >5 min o recurrentes sin recuperación entre crisis"
+      },
+      {
+        "pregunta": "¿Primera línea estatus epiléptico?",
+        "respuesta": "Benzodiacepina IV (lorazepam 0.1 mg/kg, máx 4 mg)"
+      },
+      {
+        "pregunta": "¿Rivanabán vs Warfarina ACV no cardioembólico?",
+        "respuesta": "Rivaroxabán NO recomendado tras ACV isquémico leve-moderado (no beneficio, riesgo sangrado)"
+      },
+      {
+        "pregunta": "¿Hemibalismo causa?",
+        "respuesta": "Lesión núcleo subtalámico contralateral (clásico post-ictus putaminal)"
+      },
+      {
+        "pregunta": "¿Neuroglucopenias síntomas?",
+        "respuesta": "Confusión, convulsión focal, diplopía, sudoración; glucemia <60 mg/dL"
+      },
+      {
+        "pregunta": "¿Cefalea en trueno define?",
+        "respuesta": "Cefalea máxima intensidad en segundos/minutos → sospecha HSA (TC craneal urgente)"
+      },
+      {
+        "pregunta": "¿Signo de Kernig/Brudzinski meningitis?",
+        "respuesta": "Rigidez nuca + dolor extensión rodilla (Kernig); flexión involuntaria cadera/rodilla (Brudzinski)"
+      },
+      {
+        "pregunta": "¿Escala de Hunt-Hess HSA?",
+        "respuesta": "I-V; Grado III-V: pronóstico grave; manejo neuroquirúrgico/endovascular"
+      },
+      {
+        "pregunta": "¿Miosis puntiforme poppers?",
+        "respuesta": "No; indica opioides. Pupilas simétricas/reactivas sin focalidad orientan causa metabólica"
+      },
+      {
+        "pregunta": "¿Agitación post-ictus evalúa?",
+        "respuesta": "Causas: dolor, hipoxia, retención urinaria, fiebre, hemorragia transformada, ictus frontotemporal"
+      },
+      {
+        "pregunta": "¿Plasmapheresis indicación clara?",
+        "respuesta": "Síndrome Guillain-Barré grave (debilidad ascendente rápida), Goodpasture, TTP, mieloma con hiperviscosidad"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿GCS apertura ocular espontánea puntúa?",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correcta": 3,
+        "explicacion": "Apertura espontánea = 4 puntos."
+      },
+      {
+        "pregunta": "¿GCS respuesta motora retirada ante dolor puntúa?",
+        "opciones": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correcta": 2,
+        "explicacion": "Retirada localizada al dolor = 5 puntos."
+      },
+      {
+        "pregunta": "¿NIHSS >=? alta probabilidad oclusión vaso grande",
+        "opciones": [
+          ">=4",
+          ">=6",
+          ">=10",
+          ">=16"
+        ],
+        "correcta": 1,
+        "explicacion": "NIHSS ≥6 sugiere alto riesgo LVO; ≥16 candidato trombectomía."
+      },
+      {
+        "pregunta": "¿Tratamiento primera línea estatus epiléptico adulto?",
+        "opciones": [
+          "Fenitoína IV",
+          "Lorazepam IV",
+          "Levetiracetam IV",
+          "Fosfenitoína IV"
+        ],
+        "correcta": 1,
+        "explicacion": "Benzodiacepina IV primera línea: lorazepam o diazepam."
+      },
+      {
+        "pregunta": "¿Cefalea en trueno sospecha urgente?",
+        "opciones": [
+          "Migraña",
+          "HSA",
+          "Cefalea tensional",
+          "Meningitis"
+        ],
+        "correcta": 1,
+        "explicacion": "Cefalea en trueno = HSA hasta TC craneal demostrar lo contrario."
+      },
+      {
+        "pregunta": "¿Dexametasona indicación meningitis bacteriana?",
+        "opciones": [
+          "Todas",
+          "Solo H. influenzae",
+          "Solo neumocócica grave",
+          "Nunca"
+        ],
+        "correcta": 2,
+        "explicacion": "Dexametasona reduce complicaciones en meningitis neumocócica grave."
+      },
+      {
+        "pregunta": "¿Factor Wells bajo sospecha TVP?",
+        "opciones": [
+          ">6",
+          "<2",
+          "=2",
+          ">10"
+        ],
+        "correcta": 1,
+        "explicacion": "Wells <2: baja probabilidad TVP; combinar con dímero-D negativo."
+      },
+      {
+        "pregunta": "¿Síndrome Horner causa?",
+        "opciones": [
+          "Lesión vía simpática cervical",
+          "ACV posterior",
+          "Tumor Pancoast",
+          "Todas son causas"
+        ],
+        "correcta": 3,
+        "explicacion": "Cualquier lesión interrumpe cadena simpática cervical (Horner)."
+      },
+      {
+        "pregunta": "¿Criterios Hunt-Hess HSA grado I es?",
+        "opciones": [
+          "Asintomático",
+          "Cefalea leve, rigidez mínima",
+          "Alteración conciencia moderada",
+          "Coma"
+        ],
+        "correcta": 1,
+        "explicacion": "Hunt-Hess I: asintomático o cefalea leve + rigidez mínima."
+      },
+      {
+        "pregunta": "¿Noradrenalina no es droga de primera línea en ACV, excepto?",
+        "opciones": [
+          "Hipotensión con vasodilatación por IAM concomitante",
+          "Siempre primera línea",
+          "Nunca",
+          "Solo ICC"
+        ],
+        "correcta": 0,
+        "explicacion": "Control PA en ACV: hipotensión aguda puede requerir noradrenalina puntual mientras se evalúa causa."
+      },
+      {
+        "pregunta": "¿¿Qué es el espasmo vascular tras HSA?",
+        "opciones": [
+          "Isquemia tardía secundaria a vasoespasmo (días 3-14)",
+          "Convulsión",
+          "Hemorragia digástrica",
+          "Ictericia"
+        ],
+        "correcta": 0,
+        "explicacion": "Vasoespasmo es complicación tardía HSA (días 3-14), causa isquemia."
+      },
+      {
+        "pregunta": "¿Trombólisis IV ventana en ACV isquémico?",
+        "opciones": [
+          "3h",
+          "4.5h",
+          "6h",
+          "24h"
+        ],
+        "correcta": 1,
+        "explicacion": "Ventana estándar 4.5 horas desde último estado basal conocido."
+      },
+      {
+        "pregunta": "¿Prueba imagen primera en ACV?",
+        "opciones": [
+          "RM",
+          "TC craneal sin contraste",
+          "AngioTC",
+          "Eco Doppler carótidas"
+        ],
+        "correcta": 1,
+        "explicacion": "TC craneal sin contraste descarta hemorragia en minutos."
+      },
+      {
+        "pregunta": "¿¿Pupila dilatada fija y no reactiva sugiere?",
+        "opciones": [
+          "Herniación transtentorial",
+          "Hemorragia digestiva",
+          "Shock hipovolémico",
+          "Hipoglucemia"
+        ],
+        "correcta": 0,
+        "explicacion": "Pupila fija dilatada sugiere compresión tercera par/herniación cerebral."
+      },
+      {
+        "pregunta": "¿Fármaco primera línea convulsión febril corta pediatria?",
+        "opciones": [
+          "Diazepam rectal/IV",
+          "Fenitoína",
+          "Levetiracetam",
+          "Fosfenitoína"
+        ],
+        "correcta": 0,
+        "explicacion": "Diazepam o midazolam primera línea en convulsión febril breve."
+      }
+    ],
+    "imagen": "/static/images/education/neurologia.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "Patrick J. Lynch, medical illustrator; C. Carl Jaffe, MD, cardiologist / Wikimedia Commons",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Hombre 66 años, HTA, FA no anticoagulada. Despertar con hemiparesia derecha, disartria y desviación comisural. Último estado basal hace 8h; hora actual 08:10.",
+          "pasos": [
+            "FAST positivo + NIHSS 18",
+            "TC craneal sin contraste descarta hemorragia",
+            "Candidato a fibrinólisis IV (ventana 4.5h) + trombectomía si LVO",
+            "Control PA <180/105 pre y post-bolo alteplasa",
+            "Monitor neuro c/15min primera hora"
+          ]
+        },
+        "simulacion": "Drill door-to-needle ≤45 min y door-to-groin ≤90 min.",
+        "fuente_confiable": [
+          "AHA/ASA 2019/2023",
+          "ESO 2021",
+          "UpToDate 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
+  },
+  {
+    "id": "respiratorio",
+    "nombre": "Aparato Respiratorio y Neumología",
+    "descripcion": "Fisiopatología respiratoria, oxigenoterapia, VMNI, EPOC, asma, SDRA, gases arteriales; variables clave enfermería.",
+    "icono": "🫁",
+    "flashcards": [
+      {
+        "pregunta": "¿PaO₂ normal aire ambiente?",
+        "respuesta": "80-100 mmHg"
+      },
+      {
+        "pregunta": "¿SatO₂ objetivo habitual?",
+        "respuesta": "≥94-98% (o ≥88-92% en EPOC retenedor CO₂)"
+      },
+      {
+        "pregunta": "¿FR adulto normal?",
+        "respuesta": "12-20 rpm"
+      },
+      {
+        "pregunta": "¿FR pediatría lactante normal?",
+        "respuesta": "30-60 rpm; niño mayor 20-30 rpm"
+      },
+      {
+        "pregunta": "¿FiO₂ nebulización mascarilla simple 6 L?",
+        "respuesta": "~40-50%"
+      },
+      {
+        "pregunta": "¿FiO₂ mascarilla reservorio 15 L?",
+        "respuesta": "~60-90%"
+      },
+      {
+        "pregunta": "¿FiO₂ Venturi 24%?",
+        "respuesta": "~24% controlada (usar en EPOC)"
+      },
+      {
+        "pregunta": "¿Volumen tidal ideal VM adulto?",
+        "respuesta": "6-8 mL/kg peso ideal; en ARDS 6 mL/kg"
+      },
+      {
+        "pregunta": "¿PEEP objetivo variación?",
+        "respuesta": "Inicio 5 cmH₂O; hasta 15-20 en ARDS según P/F y compliance"
+      },
+      {
+        "pregunta": "¿PaO₂/FiO₂ definición ARDS leve/moderado/grave?",
+        "respuesta": "Leve 200-300; Moderado 100-200; Grave <100"
+      },
+      {
+        "pregunta": "¿Criterios para VMNI/BiPAP domiciliaria?",
+        "respuesta": "EPOC hipercápnica (PaCO₂ >45), trastorno ventilatorio restrictivo, OSAS, control hídrico IRC/ICC"
+      },
+      {
+        "pregunta": "¿Bronquiectasias manejo clave?",
+        "respuesta": "Fisioterapia respiratoria diaria + drenaje postural + nebulizaciones (suero/hiperosmolar)"
+      },
+      {
+        "pregunta": "¿Asma crisis grave signo alarma?",
+        "respuesta": "PaO₂ <92%, PaCO₂ >45 mmHg, silencio respiratorio, bradicardia, agotamiento, PEF <33% teórico"
+      },
+      {
+        "pregunta": "¿EPOC exacerbación antibiótico criterio?",
+        "respuesta": "Aumento disnea/esputo purulento (criterios Anthonisen II o III)"
+      },
+      {
+        "pregunta": "¿HTP-FCWHO grupos?",
+        "respuesta": "Grupo 1 PAH, 2 corazón izq, 3 pulmonar/hipoxia, 4 tromboembólico, 5 multifactorial"
+      },
+      {
+        "pregunta": "¿FiO₂ objetivo SDRA?",
+        "respuesta": "Sat 88-95% según reclutamiento; evitar O₂ alto si posible"
+      },
+      {
+        "pregunta": "¿Pronostic variables SDRA?",
+        "respuesta": "PaO₂/FiO₂, compliance, ventilability, nivel PEEP requerida, extrapulmonary organ failure"
+      },
+      {
+        "pregunta": "¿Neumonía orientación tratamiento empírico UCI?",
+        "respuesta": "Microbiología local-resistencia + gravedad scores (IDSA/ATS CURB-65/PSI para decisiones; SCAP/PORT para UCI)"
+      },
+      {
+        "pregunta": "¿Oximetría pulso limitaciones?",
+        "respuesta": "Hipoperfusión periférica, uñas esmaltadas/oscura, COHb >10%, movimiento, anemia, hipotermia"
+      }
+    ],
+    "quizzes": [
+      {
+        "pregunta": "¿FiO₂ mascarilla reservorio 15 L?",
+        "opciones": [
+          "~30%",
+          "~50%",
+          "~70-90%",
+          "100%"
+        ],
+        "correcta": 2,
+        "explicacion": "Mascarilla reservorio aporta FiO₂ 60-90% según fit y flujo."
+      },
+      {
+        "pregunta": "¿PEEP mínimo recomendado ventilación mecánica?",
+        "opciones": [
+          "0",
+          "5 cmH₂O",
+          "10 cmH₂O"
+        ],
+        "correcta": 1,
+        "explicacion": "PEEP ≥5 cmH₂O para mantener reclutamiento alveolar mínimo."
+      },
+      {
+        "pregunta": "¿SatO₂ objetivo EPOC retenedor CO₂?",
+        "opciones": [
+          ">98%",
+          "94-98%",
+          "88-92%",
+          ">92% alta"
+        ],
+        "correcta": 2,
+        "explicacion": "EPOC retenedores: Sat 88-92% para evitar supresión respiratoria por O₂ alto."
+      },
+      {
+        "pregunta": "¿Criterios ARDS Berlín PaO₂/FiO₂ grave?",
+        "opciones": [
+          ">300",
+          "200-300",
+          "100-200",
+          "<100"
+        ],
+        "correcta": 3,
+        "explicacion": "ARDS grave: PaO₂/FiO₂ <100 con PEEP ≥5."
+      },
+      {
+        "pregunta": "¿Fármaco primera línea asma crisis grave hospitalaria?",
+        "opciones": [
+          "Prednisolona",
+          "Bromuro de ipratropio",
+          "Salbutamol + corticoides sistémicos",
+          "Teofilina IV"
+        ],
+        "correcta": 2,
+        "explicacion": "Salbutamol + corticoides sistémicos primera línea en asma aguda grave."
+      },
+      {
+        "pregunta": "¿Gases arteriosos PaCO₂ normal?",
+        "opciones": [
+          "25-35 mmHg",
+          "35-45 mmHg",
+          "45-55 mmHg",
+          "50-60 mmHg"
+        ],
+        "correcta": 1,
+        "explicacion": "PaCO₂ normal 35-45 mmHg (hipercapnia si >45; hipocapnia si <35)."
+      },
+      {
+        "pregunta": "¿PaO₂/FiO₂ si PaO₂ 85 + FiO₂ 0.6?",
+        "opciones": [
+          "~50",
+          "~100",
+          "~140",
+          "~200"
+        ],
+        "correcta": 2,
+        "explicacion": "85/0.6 = 141 → leve-moderado."
+      },
+      {
+        "pregunta": "¿Ventilación no invasiva contraindicación absoluta?",
+        "opciones": [
+          "PaO₂/FiO₂ <100",
+          "Paro cardiaco/parada",
+          "pH <7.25",
+          "Hipercapnia crónica"
+        ],
+        "correcta": 1,
+        "explicacion": "Paro cardiaco o parada respiratoria: contraindicación absoluta para VMNI; requiere IOT."
+      },
+      {
+        "pregunta": "¿COPD escalera terapéutica GOLD alternativa?",
+        "opciones": [
+          "SABA MPC",
+          "LABA/LAMA + LABA/LAMA/antiinflamatorio",
+          "Teofilina endovenosa",
+          "Monoterapia"
+        ],
+        "correcta": 1,
+        "explicacion": "Etapas avanzadas: LABA/LAMA doble; triple si Arag/Eosinofilia alta."
+      },
+      {
+        "pregunta": "¿Insuficiencia respiratoria tipo I?",
+        "opciones": [
+          "Hipoxemia pura PaO₂ <60 mmHg",
+          "Hipercapnia pura PaCO₂ >50",
+          "Mixta hipoxemia+hipercapnia",
+          "Hiperventilación"
+        ],
+        "correcta": 0,
+        "explicacion": "IR tipo I: PaO₂ <60 con PaCO₂ normal/baja (problema intercambio/oxigenación)."
+      },
+      {
+        "pregunta": "¿Curva disociación Hb efecto izquierda?",
+        "opciones": [
+          "↓ SatO₂ para mismo PaO₂ → más O₂ disponible",
+          "↑ SatO₂ para mismo PaO₂ → menos O₂ disponible",
+          "No Sat cambia",
+          "Sat <70 peligra vida"
+        ],
+        "correcta": 0,
+        "explicacion": "Izquierda: Hb se une O₂ más fuerte → menos liberación tisular (p. ej. intoxicación CO)."
+      },
+      {
+        "pregunta": "¿FiO₂ aporta oxígeno suplementario nasal 2 L?",
+        "opiones": [
+          "24-28%",
+          "28-35%",
+          "35-50%",
+          "50-70%"
+        ],
+        "correcta": 0,
+        "explicacion": "Nasodos bajo flujo: ~24-28% (gases humidificados, no reservorio)."
+      }
+    ],
+    "imagen": "/static/images/education/respiratorio.jpg",
+    "imagen_licencia": "CC0 1.0",
+    "imagen_atribucion": "User:SnakesIDE / Wikimedia Commons",
+    "modos_estudio": {
+      "modos_estudio": {
+        "spaced_repetition": true,
+        "caso_clinico": {
+          "enunciado": "Varón 68 años, EPOC Gold III, reagudización infecciosa con disnea progresiva, uso accesorios, FR 32, SatO₂ 88%, PaO₂ 58, PaCO₂ 68, pH 7.28.",
+          "pasos": [
+            "Venturi 24-28% si retenedor CO₂; target Sat 88-92%",
+            "Soporte ventilatorio no invasivo (BiPAP) si pH<7.35",
+            "Corticoides sistémicos",
+            "Antibiótico si criterios Anthonisen si es EPOC/ bronquitis crónica reagudizada",
+            "Valorar IOT si fracaso VMNI"
+          ]
+        },
+        "simulacion": "Ejercicio interpretación gasometría + cálculo P/F y acidosis/alcalosis.",
+        "fuente_confiable": [
+          "GOLD 2024",
+          "UpToDate 2024",
+          "ERS Guidelines 2024"
+        ]
+      },
+      "spaced_repetition": false
+    }
   }
 ]

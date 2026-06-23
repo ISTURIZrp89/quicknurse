@@ -1,0 +1,12 @@
+[
+  {"id": "rcp_avanzado_adulto", "titulo": "RCP Avanzado en Adulto (ACLS)", "fuente": "AHA Guidelines 2025", "categoria": "Emergencias", "icono": "🫀"},
+  {"id": "rcp_pediatrico", "titulo": "RCP Pediátrico (PALS)", "fuente": "AHA Guidelines 2025", "categoria": "Pediatría", "icono": "🧸"},
+  {"id": "sepsis_y_shock_septico", "titulo": "Sepsis y Shock Séptico", "fuente": "Surviving Sepsis Campaign 2025", "categoria": "Emergencias", "icono": "🧬"},
+  {"id": "iam_sca", "titulo": "IAM y Síndrome Coronario Agudo", "fuente": "ESC Guidelines 2024-2025", "categoria": "Cardiología", "icono": "❤️"},
+  {"id": "acv_isquemico", "titulo": "ACV Isquémico", "fuente": "AHA/ASA Guidelines 2024-2025", "categoria": "Neurología", "icono": "🧠"},
+  {"id": "triaje_manchester", "titulo": "Sistema de Triaje Manchester (MTS)", "fuente": "Manchester Triage Group / SEMES", "categoria": "Triaje", "icono": "🔢"},
+  {"id": "ventilacion_mecanica", "titulo": "Ventilación Mecánica", "fuente": "ARDSNet / SEMICYUC", "categoria": "Cuidados Intensivos", "icono": "🫁"},
+  {"id": "quemados", "titulo": "Manejo del Paciente Quemado", "fuente": "ABA Guidelines 2025", "categoria": "Trauma", "icono": "🔥"},
+  {"id": "electrocardiograma", "titulo": "Interpretación del ECG", "fuente": "AHA / ESC", "categoria": "Cardiología", "icono": "📊"},
+  {"id": "interpretacion_gasometria", "titulo": "Interpretación de Gasometría Arterial", "fuente": "ATS / ERS / SEPAR", "categoria": "Neumología", "icono": "💉"}
+]

@@ -5,6 +5,8 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from app.api import symptoms, guides, notifications, planes_pae, timers, dashboard, seed, chat
 from app.api import calculadoras, farmacologia, education, auth
+from app.api import turnos, credenciales, notas
+from app.api.v1 import clinical
 from app.database import init_db
 from app.config import get_settings
 from app.logging_config import configure_logging, get_logger
@@ -48,6 +50,10 @@ app.include_router(seed.router, prefix="/api/v1/seed", tags=["seed"])
 app.include_router(calculadoras.router, prefix="/api/v1/calculadoras", tags=["calculadoras"])
 app.include_router(farmacologia.router, prefix="/api/v1/farmacologia", tags=["farmacologia"])
 app.include_router(education.router, prefix="/api/v1/education", tags=["education"])
+app.include_router(turnos.router, prefix="/api/v1/turnos", tags=["turnos"])
+app.include_router(credenciales.router, prefix="/api/v1/credenciales", tags=["credenciales"])
+app.include_router(notas.router, prefix="/api/v1/notas", tags=["notas"])
+app.include_router(clinical.router, prefix="/api/v1", tags=["clinical"])
 
 @app.get("/health")
 def health_check():

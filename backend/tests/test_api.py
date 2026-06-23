@@ -40,7 +40,7 @@ def test_symptoms_respiratory():
     assert "Respiratoria" in data["diagnosis"]
 
 def test_symptoms_default():
-    r = client.post("/api/v1/symptoms/", json={"symptoms": "Me duele un poco el pie"})
+    r = client.post("/api/v1/symptoms/?llm=false", json={"symptoms": "Me duele un poco el pie"})
     assert r.status_code == 200
     data = r.json()
     assert "inespecíficos" in data["diagnosis"]
